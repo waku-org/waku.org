@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./css/style.min.css" rel="stylesheet" />
+  <title>Waku</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="font-body overflow-x-hidden">
+
+<header class="fixed inset-x-0 z-50 bg-white">
+  <div class="h-18 max-w-screen-xl flex justify-between items-center mx-auto px-6 py-4  md:h-26 md:py-8 xl:px-0">
+    <a id="header-logo" class="text-gray" href="/index.html">
+      <svg class="w-10 h-10">
+        <use href="#logo"/>
+      </svg>
+    </a>
+    <nav id="nav" class="absolute flex items-center justify-end -z-1 top-0 left-0 h-screen w-full bg-gray pt-16 pr-16 transform -translate-y-full md:-translate-y-0 md:bg-white md:relative md:h-auto md:p-0 md:justify-center md:z-0">
+      <div class="text-pink md:hidden">
+        <svg class="w-60 h-60 transform -translate-x-6">
+          <use href="#logo"/>
+        </svg>
+      </div>
+      <ul class="text-right text-white md:flex md:text-gray md:text-center">
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/index.html">Home</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium font-bold text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/about.html">About</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/node.html">Try</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/blog.html">Blog</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="">Team</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="">Support</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="">Specs</a></li>
+      </ul>
+    </nav>
+    <div id="social-box" class="hidden md:flex">
+      <a class="text-gray mr-6 hover:text-blue" href="">
+        <svg class="fill-current" width="17" height="16" viewBox="0 0 17 16" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.91602 0C13.3343 0 16.916 3.58173 16.916 8C16.916 12.4183 13.3343 16 8.91602 16C4.49774 16 0.916016 12.4183 0.916016 8C0.916016 3.58173 4.49774 0 8.91602 0ZM5.95621 12.2212C5.95621 12.2212 6.35922 11.7728 6.64917 11.3774C5.25253 10.982 4.72597 10.191 4.72597 10.191C6.17809 11.0888 7.53429 11.4343 8.91602 11.3894C10.2977 11.4342 11.6539 11.0888 13.1059 10.191C13.1059 10.191 12.5795 10.982 11.1827 11.3774C11.4728 11.7729 11.8756 12.2212 11.8756 12.2212C13.8349 12.178 14.8134 11.1899 15.1344 10.8657C15.2059 10.7935 15.2448 10.7542 15.2546 10.7658C15.2546 7.50176 13.6699 4.84403 13.6699 4.84403C12.2518 3.82643 10.9304 3.78413 10.6779 3.77885L10.5168 3.93178C12.327 4.43798 13.2026 5.22896 13.2026 5.22896C11.6489 4.47853 10.1845 4.21456 8.91602 4.19875C7.64747 4.21475 6.18322 4.47853 4.62942 5.22896C4.62942 5.22896 5.50501 4.43798 7.31525 3.93178L7.1541 3.77885C6.90162 3.78413 5.58021 3.8263 4.1621 4.84403C4.1621 4.84403 2.57749 7.5017 2.57749 10.7658C2.58728 10.7542 2.62614 10.7935 2.69765 10.8657L2.69766 10.8657C3.01858 11.1898 3.99704 12.178 5.95621 12.2212ZM10.8665 7.49128V7.486C11.4788 7.486 11.973 7.99224 11.973 8.61445C11.973 9.23665 11.4788 9.74293 10.8665 9.74293C10.2541 9.74293 9.75986 9.23669 9.75986 8.61973C9.75986 7.99746 10.2594 7.49128 10.8665 7.49128ZM6.96642 7.49103V7.48575C6.35404 7.48575 5.85986 7.99196 5.85986 8.6142C5.85986 9.23644 6.35407 9.74268 6.96642 9.74268C7.57878 9.74268 8.07302 9.23644 8.07302 8.61948C8.07302 7.99727 7.57343 7.49103 6.96642 7.49103Z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="text-gray mr-6 hover:text-blue" href="">
+        <svg id="twitter" class="fill-current w-5 h-4" viewBox="0 0 19 16" fill="none">
+          <path d="M18.9673 2.4033C18.296 2.69776 17.5807 2.89294 16.835 2.98771C17.6022 2.52966 18.1877 1.80986 18.463 0.942274C17.7477 1.36874 16.958 1.66997 16.1163 1.83807C15.4371 1.11489 14.4691 0.666992 13.4131 0.666992C11.3643 0.666992 9.71489 2.32997 9.71489 4.36863C9.71489 4.66197 9.73971 4.94402 9.80063 5.21253C6.72402 5.06248 4.00166 3.58792 2.17284 1.34166C1.85355 1.89561 1.66627 2.52966 1.66627 3.21222C1.66627 4.49386 2.32627 5.62997 3.31007 6.28771C2.7155 6.27643 2.13222 6.10381 1.63807 5.83191C1.63807 5.8432 1.63807 5.85786 1.63807 5.87253C1.63807 7.67089 2.92084 9.16463 4.60299 9.50873C4.30176 9.59109 3.97345 9.63058 3.63273 9.63058C3.39581 9.63058 3.15663 9.61704 2.93212 9.5674C3.41161 11.0329 4.77222 12.1104 6.39007 12.1454C5.13099 13.1303 3.53232 13.7237 1.80166 13.7237C1.49817 13.7237 1.20709 13.7102 0.916016 13.6729C2.5553 14.7301 4.49807 15.3337 6.59314 15.3337C13.403 15.3337 17.1261 9.69263 17.1261 4.80299C17.1261 4.6394 17.1204 4.48145 17.1125 4.32463C17.847 3.8034 18.4641 3.15243 18.9673 2.4033Z" fill="currentColor"/>
+        </svg>
+      </a>
+      <a class="text-gray hover:text-blue" href="">
+        <svg id="github" class="fill-current w-4 h-4" viewBox="0 0 17 16" fill="none">
+          <path d="M8.91502 0C4.49802 0 0.935345 3.6724 0.959189 8.20264C0.97826 11.826 3.28644 14.9 6.47215 15.9856C6.87255 16.0611 7.01722 15.8079 7.01607 15.5903C7.01505 15.3953 7.00533 14.8795 6.99773 14.1953C4.77534 14.6906 4.29694 13.0954 4.29694 13.0954C3.92895 12.1477 3.40263 11.8955 3.40263 11.8955C2.67295 11.3869 3.454 11.3971 3.454 11.3971C4.25731 11.4553 4.68345 12.2427 4.68345 12.2427C5.40405 13.4958 6.56115 13.1342 7.01604 12.9239C7.08525 12.3938 7.29035 12.0323 7.51827 11.827C5.74117 11.6197 3.86947 10.9161 3.85293 7.77372C3.84822 6.87809 4.15636 6.14585 4.66534 5.57191C4.58125 5.3646 4.30286 4.53024 4.73192 3.40177C4.73192 3.40177 5.40276 3.18118 6.93634 4.24225C7.57339 4.06047 8.25691 3.96958 8.93789 3.96652C9.61691 3.9706 10.3024 4.06047 10.9423 4.24327C12.4638 3.1822 13.1359 3.40279 13.1359 3.40279C13.5779 4.53229 13.3083 5.36562 13.2273 5.57294C13.7434 6.14688 14.0562 6.87911 14.0609 7.77474C14.0775 10.9253 12.2112 11.6187 10.4302 11.8219C10.7186 12.0752 10.9772 12.5756 10.9812 13.3405C10.987 14.4373 10.9817 15.3217 10.9831 15.5903C10.9842 15.8099 11.1296 16.0652 11.5351 15.9845C14.7044 14.8979 16.9783 11.825 16.9592 8.20264C16.9353 3.6724 13.334 0 8.91502 0Z" fill="currentColor"/>
+        </svg>
+      </a>
+    </div>
+    <div id="burger" class="flex flex-col justify-center items-center h-8 w-8 md:hidden">
+      <span class="block bg-gray w-7 h-0.5"></span>
+      <span class="block bg-gray w-7 h-0.5 my-2"></span>
+      <span class="block bg-gray w-7 h-0.5"></span>
+    </div>
+  </div>
+</header>
+
+<main class="pt-18 md:pt-26">
+  <!-- Hero -->
+  <section class="bg-pink w-full">
+    <div class="relative container max-w-screen-xl mx-auto md:h-98 md:px-16 lg:px-0">
+      <a class="absolute top-4 left-8 hidden text-sm italic underline text-gray mt-6 hover:underline lg:no-underline lg:flex lg:items-center xl:left-0" href="javascript:history.back();"><span class="block bg-link-arrow-black bg-left bg-no-repeat w-1.5 h-2 mr-1.5 transform rotate-180"></span>Back</a>
+      <div class="flex flex-col px-6 py-20 md:px-0 md:py-0 md:pt-30 lg:flex-row">
+        <div class="mb-10 md:mb-6 lg:w-4/12 lg:pl-32">
+          <h1 class="text-2xl text-gray font-semibold text-center lg:max-w-2xl lg:text-left">About</h1>
+        </div>
+        <div class="lg:w-8/12">
+          <div class="lg:w-3/4">
+            <p class="text-base text-gray font-semibold mb-5 md:mb-9">Communication today is rife with third party interference. From censorship and deplatforming, to rent seeking intermediaries, to the misuse of data in the surveillance economy.</p>
+            <p class="text-base text-gray font-semibold">Waku is designed to place control of communication back into the hands of the individual.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container max-w-screen-xl mx-auto">
+    <!--	Motivation and goals -->
+    <section class="px-6 mt-10 md:px-16 md:mt-20 lg:px-16 lg:mt-32 xl:px-0">
+      <div class="border-b border-gray pb-16 md:pb-24 lg:flex lg:pb-36 lg:px-16 xl:px-32">
+        <div class="mb-10 md:mb-6 lg:mb-0 lg:w-1/5">
+          <h2 class="ont-semibold leading-10 text-2xl md:text-center lg:text-left lg:w-36">Motivation and goals</h2>
+        </div>
+        <div class="lg:w-4/5 lg:pl-6 xl:pl-0">
+          <p class="text-sm font-semibold mb-8 leading-7 md:text-center md:mb-6 lg:text-left lg:mb-12">Digital signature, public key difficulty hashrate whitepaper, Merkle Tree double-spend Mempool outputs, double-spend problem?</p>
+          <div class="grid grid-cols-1 gap-y-8 md:gap-y-6 lg:grid-cols-2 lg:gap-y-12 lg:gap-x-5">
+            <div>
+              <h3 class="text-sm font-semibold mb-4 text-gray md:mb-6">Privacy</h3>
+              <p class="text-sm leading-relaxed text-gray75">These applications have a desire for some privacy guarantees, such as pseudonymity, metadata protection in transit, etc.</p>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold mb-4 text-gray md:mb-6">Peer-to-Peer</h3>
+              <p class="text-sm leading-relaxed text-gray75">These applications sometimes have requirements that make them suitable for peer-to-peer solutions.</p>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold mb-4 text-gray md:mb-6">Generalized messaging</h3>
+              <p class="text-sm leading-relaxed text-gray75">Many applications require some form of messaging protocol to communicate between different subsystems or different nodes. This messaging can be human-to-human or machine-to-machine or a mix.</p>
+            </div>
+            <div>
+              <h3 class="text-sm font-semibold mb-4 text-gray md:mb-6">Resource restricted</h3>
+              <p class="text-sm leading-relaxed text-gray75">These applications often run in constrained environments, where resources or the environment is restricted in some fashion. E.g.:</p>
+              <ul class="text-sm leading-relaxed list-disc pl-4 text-gray75">
+                <li>limited bandwidth, CPU, memory, disk, battery, etc.,</li>
+                <li>not being publicly connectable,</li>
+                <li>only being intermittently connected; mostly-offline.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--	History -->
+    <section class="px-6 mt-10 md:px-16 md:mt-20 lg:px-16 lg:mt-32 xl:px-0">
+      <div class="pb-16 md:pb-24 lg:flex lg:pb-36 lg:px-16 xl:px-32">
+        <div class="mb-10 md:mb-6 lg:mb-0 lg:w-1/5 lg:flex">
+          <h2 class="font-semibold leading-10 text-2xl md:text-center lg:text-left lg:w-36">History</h2>
+        </div>
+        <div class="lg:w-4/5 lg:pl-6 xl:pl-0">
+          <p class="text-sm font-semibold mb-8 leading-7 md:text-center md:mb-6 lg:text-left lg:mb-12">Waku is a fork of the Whisper protocol designed to solve some of the issues of Whisper in an iterative fashion and enable greater scalability.</p>
+          <div class="grid grid-cols-1 gap-y-8">
+            <div class="relative flex items-center">
+              <div class="absolute top-1/2 left-8 h-full w-px bg-light"></div>
+              <div class="inline-flex flex-col items-center justify-center bg-blue rounded-full min-w-max w-16 h-16 mr-10 z-10">
+                <span class="text-white">2013</span>
+              </div>
+              <p class="text-sm w-8/12">Ethereum White Paper was introduced with the Holy Trinity, consisting of Ethereum for consensu, Swarm for decentralized storage, and Whisper for p2p messaging.</p>
+            </div>
+            <div class="relative flex items-center">
+              <div class="absolute top-1/2 left-8 h-full w-px bg-light"></div>
+              <div class="inline-flex flex-col items-center justify-center bg-blue rounded-full min-w-max w-16 h-16 mr-10 z-10">
+                <span class="text-white">2015</span>
+                <span class="text-white">2018</span>
+              </div>
+              <p class="text-sm w-8/12">R&D of Whisper was slow to follow progress of the Ethereum EVM and Swarm without a dedicated team building out the protocol.</p>
+            </div>
+            <div class="relative flex items-center">
+              <div class="absolute top-1/2 left-8 h-full w-px bg-light"></div>
+              <div class="inline-flex flex-col items-center justify-center bg-blue rounded-full min-w-max w-16 h-16 mr-10 z-10">
+                <span class="text-white">2018</span>
+              </div>
+              <p class="text-sm w-8/12">With little progress made on Whisper and significant scalability concerns growing, Vac was formed to conduct R&D on more scalable p2p messaging.</p>
+            </div>
+            <div class="relative flex items-center">
+              <div class="absolute top-1/2 left-8 h-full w-px bg-light"></div>
+              <div class="inline-flex flex-col items-center justify-center bg-blue rounded-full min-w-max w-16 h-16 mr-10 z-10">
+                <span class="text-white">2020</span>
+              </div>
+              <p class="text-sm w-8/12">Waku v1 was introduced as the messaging protocol in Status, replacing Whisper.</p>
+            </div>
+            <div class="relative flex items-center">
+              <div class="inline-flex flex-col items-center justify-center bg-blue rounded-full min-w-max w-16 h-16 mr-10 z-10">
+                <span class="text-white">2021</span>
+              </div>
+              <p class="text-sm w-8/12">Waku v2 replaces Waku v1 (details)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="w-full bg-gray text-white">
+  <div class="flex flex-row flex-wrap justify-between max-w-screen-xl mx-auto p-6 pb-20 md:grid md:grid-cols-footer-md md:gap-x-14 md:gap-y-10 md:px-16 md:pt-8 md:pb-10 xl:grid-cols-footer-xl xl:px-0 xl:pb-14 xl:pr-28 xl:pt-11">
+    <a class="block text-pink mr-9 order-1 md:m-0" href="index.html">
+      <svg id="logo" class="w-10 h-10" viewBox="0 0 404 404" fill="none">
+        <path fill-rule="evenodd" d="M165.362 144.624C164.529 144.624 163.815 144.505 162.982 144.268C155.021 142.078 147.099 139.596 139.34 136.934C141.615 144.696 143.735 152.665 145.611 160.746C146.682 165.488 143.827 170.111 139.187 171.415C130.517 173.676 121.712 175.61 112.981 177.265C119.604 183.23 126.216 189.516 132.645 196.072C135.976 199.51 135.976 205.081 132.645 208.519C126.555 214.753 120.202 220.788 113.77 226.563C122.278 228.215 130.853 230.13 139.306 232.348C143.946 233.533 146.801 238.275 145.73 243.017C143.983 250.423 142.033 257.733 139.947 264.875C147.098 262.652 154.37 260.594 161.67 258.782C166.429 257.597 171.188 260.442 172.377 265.065C174.624 273.138 176.6 281.23 178.338 289.21C183.906 283.082 189.71 277.035 195.694 271.23C199.144 267.911 204.735 267.911 208.185 271.23C213.648 276.535 218.923 281.968 223.983 287.43C225.763 280.153 227.747 272.855 229.958 265.658C231.386 261.034 236.263 258.426 240.903 259.73C248.895 261.939 256.766 264.384 264.424 266.973C262.112 259.214 259.987 251.306 258.151 243.372C257.081 238.63 259.936 234.007 264.575 232.822C273.416 230.557 282.275 228.613 290.982 226.944C284.372 221.019 277.842 214.816 271.592 208.401C268.262 204.964 268.262 199.392 271.592 195.954C277.902 189.504 284.39 183.315 290.894 177.436C282.291 175.753 273.543 173.8 264.814 171.533C260.175 170.348 257.319 165.606 258.39 160.864C260.106 153.507 262.072 146.172 264.205 138.959C257.061 141.16 249.745 143.23 242.329 145.098C241.496 145.335 240.783 145.454 240.069 145.454C236.143 145.454 232.574 142.846 231.503 138.934C229.267 130.991 227.305 122.93 225.585 114.915C220.04 120.97 214.227 127.005 208.185 132.888C206.401 134.429 204.14 135.378 201.88 135.378C199.62 135.378 197.36 134.548 195.694 132.888C190.235 127.593 184.928 122.098 179.814 116.525C178.022 123.751 176.027 131.057 173.808 138.341C172.737 142.134 169.168 144.624 165.362 144.624ZM313.784 223.103C305.96 216.527 298.116 209.527 290.627 202.237C298.166 194.87 305.927 187.874 313.6 181.345C355.974 187.702 390.547 187.893 394.722 187.893C394.841 187.893 394.96 187.893 395.079 188.011C400.076 188.011 404.001 184.099 404.001 179.12C404.001 174.141 399.957 170.229 395.079 170.229C394.984 170.22 394.522 170.212 393.724 170.198L393.72 170.198L393.717 170.198C387.798 170.096 363.456 169.675 332.526 165.969C358.134 146.07 379.487 132.887 383.294 130.536C383.662 130.309 383.866 130.183 383.894 130.162C388.177 127.673 389.485 122.22 386.987 117.952C384.489 113.684 379.017 112.38 374.734 114.87C372.976 115.921 342.435 134.194 308.177 162.511C298.298 160.876 288.105 158.89 277.9 156.478C280.058 148.212 282.518 139.995 285.144 131.994C329.244 116.284 362.682 97.9679 364.505 96.9691C368.787 94.5982 370.334 89.1451 367.954 84.8775C365.575 80.6099 360.103 79.0688 355.82 81.4397C355.479 81.6948 329.062 96.1617 292.859 110.183C305.13 77.7213 318.107 52.313 320.468 47.691L320.469 47.6891C320.702 47.234 320.831 46.9809 320.846 46.9431C323.225 42.6755 321.56 37.2224 317.158 34.9701C312.875 32.7177 307.403 34.2588 305.143 38.6449C304.058 40.4463 285.805 75.027 270.889 118.158C262.981 120.829 254.805 123.369 246.493 125.657C244.146 116.439 242.158 107.09 240.476 97.9047C269.616 63.1374 288.486 31.8881 289.556 30.1099C292.055 25.8423 290.627 20.3893 286.463 17.8998C282.181 15.4104 276.708 16.7144 274.21 20.982C273.963 21.3922 259.472 45.3067 236.692 74.1415C231.772 38.1972 231.266 9.53515 231.266 9.12755C231.147 4.26722 227.221 0.355247 222.343 0.355247H222.224C217.228 0.473792 213.302 4.50431 213.421 9.36464C213.421 11.481 214.079 48.9552 221.37 92.7033C215.24 99.7996 208.717 106.954 201.88 113.921C195.904 107.825 190.125 101.496 184.615 95.1357C193.666 50.38 195.295 13.0019 195.451 9.4409L195.459 9.24589C195.697 4.26701 191.771 0.117953 186.894 -0.000591563C182.135 -0.356225 177.853 3.67429 177.615 8.53462C177.606 8.58606 177.586 8.93695 177.551 9.56546L177.551 9.5697L177.55 9.57368L177.55 9.57633C177.233 15.2075 175.673 42.8892 169.748 77.1542C146.153 47.3288 130.28 21.1661 130.026 20.7449C127.409 16.4773 121.937 15.1733 117.773 17.6628C113.609 20.1522 112.182 25.6052 114.68 29.8729C114.721 29.9392 114.786 30.0442 114.874 30.1867C117.283 34.0998 137.077 66.2425 165.303 99.9511C163.525 108.098 161.494 116.408 159.175 124.708C150.161 121.973 141.219 118.878 132.565 115.614C117.845 72.5155 100.677 39.9563 99.6914 38.1713C97.4311 33.9037 92.0777 32.2441 87.6761 34.4964C83.2744 36.8673 81.6089 42.2018 83.9882 46.588C83.9938 46.599 84.014 46.6379 84.0484 46.704C85.0391 48.6089 97.7885 73.1209 110.373 106.661C76.7014 92.2342 51.5677 77.7734 51.1565 77.5276C46.8738 75.0381 41.4015 76.5792 39.0222 80.7283C36.524 84.9959 37.9516 90.4489 42.2343 92.9384C44.0082 93.999 76.7315 112.786 118.266 129.156C121.125 137.935 123.831 147.065 126.22 156.36C116.004 158.711 105.626 160.635 95.4823 162.208C63.352 135.747 34.6583 118.15 30.0699 115.336C29.7897 115.164 29.5993 115.048 29.5036 114.987C25.221 112.498 19.7486 113.802 17.2504 118.07C14.7522 122.337 16.0608 127.79 20.3435 130.28C20.7416 130.518 43.2031 144.032 70.8561 165.456C36.1391 169.282 9.00155 169.282 8.92226 169.282C3.9258 169.519 0 173.312 0 178.172C0 183.033 3.9258 187.063 8.8033 187.063H9.27915C13.9124 187.063 48.9296 186.878 90.0962 181.038C97.9427 187.692 105.891 194.833 113.611 202.355C106.314 209.458 98.6844 216.281 91.0661 222.703C47.7611 216.324 11.1069 216.202 8.92226 216.463C3.9258 216.463 0 220.493 0 225.354C0 230.214 4.04476 234.244 9.04123 234.244C9.7574 234.244 36.9812 234.351 71.6286 238.323C43.8701 259.641 20.5041 273.717 20.1055 273.956C15.8228 276.445 14.5142 281.898 17.0125 286.166C18.678 288.892 21.6521 290.433 24.6261 290.433C26.2916 290.433 27.8382 289.959 29.2657 289.248L29.3907 289.171L29.5682 289.063L29.5807 289.055C33.3728 286.736 63.5851 268.262 96.1184 241.666C106.052 243.254 116.209 245.182 126.22 247.521C124.047 255.826 121.623 264 119.064 271.911C78.3129 286.657 45.3059 304.291 40.306 306.962C40.0258 307.112 39.8336 307.214 39.7329 307.267C35.4502 309.638 33.9037 315.091 36.2829 319.358C38.6622 323.626 44.1345 325.167 48.4172 322.796C48.4334 322.788 48.5104 322.747 48.6464 322.674C51.3578 321.222 77.5018 307.218 111.424 293.854C98.3619 328.961 84.7713 354.991 83.6978 357.047L83.6548 357.13L83.6313 357.175C81.371 361.443 82.9176 366.896 87.3192 369.148C88.6278 369.859 90.0554 370.215 91.4829 370.215C94.6949 370.215 97.788 368.437 99.4535 365.473C100.457 363.656 118.311 329.997 133.343 285.756C141.238 283.043 149.345 280.487 157.507 278.223C159.9 287.607 161.929 296.997 163.651 306.147C135.253 340.384 115.742 372.481 114.68 374.245C112.182 378.513 113.609 383.966 117.773 386.455C119.319 387.404 120.866 387.759 122.413 387.759C125.387 387.759 128.361 386.218 130.026 383.373C130.19 383.047 145.129 358.444 167.543 329.762C172.752 366.249 173.21 394.341 173.21 394.753C173.329 399.613 177.255 403.525 182.132 403.525C187.129 403.406 191.054 399.376 190.935 394.634C190.935 392.587 190.332 355.991 182.63 311.288C188.734 304.152 195.185 297.027 201.88 290.197C207.94 296.355 213.75 302.662 219.256 308.947C210.506 353.491 208.886 392.291 208.784 394.726L208.783 394.753C208.545 399.732 212.471 403.762 217.348 403.999H217.705C222.464 403.999 226.508 400.206 226.627 395.583C226.636 395.537 226.66 395.14 226.701 394.419L226.702 394.415L226.702 394.412C227.049 388.438 228.681 360.403 234.273 326.891C256.468 354.609 271.321 378.496 273.834 382.538L273.835 382.538L273.835 382.539L273.947 382.719C274.02 382.837 274.079 382.931 274.122 382.999C274.171 383.078 274.201 383.124 274.21 383.136C276.708 387.404 282.299 388.708 286.463 386.218C290.746 383.729 292.055 378.276 289.556 374.008C288.463 372.192 268.809 339.575 238.611 303.951C240.347 295.798 242.33 287.548 244.591 279.409C253.756 282.175 262.746 285.242 271.383 288.443C286.05 330.473 303.571 363.853 304.547 365.71C306.094 368.674 309.187 370.452 312.399 370.452C313.826 370.452 315.254 370.096 316.562 369.385C320.845 367.133 322.511 361.798 320.25 357.412C320.245 357.401 320.226 357.364 320.192 357.3C319.209 355.401 306.199 330.276 293.572 297.231C327.891 311.671 352.516 325.867 352.848 326.115C357.13 328.605 362.603 327.182 365.101 322.915C367.599 318.647 366.171 313.194 361.889 310.705C360.096 309.633 328.116 291.132 285.488 274.62C282.596 265.904 279.888 256.915 277.542 247.877C287.946 245.459 298.35 243.478 308.426 241.854C342.104 269.365 373.232 288.09 374.972 289.13C376.518 290.079 378.065 290.434 379.611 290.434C382.585 290.434 385.56 288.893 387.225 286.048C389.723 281.781 388.296 276.328 384.132 273.838C383.814 273.68 360.594 259.681 332.946 238.47C366.426 234.585 392.083 234.481 394.603 234.481H394.84C399.718 234.481 403.763 230.451 403.763 225.59C403.763 220.73 399.718 216.7 394.84 216.7C394.669 216.708 394.204 216.714 393.468 216.725C386.32 216.824 353.53 217.281 313.784 223.103Z" fill="currentColor"/>
+      </svg>
+    </a>
+    <div class="search-input order-2 w-footer-input md:w-full xl:order-4">
+      <h3 class="text-sm mb-3 font-semibold">Signup for updates</h3>
+      <form action="#">
+        <div class="flex items-center border-b border-white w-full">
+          <input class="bg-gray text-xs w-full" type="email" placeholder="your email">
+          <button class="h-6 w-4 bg-gray bg-link-arrow-white bg-center bg-no-repeat" type="submit"> </button>
+        </div>
+      </form>
+    </div>
+    <nav class="flex justify-between w-full mt-8 mb-14 order-3 md:order-4 md:my-0 xl:order-3 xl:pl-14">
+      <div>
+        <h3 class="text-sm mb-3 font-semibold">Resources</h3>
+        <ul class="grid grid-cols-1 text-white70 md:grid-cols-2 md:gap-x-6">
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/about.html">About</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">FAQ</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Specs</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/node.html">Run a node</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/blog.html">Blog</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Forum</a></li>
+          <li><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-sm mb-3 font-semibold">Social</h3>
+        <ul class="text-white70">
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Twitter</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Discord</a></li>
+          <li><a class="text-sm leading-6 hover:underline hover:text-blue" href="">GitHub</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-sm mb-3 font-semibold">Install</h3>
+        <ul class="text-white70">
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">go-waku</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">min-waku</a></li>
+          <li><a class="text-sm leading-6 hover:underline hover:text-blue" href="">js-waku</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p class="text-sm leading-6 order-4 md:order-3 xl:order-2">Waku is a privacy-preserving, peer-to-peer messaging protocol designed for resource restricted devices.</p>
+  </div>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
+
+

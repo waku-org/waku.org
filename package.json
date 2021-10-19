@@ -1,0 +1,32 @@
+{
+  "name": "status-waku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "gulp",
+    "build": "NODE_ENV=production gulp build",
+    "build-images": "gulp images"
+  },
+  "keywords": [
+    "tailwindcss",
+    "boilerplate",
+    "gulp",
+    "postcss",
+    "browsersync",
+    "imagemin"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}
