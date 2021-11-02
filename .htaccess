@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteEngine %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteEngine ^ /%1 [NC,L,R]
+
+RewriteEngine %{REQUEST_FILENAME}.html -f
+RewriteEngine ^ %{REQUEST_URi}.html [NC,L]
