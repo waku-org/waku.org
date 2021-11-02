@@ -3,8 +3,8 @@
 1. Install the dependencies:
 
     ```bash
-    # npm
-    npm install
+    # yarn
+    yarn install
     ```
 
 2. Start the development server:
