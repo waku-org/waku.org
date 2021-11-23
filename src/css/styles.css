@@ -7,16 +7,16 @@
 }
 
 .social--visible {
-  @apply flex z-10;
+  @apply hidden;
 }
 
-.social--visible a {
-  @apply text-white;
-}
+/*.social--visible a {*/
+/*  @apply text-white;*/
+/*}*/
 
-.social--visible svg {
-  @apply w-6 h-6;
-}
+/*.social--visible svg {*/
+/*  @apply w-6 h-6;*/
+/*}*/
 
 .logo--hidden {
   @apply hidden;
@@ -24,4 +24,8 @@
 
 .burger--active span {
   @apply bg-white;
+}
+
+.social-mobile--visible {
+  @apply flex z-10;
 }
