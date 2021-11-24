@@ -3,20 +3,12 @@
 @tailwind utilities;
 
 .nav--active {
-  @apply transform translate-x-0 translate-y-0;
+  @apply transform translate-x-0 translate-y-0 justify-between;
 }
 
 .social--visible {
   @apply hidden;
 }
-
-/*.social--visible a {*/
-/*  @apply text-white;*/
-/*}*/
-
-/*.social--visible svg {*/
-/*  @apply w-6 h-6;*/
-/*}*/
 
 .logo--hidden {
   @apply hidden;
