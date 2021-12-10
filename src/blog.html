@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./css/style.min.css" rel="stylesheet" />
+  <title>Waku</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="font-body overflow-x-hidden">
+<header class="fixed inset-x-0 z-50 bg-white">
+  <div class="h-18 max-w-screen-xl flex justify-between items-center mx-auto px-6 py-4 md:h-26 md:py-8 xl:px-0">
+    <a id="header-logo" class="text-gray" href="/index">
+      <img src="assets/images/logo/logo.svg" alt="">
+    </a>
+    <nav id="nav" class="absolute flex items-center justify-end -z-1 top-0 left-0 h-screen w-full bg-gray pt-16 pr-16 transform -translate-y-full md:-translate-y-0 md:bg-white md:relative md:h-auto md:p-0 md:justify-center md:z-0">
+      <div class="text-pink md:hidden">
+        <img src="assets/images/logo/logo-nav-pink.svg" alt="">
+      </div>
+      <ul class="text-right text-white md:flex md:text-gray md:text-center">
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/index">Home</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/about">About</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/node">Try</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium font-bold text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/blog">Blog</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="">Support</a></li>
+        <li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="">Specs</a></li>
+      </ul>
+    </nav>
+    <div id="social-box" class="hidden md:flex">
+      <a class="text-gray mr-6 hover:text-blue" href="">
+        <img src="./assets/images/social/discord-dark.svg" alt="discord">
+      </a>
+      <a class="text-gray mr-6 hover:text-blue" href="">
+        <img src="./assets/images/social/twitter-dark.svg" alt="twitter">
+      </a>
+      <a class="text-gray hover:text-blue" href="">
+        <img src="./assets/images/social/github-dark.svg" alt="github">
+      </a>
+    </div>
+    <div id="social-box-mobile" class="hidden">
+      <a class="text-gray mr-6 hover:text-blue" href="">
+        <img src="./assets/images/social/discord-white.svg" alt="discord">
+      </a>
+      <a class="text-gray mr-6 hover:text-blue" href="">
+        <img src="./assets/images/social/twitter-white.svg" alt="twitter">
+      </a>
+      <a class="text-gray hover:text-blue" href="">
+        <img src="./assets/images/social/github-white.svg" alt="github">
+      </a>
+    </div>
+    <div id="burger" class="flex flex-col justify-center items-center h-8 w-8 md:hidden">
+      <span class="block bg-gray w-7 h-0.5"></span>
+      <span class="block bg-gray w-7 h-0.5 my-2"></span>
+      <span class="block bg-gray w-7 h-0.5"></span>
+    </div>
+  </div>
+</header>
+<main class="pt-18 md:pt-26">
+  <!-- Hero -->
+  <section class="bg-green w-full">
+    <div class="relative container max-w-screen-xl mx-auto md:h-98 md:px-16 lg:px-0">
+      <a class="absolute top-4 left-8 hidden text-sm italic underline text-white mt-6 hover:underline lg:no-underline lg:flex lg:items-center xl:left-0" href="javascript:history.back();"><span class="block bg-link-arrow-white bg-left bg-no-repeat w-1.5 h-2 mr-1.5 transform rotate-180"></span>Back</a>
+      <div class="flex flex-col px-6 py-20 md:px-0 md:py-0 md:pt-30 lg:flex-row">
+        <div class="mb-10 md:mb-6 lg:w-4/12 lg:pl-32">
+          <h1 class="text-2xl text-white font-semibold text-center lg:max-w-2xl lg:text-left">Blog</h1>
+        </div>
+        <div class="lg:w-8/12">
+          <div class="lg:w-3/4">
+            <p class="text-base text-white font-semibold">We take inspiration from core internet architecture, existing survey work and other efforts that have been done to decompose the problem into orthogonal pieces.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container max-w-screen-xl mx-auto">
+    <!-- Blog entries -->
+    <section class="px-6 mt-10 md:px-16 md:mt-20 lg:px-16 lg:mt-32 xl:px-0">
+      <div class="pb-10 md:pb-20 lg:flex lg:px-16 lg:pb-32 xl:px-32">
+        <div class="mb-10 md:mb-6 lg:mb-0 lg:w-1/5 lg:flex">
+          <h2 class="gufont-semibold leading-10 text-2xl text-center lg:text-left">Blog entries</h2>
+        </div>
+        <div class="lg:w-4/5 lg:pl-6 xl:pl-0">
+          <div class="grid grid-cols-1 gap-y-10 md:pl-3 md:grid-cols-2 md:gap-x-2 lg:gap-x-6">
+            <div>
+              <span class="block text-10 text-gray75">March 05, 2021</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">Privacy-preserving p2p economic spam protection in Waku v2</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">November 10, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">[Talk] Vac, Waku v2 and Ethereum Messaging</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">September 28, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">Waku v2 Update</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">July 01, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">What's the Plan for Waku v2?</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">July 01, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">What's the Plan for Waku v2?</a>
+            </div>
+
+            <div>
+              <span class="block text-10 text-gray75">March 05, 2021</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">Privacy-preserving p2p economic spam protection in Waku v2</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">November 10, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">[Talk] Vac, Waku v2 and Ethereum Messaging</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">September 28, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">Waku v2 Update</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">July 01, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">What's the Plan for Waku v2?</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">July 01, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">What's the Plan for Waku v2?</a>
+            </div>
+
+            <div>
+              <span class="block text-10 text-gray75">March 05, 2021</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">Privacy-preserving p2p economic spam protection in Waku v2</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">November 10, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">[Talk] Vac, Waku v2 and Ethereum Messaging</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">September 28, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">Waku v2 Update</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">July 01, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">What's the Plan for Waku v2?</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">July 01, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">What's the Plan for Waku v2?</a>
+            </div>
+            <div>
+              <span class="block text-10 text-gray75">July 01, 2020</span>
+              <a href="" class="text-sm font-semibold text-gray hover:text-blue hover:underline">What's the Plan for Waku v2?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="w-full bg-gray text-white">
+  <div class="flex flex-row flex-wrap justify-between max-w-screen-xl mx-auto p-6 pb-20 md:grid md:grid-cols-footer-md md:gap-x-14 md:gap-y-10 md:px-16 md:pt-8 md:pb-10 xl:grid-cols-footer-xl xl:px-0 xl:pb-14 xl:pr-28 xl:pt-11">
+    <a class="block text-pink mr-9 order-1 md:m-0" href="index">
+      <img src="assets/images/logo/logo-pink.svg" alt="">
+    </a>
+    <div class="search-input order-2 w-footer-input md:w-full xl:order-4">
+      <h3 class="text-sm mb-3 font-semibold">Signup for updates</h3>
+      <form action="#">
+        <div class="flex items-center border-b border-white w-full">
+          <input class="bg-gray text-xs w-full" type="email" placeholder="your email">
+          <button class="h-6 w-4 bg-gray bg-link-arrow-white bg-center bg-no-repeat" type="submit"> </button>
+        </div>
+      </form>
+    </div>
+    <nav class="flex justify-between w-full mt-8 mb-14 order-3 md:order-4 md:my-0 xl:order-3 xl:pl-14">
+      <div>
+        <h3 class="text-sm mb-3 font-semibold">Resources</h3>
+        <ul class="grid grid-cols-1 text-white70 md:grid-cols-2 md:gap-x-6">
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/about">About</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">FAQ</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Specs</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/node">Run a node</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/blog">Blog</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Forum</a></li>
+          <li><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-sm mb-3 font-semibold">Social</h3>
+        <ul class="text-white70">
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Twitter</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Discord</a></li>
+          <li><a class="text-sm leading-6 hover:underline hover:text-blue" href="">GitHub</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-sm mb-3 font-semibold">Install</h3>
+        <ul class="text-white70">
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">go-waku</a></li>
+          <li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">nim-waku</a></li>
+          <li><a class="text-sm leading-6 hover:underline hover:text-blue" href="">js-waku</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p class="text-sm leading-6 order-4 md:order-3 xl:order-2">Waku is a privacy-preserving, peer-to-peer messaging protocol designed for resource restricted devices.</p>
+  </div>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
+
+
