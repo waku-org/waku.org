@@ -1,73 +1,64 @@
-const { watch, series, src, dest } = require("gulp");
-var browserSync = require("browser-sync").create();
-const concat = require('gulp-concat');
-var postcss = require("gulp-postcss");
-const imagemin = require("gulp-imagemin");
-const uglify = require('gulp-uglify-es').default;
+const { parallel, series, src, dest } = require('gulp')
+const gulp = require('gulp')
+const browserSync = require('browser-sync').create()
+const concat = require('gulp-concat')
+const postcss = require('gulp-postcss')
+const imagemin = require('gulp-imagemin')
+const uglify = require('gulp-uglify-es').default
 
-function cssTask(cb) {
-	return src("./src/css/*.css")
-		.pipe(postcss())
-		.pipe(concat('style.min.css'))
-		.pipe(dest("./src/css"))
-		.pipe(browserSync.stream());
-	cb();
-}
+const styles = () =>
+  src('src/css/*.css')
+    .pipe(postcss())
+    .pipe(concat('style.min.css'))
+    .pipe(dest('dist/css'))
+    .pipe(browserSync.stream())
 
-function scriptsTask(cb) {
-	return src('./src/js/*.js')
-		.pipe(uglify())
-		.pipe(dest('./dist/js'))
-		.pipe(browserSync.stream());
-	cb();
-}
+const scripts = () =>
+  src('src/js/*.js')
+    .pipe(uglify())
+    .pipe(dest('dist/js'))
+    .pipe(browserSync.stream())
 
 // Task for minifying images
-function imageminTask(cb) {
-	return src("./src/assets/images/**/*")
-		.pipe(imagemin())
-		.pipe(dest("./dist/assets/images"));
-	cb();
+const images = () =>
+  src('src/assets/images/**/*')
+    .pipe(imagemin())
+    .pipe(dest('dist/assets/images'))
+
+const content = () =>
+  src('src/*.html')
+    .pipe(dest('dist'))
+
+const cname = () =>
+  src('src/assets/CNAME').pipe(dest('dist'))
+
+const server = () =>
+  browserSync.init({
+    open: 'local',
+    port: 4000,
+    server: {
+      baseDir: 'src/',
+    },
+  })
+
+const reload = async () => await browserSync.reload()
+
+/* Watch Files & Reload browser after tasks */
+const watch = () => {
+  gulp.watch('src/assets/images/**/*', series(images, reload))
+  gulp.watch('src/**/*.html', series(content, reload))
+  gulp.watch('src/css/*.css', series(styles, reload))
+  gulp.watch('src/js/*.js', series(scripts, reload))
 }
 
-function htmlBuild(cb) {
-	return src("./src/*.html")
-		.pipe(dest("./dist"))
-	cb();
-}
-
-function browsersyncServe(cb) {
-	browserSync.init({
-		server: {
-			baseDir: "src/",
-		},
-	});
-	cb();
-}
-
-function browsersyncReload(cb) {
-	browserSync.reload();
-	cb();
-}
-
-// Watch Files & Reload browser after tasks
-function watchTask() {
-	watch("./src/**/*.html", browsersyncReload);
-	watch(["./src/css/*.css"], series(cssTask, browsersyncReload));
-	watch(["./src/js/*.js"], series(scriptsTask, browsersyncReload));
-}
-
-function build() {
-	return src([
-		'src/css/style.min.css',
-		'src/assets/images/**/*',
-		'src/js/main.js',
-		'src/**/*.html ',
-	], {base: 'src'})
-		.pipe(dest('dist'))
-}
-
-exports.build = series(build);
-exports.default = series(cssTask, scriptsTask, htmlBuild, browsersyncServe, watchTask);
-exports.css = cssTask;
-exports.images = imageminTask;
+exports.content = content
+exports.scripts = scripts
+exports.styles = styles
+exports.images = images
+exports.cname = cname
+exports.watch = watch
+exports.server = server
+exports.build = series(content, scripts, styles, images, cname)
+exports.devel = series(exports.build, parallel(server, watch))
+exports.develop = exports.devel
+exports.default = exports.build
