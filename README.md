@@ -1,27 +1,20 @@
-## How to run the project
+# Description
 
-1. Install the dependencies:
+Website to Waku protocol developed by [Vac Team](https://vac.dev/).
 
-    ```bash
-    # yarn
-    yarn install
-    ```
+# Development
 
-2. Start the development server:
-
-    ```bash
-    # gulp
-    gulp
-    ```
-
-   Now you should be able to see the project running at [localhost:3000](http://localhost:3000).
-
-4. Open `./index.html` in your editor and start editing!
-
-## For production
-
+Install the dependencies:
 ```bash
-# gulp
-gulp build
-
+yarn install
 ```
+Start the development server:
+```bash
+yarn run devel
+```
+Go to [http://localhost:4000](http://localhost:4000) to view the page.
+
+# Continuous Integration
+
+- `develop` branch is pushed to [dev-waku.vac.dev](https://dev-waku.vac.dev) via [this CI Job](https://ci.status.im/job/website/job/dev-waku.vac.dev/)
+- `master` branch is pushed to [waku.vac.dev](https://waku.vac.dev) via [this CI Job](https://ci.status.im/job/website/job/waku.vac.dev/)
