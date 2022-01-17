@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./css/style.min.css" rel="stylesheet" />
+		<title>Waku</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+	</head>
+	<body class="font-body overflow-x-hidden">
+		<header class="fixed inset-x-0 z-50 bg-white">
+			<div class="h-18 max-w-screen-xl flex justify-between items-center mx-auto px-6 py-4  md:h-26 md:py-8 xl:px-0">
+				<a id="header-logo" class="text-gray" href="/index">
+					<img src="assets/images/logo/logo.svg" alt="">
+				</a>
+				<nav id="nav" class="absolute flex items-center justify-end -z-1 top-0 left-0 h-screen w-full bg-gray pt-16 pr-16 transform -translate-y-full md:-translate-y-0 md:bg-white md:relative md:h-auto md:p-0 md:justify-center md:z-0">
+					<div class="text-pink md:hidden">
+						<img src="./assets/images/logo/logo-nav-pink.svg" alt="Waku">
+					</div>
+					<ul class="text-right text-white md:flex md:text-gray md:text-center">
+						<li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium font-bold text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/index">Home</a></li>
+						<li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/about">About</a></li>
+						<li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/node">Try</a></li>
+						<li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="/blog">Blog</a></li>
+						<li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="">Support</a></li>
+						<li class="mb-8 md:w-16 md:mb-0 lg:w-24"><a class="font-medium text-2xl md:text-xs md:hover:underline md:hover:text-blue" href="">Specs</a></li>
+					</ul>
+				</nav>
+				<div id="social-box" class="hidden md:flex">
+					<a class="text-gray mr-6 hover:text-blue" href="">
+						<img src="./assets/images/social/discord-dark.svg" alt="discord">
+					</a>
+					<a class="text-gray mr-6 hover:text-blue" href="">
+						<img src="./assets/images/social/twitter-dark.svg" alt="twitter">
+					</a>
+					<a class="text-gray hover:text-blue" href="">
+						<img src="./assets/images/social/github-dark.svg" alt="github">
+					</a>
+				</div>
+
+				<div id="social-box-mobile" class="hidden">
+					<a class="text-gray mr-6 hover:text-blue" href="">
+						<img src="./assets/images/social/discord-white.svg" alt="discord">
+					</a>
+					<a class="text-gray mr-6 hover:text-blue" href="">
+						<img src="./assets/images/social/twitter-white.svg" alt="twitter">
+					</a>
+					<a class="text-gray hover:text-blue" href="">
+						<img src="./assets/images/social/github-white.svg" alt="github">
+					</a>
+				</div>
+				<div id="burger" class="flex flex-col justify-center items-center h-8 w-8 md:hidden">
+					<span class="block bg-gray w-7 h-0.5"></span>
+					<span class="block bg-gray w-7 h-0.5 my-2"></span>
+					<span class="block bg-gray w-7 h-0.5"></span>
+				</div>
+			</div>
+		</header>
+		<main class="pt-18 md:pt-26">
+			<!-- Hero -->
+			<section class="bg-gray w-full">
+				<div class="relative container max-w-screen-xl mx-auto md:h-98 md:px-16 lg:px-0">
+					<div class="flex flex-col px-6 py-20 md:px-0 md:py-0 md:pt-28 lg:flex-row">
+						<div class="mb-10 md:mb-6 lg:w-4/12 lg:pl-32">
+							<div class="w-full h-full block"></div>
+						</div>
+						<div class="lg:w-8/12">
+							<div class="lg:w-3/4">
+								<h1 class="text-32 text-white max-w-2xl">Waku is the communication layer for Web3. Decentralized communication that scales. Private, secure, and it runs anywhere.</h1>
+								<a class="inline-block pl-3 mt-8 text-pink text-sm italic underline bg-link-arrow-pink bg-left bg-no-repeat lg:no-underline lg:mt-16 hover:underline" href="/node">Try Waku</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="container max-w-screen-xl mx-auto">
+				<!-- What is WAKU -->
+				<section class="px-6 md:px-16 lg:px-16">
+					<div class="flex flex-col pt-20 pb-24 border-b-thin border-gray lg:flex-row lg:pt-48 lg:pb-32">
+						<div class="mb-10 md:mb-6 lg:mb-0 lg:w-4/12 md:pr-4 lg:pl-16 lg:pr-0">
+							<h2 class="text-2xl text-gray text-center font-semibold lg:max-w-2xl lg:text-left">What is Waku?</h2>
+						</div>
+						<div class="lg:w-8/12">
+							<p class="text-sm mb-8 leading-normal">Waku has its origins in the Whisper protocol, but optimized for scalability and better usability</p>
+							<p class="text-sm mb-8 leading-normal">Waku <b>removes centralized third parties</b> from our messaging, enabling private, secure, censorship-free communication. </p>
+							<p class="text-sm mb-8 leading-normal">Waku is designed for <b>generalized messaging</b>, enabling both human-to-human or machine-to-machine communication.</p>
+							<a class="inline-block text-blue text-sm underline italic pl-3 bg-link-arrow-blue bg-left bg-no-repeat lg:no-underline hover:underline" href="/about">Learn more about Waku</a>
+						</div>
+					</div>
+				</section>
+				<!--	How it works -->
+				<section class="px-6 md:px-16 lg:px-16">
+					<div class="flex flex-col pt-20 pb-24 border-b-thin border-gray lg:flex-row lg:pt-48 lg:pb-32">
+						<div class="mb-10 md:mb-6 lg:mb-0 lg:w-4/12 md:pr-4 lg:pl-16 lg:pr-0">
+							<h2 class="text-2xl text-gray text-center font-semibold lg:max-w-2xl lg:text-left">How does it work?</h2>
+						</div>
+						<div class="lg:w-8/12">
+							<p class="text-sm font-bold leading-6">Waku v1 is a fork of Whisper that primarily improves scalability.</p>
+							<p class="text-sm font-bold mb-8 leading-6">Waku v2 is a complete rewrite. Its relay protocol implements pub/sub over libp2p, and also introduces additional capabilities:</p>
+							<ul class="text-sm mb-8 leading-6 list-decimal pl-4">
+								<li>Retrieving historical messages for mostly-offline devices.</li>
+								<li>Adaptive nodes, allowing for heterogeneous nodes to contribute.</li>
+								<li>Bandwidth preservation for light nodes.</li>
+							</ul>
+							<p class="text-sm mb-8 leading-6">This makes it ideal for running a p2p protocol on mobile, or in other similarly resource restricted environments.</p>
+							<a class="inline-block text-blue text-sm italic underline pl-3 bg-link-arrow-blue bg-left bg-no-repeat lg:no-underline hover:underline" href="/about">Learn more about Waku</a>
+						</div>
+					</div>
+				</section>
+				<!--	Who is using Waku -->
+				<section class="px-6 md:px-16 lg:px-16">
+					<div class="flex flex-col pt-20 pb-24 lg:flex-row lg:pt-48 lg:pb-32">
+						<div class="mb-10 md:mb-6 md:pr-4 lg:mb-0 lg:w-4/12 lg:pl-16 lg:pr-6">
+							<h2 class="text-2xl text-gray text-center font-semibold lg:max-w-2xl lg:text-left">Who is using Waku?</h2>
+						</div>
+						<div class="grid grid-cols-1 gap-6 md:grid-cols-3 lg:w-8/12 lg:gap-9">
+							<div>
+								<h3 class="font-semibold text-lg leading-10 mb-2">DApp Connect</h3>
+								<div>
+									<p class="text-sm leading-6">The communication layer for Ethereum. A tech stack enabling decentralized communication between DApps and people.</p>
+									<a class="inline-block text-sm text-blue underline italic pl-3 mt-6 bg-link-arrow-blue bg-left bg-no-repeat lg:no-underline hover:underline" href="">Visit DApp Connect</a>
+								</div>
+							</div>
+							<div>
+								<h3 class="font-semibold text-lg leading-10 mb-2">Status</h3>
+								<div>
+									<p class="text-sm leading-6">Status is a secure messaging app, crypto wallet, and Web3 browser built with state of the art technology.</p>
+									<a class="inline-block text-sm text-blue underline italic pl-3 mt-6 bg-link-arrow-blue bg-left bg-no-repeat lg:no-underline hover:underline" href="">Visit Status</a>
+								</div>
+							</div>
+							<div>
+								<h3 class="font-semibold text-lg leading-10 mb-2">WalletConnect</h3>
+								<div>
+									<p class="text-sm leading-6">WalletConnect v2 is using Waku v2 for decentralized messaging infrastructure.</p>
+									<a class="inline-block text-sm text-blue underline italic pl-3 mt-6 bg-link-arrow-blue bg-left bg-no-repeat lg:no-underline hover:underline" href="https://walletconnect.com/">Visit WalletConnect</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<section class="grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:mt-24">
+				<div class="bg-green text-white py-12 px-8">
+					<div class="max-w-xs mx-auto">
+						<h2 class="text-center text-2xl leading-8 mb-6">nim-waku</h2>
+						<p class="text-sm leading-6">A nim implementation of the Waku v2 protocol. Reference client and flagship
+							implementation.</p>
+						<a class="inline-block text-sm italic underline pl-3 mt-6 bg-link-arrow-white bg-left bg-no-repeat lg:no-underline hover:underline"
+							 href="">Install nim-waku</a>
+					</div>
+				</div>
+				<div class="bg-gray text-white py-12 px-8">
+					<div class="max-w-xs mx-auto">
+						<h2 class="text-center text-2xl leading-8 mb-6">js-waku</h2>
+						<p class="text-sm leading-6">A JS implementation to reach browser environments and optimized for interacting
+							with Dapps.</p>
+						<a class="inline-block text-sm underline italic pl-3 mt-6 bg-link-arrow-white bg-left bg-no-repeat lg:no-underline hover:underline"
+							 href="">Install js-waku</a>
+					</div>
+				</div>
+				<div class="bg-blue text-white py-12 px-8">
+					<div class="max-w-xs mx-auto">
+						<h2 class="text-center text-2xl leading-8 mb-6">go-waku</h2>
+						<p class="text-sm leading-6">Subset of Waku v2 implemented to facilitate integration with Status mobile
+							app.</p>
+						<a class="inline-block text-sm underline italic pl-3 mt-6 bg-link-arrow-white bg-left bg-no-repeat lg:no-underline hover:underline"
+							 href="">Install go-waku</a>
+					</div>
+				</div>
+				<div class="bg-pink text-gray py-12 px-8">
+					<div class="max-w-xs mx-auto">
+						<h2 class="text-center text-2xl leading-8 mb-6">Run a Waku node</h2>
+						<p class="text-sm leading-6">Remove centralized choke points from your communication and help decentralize
+							the Waku Network by running your own node.</p>
+						<a class="inline-block text-sm text-blue underline italic pl-3 mt-6 bg-link-arrow-blue bg-left bg-no-repeat lg:no-underline hover:underline"
+							 href="">Node Quick Start Guide</a>
+					</div>
+				</div>
+			</section>
+<!--			<div class="container max-w-screen-xl mx-auto">-->
+<!--				&lt;!&ndash;	team &ndash;&gt;-->
+<!--				<section class="px-6 md:px-16 lg:px-16">-->
+<!--					<div class="flex flex-col pt-20 pb-24 lg:flex-row lg:pt-48 lg:pb-32">-->
+<!--						<div class="mb-10 md:pr-4 lg:w-4/12 lg:mb-0 lg:pl-16 lg:pr-0">-->
+<!--							<h2 class="text-2xl text-gray text-center font-semibold lg:max-w-2xl lg:text-left">Team</h2>-->
+<!--						</div>-->
+<!--						<div class="grid grid-cols-2 gap-x-2.5 gap-y-14 lg:w-8/12 md:grid-cols-4">-->
+<!--							&lt;!&ndash;	Member &ndash;&gt;-->
+<!--							<div class="flex flex-col items-center">-->
+<!--								<div class="flex justify-center items-center bg-gray rounded-full w-16 h-16 mb-5">-->
+<!--									<svg class="w-14 h-14 rounded-full text-white">-->
+<!--										<use href="#logo"/>-->
+<!--									</svg>-->
+<!--								</div>-->
+<!--								<h3 class="text-sm text-gray font-semibold text-center">Oskar Thoren</h3>-->
+<!--								<div class="flex items-center mt-2">-->
+<!--									<a class="inline-block text-gray hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#twitter"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--									<a class="inline-block text-gray ml-6 hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#github"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							&lt;!&ndash;	Member &ndash;&gt;-->
+<!--							<div class="flex flex-col items-center">-->
+<!--								<div class="flex justify-center items-center bg-gray rounded-full w-16 h-16 mb-5">-->
+<!--									<svg class="w-14 h-14 rounded-full text-white">-->
+<!--										<use href="#logo"/>-->
+<!--									</svg>-->
+<!--								</div>-->
+<!--								<h3 class="text-sm text-gray font-semibold text-center">Dean Eigenmann</h3>-->
+<!--								<div class="flex items-center mt-2">-->
+<!--									<a class="inline-block text-gray hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#twitter"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--									<a class="inline-block text-gray ml-6 hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#github"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							&lt;!&ndash;	Member &ndash;&gt;-->
+<!--							<div class="flex flex-col items-center">-->
+<!--								<div class="flex justify-center items-center bg-gray rounded-full w-16 h-16 mb-5">-->
+<!--									<svg class="w-14 h-14 rounded-full text-white">-->
+<!--										<use href="#logo"/>-->
+<!--									</svg>-->
+<!--								</div>-->
+<!--								<h3 class="text-sm text-gray font-semibold text-center">Jacek Sieka</h3>-->
+<!--								<div class="flex items-center mt-2">-->
+<!--									<a class="inline-block text-gray hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#github"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							&lt;!&ndash;	Member &ndash;&gt;-->
+<!--							<div class="flex flex-col items-center">-->
+<!--								<div class="flex justify-center items-center bg-gray rounded-full w-16 h-16 mb-5">-->
+<!--									<svg class="w-14 h-14 rounded-full text-white">-->
+<!--										<use href="#logo"/>-->
+<!--									</svg>-->
+<!--								</div>-->
+<!--								<h3 class="text-sm text-gray font-semibold text-center">Dimitriy Ryajov</h3>-->
+<!--								<div class="flex items-center mt-2">-->
+<!--									<a class="inline-block text-gray hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#twitter"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--									<a class="inline-block text-gray ml-6 hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#github"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							&lt;!&ndash;	Member &ndash;&gt;-->
+<!--							<div class="flex flex-col items-center">-->
+<!--								<div class="flex justify-center items-center bg-gray rounded-full w-16 h-16 mb-5">-->
+<!--									<svg class="w-14 h-14 rounded-full text-white">-->
+<!--										<use href="#logo"/>-->
+<!--									</svg>-->
+<!--								</div>-->
+<!--								<h3 class="text-sm text-gray font-semibold text-center">Kim De Mey</h3>-->
+<!--								<div class="flex items-center mt-2">-->
+<!--									<a class="inline-block text-gray hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#github"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							&lt;!&ndash;	Member &ndash;&gt;-->
+<!--							<div class="flex flex-col items-center">-->
+<!--								<div class="flex justify-center items-center bg-gray rounded-full w-16 h-16 mb-5">-->
+<!--									<svg class="w-14 h-14 rounded-full text-white">-->
+<!--										<use href="#logo"/>-->
+<!--									</svg>-->
+<!--								</div>-->
+<!--								<h3 class="text-sm text-gray font-semibold text-center">Hanno Cornelius</h3>-->
+<!--								<div class="flex items-center mt-2">-->
+<!--									<a class="inline-block text-gray hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#github"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							&lt;!&ndash;	Member &ndash;&gt;-->
+<!--							<div class="flex flex-col items-center">-->
+<!--								<div class="flex justify-center items-center bg-gray rounded-full w-16 h-16 mb-5">-->
+<!--									<svg class="w-14 h-14 rounded-full text-white">-->
+<!--										<use href="#logo"/>-->
+<!--									</svg>-->
+<!--								</div>-->
+<!--								<h3 class="text-sm text-gray font-semibold text-center">Sanaz Teheri-Boshrooyeh</h3>-->
+<!--								<div class="flex items-center mt-2">-->
+<!--									<a class="inline-block text-gray hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#twitter"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--									<a class="inline-block text-gray ml-6 hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#github"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--							&lt;!&ndash;	Member &ndash;&gt;-->
+<!--							<div class="flex flex-col items-center">-->
+<!--								<div class="flex justify-center items-center bg-gray rounded-full w-16 h-16 mb-5">-->
+<!--									<svg class="w-14 h-14 rounded-full text-white">-->
+<!--										<use href="#logo"/>-->
+<!--									</svg>-->
+<!--								</div>-->
+<!--								<h3 class="text-sm text-gray font-semibold text-center">Corey Petty</h3>-->
+<!--								<div class="flex items-center mt-2">-->
+<!--									<a class="inline-block text-gray hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#twitter"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--									<a class="inline-block text-gray ml-6 hover:text-blue" href="">-->
+<!--										<svg class="w-6 h-6">-->
+<!--											<use href="#github"/>-->
+<!--										</svg>-->
+<!--									</a>-->
+<!--								</div>-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</section>-->
+<!--			</div>-->
+		</main>
+
+	<footer class="w-full bg-gray text-white">
+		<div class="flex flex-row flex-wrap justify-between max-w-screen-xl mx-auto p-6 pb-20 md:grid md:grid-cols-footer-md md:gap-x-14 md:gap-y-10 md:px-16 md:pt-8 md:pb-10 xl:grid-cols-footer-xl xl:px-0 xl:pb-14 xl:pr-28 xl:pt-11">
+			<a class="block text-pink mr-9 order-1 md:m-0" href="index">
+				<img src="assets/images/logo/logo-pink.svg" alt="">
+			</a>
+			<div class="search-input order-2 w-footer-input md:w-full xl:order-4">
+				<h3 class="text-sm mb-3 font-semibold">Signup for updates</h3>
+				<form action="#">
+					<div class="flex items-center border-b border-white w-full">
+						<input class="bg-gray text-xs w-full" type="email" placeholder="your email">
+						<button class="h-6 w-4 bg-gray bg-link-arrow-white bg-center bg-no-repeat" type="submit"> </button>
+					</div>
+				</form>
+			</div>
+			<nav class="flex justify-between w-full mt-8 mb-14 order-3 md:order-4 md:my-0 xl:order-3 xl:pl-14">
+				<div>
+					<h3 class="text-sm mb-3 font-semibold">Resources</h3>
+					<ul class="grid grid-cols-1 text-white70 md:grid-cols-2 md:gap-x-6">
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/about">About</a></li>
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">FAQ</a></li>
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="">Specs</a></li>
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/node">Run a node</a></li>
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="/blog">Blog</a></li>
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="https://forum.vac.dev/">Forum</a></li>
+						<li><a class="text-sm leading-6 hover:underline hover:text-blue" href="https://jobs.status.im/">Careers</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="text-sm mb-3 font-semibold">Social</h3>
+					<ul class="text-white70">
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="https://twitter.com/vacp2p">Twitter</a></li>
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="https://discord.gg/ev9GQGJ9Dg">Discord</a></li>
+						<li><a class="text-sm leading-6 hover:underline hover:text-blue" href="https://github.com/vacp2p/">GitHub</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3 class="text-sm mb-3 font-semibold">Install</h3>
+					<ul class="text-white70">
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="https://github.com/status-im/go-waku">go-waku</a></li>
+						<li class="mb-4"><a class="text-sm leading-6 hover:underline hover:text-blue" href="https://github.com/status-im/nim-waku/">nim-waku</a></li>
+						<li><a class="text-sm leading-6 hover:underline hover:text-blue" href="https://github.com/status-im/js-waku">js-waku</a></li>
+					</ul>
+				</div>
+			</nav>
+			<p class="text-sm leading-6 order-4 md:order-3 xl:order-2">Waku is a privacy-preserving, peer-to-peer messaging protocol designed for resource restricted devices.</p>
+		</div>
+	</footer>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>
+
+
