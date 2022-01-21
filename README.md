@@ -16,5 +16,5 @@ Go to [http://localhost:4000](http://localhost:4000) to view the page.
 
 # Continuous Integration
 
-- `develop` branch is pushed to [dev-waku.vac.dev](https://dev-waku.vac.dev) via [this CI Job](https://ci.status.im/job/website/job/dev-waku.vac.dev/)
-- `master` branch is pushed to [waku.vac.dev](https://waku.vac.dev) via [this CI Job](https://ci.status.im/job/website/job/waku.vac.dev/)
+- `develop` branch is pushed to [dev.wakunetwork.com](https://dev.wakunetwork.com) via [this CI Job](https://ci.status.im/job/website/job/dev.wakunetwork.com/)
+- `master` branch is pushed to [wakunetwork.com](https://wakunetwork.com) via [this CI Job](https://ci.status.im/job/website/job/wakunetwork.com/)

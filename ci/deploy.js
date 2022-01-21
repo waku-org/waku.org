@@ -8,7 +8,7 @@ process.on('unhandledRejection', err => { throw err })
 const distDir = 'dist'
 const branch = 'gh-pages'
 const org = 'vacp2p'
-const repo = 'waku.vac.dev'
+const repo = 'wakunetwork.com'
 const repoUrl = `git@github.com:${org}/${repo}.git`
 
 const main = async (url, branch)=> {
