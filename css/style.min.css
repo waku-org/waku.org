@@ -33865,6 +33865,10 @@ video {
     background-image: url('/assets/images/icon/eye-close-white.svg');
   }
 
+  .none\:bg-eye-open-white {
+    background-image: url('/assets/images/icon/eye-open-white.svg');
+  }
+
   .none\:from-white {
     --tw-gradient-from: #fff;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -53429,6 +53433,10 @@ video {
 
   .sm\:bg-eye-close-white {
     background-image: url('/assets/images/icon/eye-close-white.svg');
+  }
+
+  .sm\:bg-eye-open-white {
+    background-image: url('/assets/images/icon/eye-open-white.svg');
   }
 
   .sm\:from-white {
@@ -72997,6 +73005,10 @@ video {
     background-image: url('/assets/images/icon/eye-close-white.svg');
   }
 
+  .md\:bg-eye-open-white {
+    background-image: url('/assets/images/icon/eye-open-white.svg');
+  }
+
   .md\:from-white {
     --tw-gradient-from: #fff;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -92561,6 +92573,10 @@ video {
 
   .lg\:bg-eye-close-white {
     background-image: url('/assets/images/icon/eye-close-white.svg');
+  }
+
+  .lg\:bg-eye-open-white {
+    background-image: url('/assets/images/icon/eye-open-white.svg');
   }
 
   .lg\:from-white {
@@ -112129,6 +112145,10 @@ video {
     background-image: url('/assets/images/icon/eye-close-white.svg');
   }
 
+  .xl\:bg-eye-open-white {
+    background-image: url('/assets/images/icon/eye-open-white.svg');
+  }
+
   .xl\:from-white {
     --tw-gradient-from: #fff;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -131695,6 +131715,10 @@ video {
     background-image: url('/assets/images/icon/eye-close-white.svg');
   }
 
+  .\32xl\:bg-eye-open-white {
+    background-image: url('/assets/images/icon/eye-open-white.svg');
+  }
+
   .\32xl\:from-white {
     --tw-gradient-from: #fff;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -151259,6 +151283,10 @@ video {
 
   .\33xl\:bg-eye-close-white {
     background-image: url('/assets/images/icon/eye-close-white.svg');
+  }
+
+  .\33xl\:bg-eye-open-white {
+    background-image: url('/assets/images/icon/eye-open-white.svg');
   }
 
   .\33xl\:from-white {
