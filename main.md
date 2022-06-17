@@ -6,7 +6,7 @@ Waku is the communication layer for Web3. Decentralized communication that scale
 
 Private. Secure. Runs anywhere.
 
-[Check the docs](/docs/index.md)
+[Check the docs](/docs/index)
 
 ## What is Waku?
 
@@ -35,7 +35,7 @@ Its relay protocol implements pub/sub over libp2p, and also introduces additiona
 
 This makes it ideal for running a p2p protocol on mobile, or in other similarly resource-restricted environments.
 
-[Learn more about Waku](/docs/index.md)
+[Learn more about Waku](/docs/index)
 
 ## Use Waku Now
 
