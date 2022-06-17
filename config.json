@@ -28,9 +28,7 @@
       "operator.md",
       "contribute.md"
     ],
-    "folderOrdersInSidenav": [
-      "docs"
-    ],
+    "folderOrdersInSidenav": ["docs"],
     "external_links": [
       {
         "text": "Blog",

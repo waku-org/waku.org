@@ -49,6 +49,6 @@ You can run Waku on mobile phones, Android and iOS are supported:
 | Your Application's language | What to Use                | Links                                                                                      |
 | --------------------------- | -------------------------- | ------------------------------------------------------------------------------------------ |
 | Swift (iOS)                 | go-waku using C-Bindings   | [Swift example](https://github.com/status-im/go-waku/tree/master/examples/swift-waku)      |
-| Kotlink (Android)           | go-waku using C-Bindings   | [Kotlin example](https://github.com/status-im/go-waku/tree/master/examples/android-kotlin) |
+| Kotlin (Android)            | go-waku using C-Bindings   | [Kotlin example](https://github.com/status-im/go-waku/tree/master/examples/android-kotlin) |
 | Go                          | go-waku as a library       | [tutorials](https://github.com/status-im/go-waku#tutorials-and-documentation)              |
 | React Native                | go-waku as a native module | [repository](https://github.com/status-im/waku-react-native)                               |

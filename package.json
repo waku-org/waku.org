@@ -1,0 +1,28 @@
+{
+  "name": "@waku/waku.org",
+  "version": "1.0.0",
+  "main": "\"\"",
+  "repository": "git@github.com:vacp2p/waku.org.git",
+  "author": "Franck Royer <franck@status.im>",
+  "license": "MIT OR Apache-2.0",
+  "private": true,
+  "scripts": {
+    "fix": "prettier \"*.md\" \"docs/**/*.md\" \"./*.json\" --write",
+    "test": "run-p test:**",
+    "test:format": "prettier \"*.md\" \"docs/**/*.md\" \"./*.json\" --list-different",
+    "test:spelling": "cspell \"*.md\" \"docs/**/*.md\" config.json",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{md,json}": "prettier --write"
+  },
+  "dependencies": {
+    "cspell": "^6.1.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2"
+  }
+}

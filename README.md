@@ -15,6 +15,31 @@ Content of https://waku.org website.
 - `develop` branch is pushed to [dev.waku.org](https://dev.waku.org) via GitHub Action.
 - `master` branch is pushed to [waku.org](https://waku.org) via GitHub Action.
 
+## Format & spelling checks
+
+Format and spelling checks are done via npm commands.
+
+Installation:
+
+```shell
+yarn
+```
+
+This will automatically install a git hook to format and check spelling at commit time.
+You can also trigger the commands manually:
+
+Fix format:
+
+```shell
+yarn fix
+```
+
+Check spelling and format:
+
+```shell
+yarn check
+```
+
 ## Change Process
 
 1. Create a new working branch from `develop`: `git checkout develop; git checkout -b my-changes`,
