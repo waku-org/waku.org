@@ -1,7 +1,7 @@
 name: Vercel webhook
 on:
   push:
-    branches: [develop]
+    branches: [ develop ]
 jobs:
   deployment:
     runs-on: ubuntu-latest
