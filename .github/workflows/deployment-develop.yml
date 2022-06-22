@@ -6,8 +6,8 @@ jobs:
   deployment:
     runs-on: ubuntu-latest
     steps:
-      - name: Calling webhook
-        uses: fjogeleit/http-request-action@v1
+      - name: Triggering deploy hook on vercel
+        uses: fjogeleit/http-request-action@v1.9.2
         with:
           url: ${{ secrets.VERCEL_WEBHOOK_STAGING }}
           method: 'POST'
