@@ -1,25 +1,46 @@
-# Description
+# Waku.org
 
-Website to Waku protocol developed by [Vac Team](https://vac.dev/).
+## Description
 
-# Development
+Content of https://waku.org website.
 
-Install the dependencies:
-```bash
-yarn install
+## Practical notes
+
+- Please keep this repo clean and for markdown content ONLY
+- In case you have any issue with rendering, how website looks, etc,
+  please file an issue on [logos website builder](https://github.com/acid-info/logos-site-builder).
+
+## Continuous Integration
+
+- `develop` branch is pushed to [dev.waku.org](https://dev.waku.org) via GitHub Action.
+- `master` branch is pushed to [waku.org](https://waku.org) via GitHub Action.
+
+## Format & spelling checks
+
+Format and spelling checks are done via npm commands.
+
+Installation:
+
+```shell
+yarn
 ```
-Start the development server:
-```bash
-yarn run devel
+
+This will automatically install a git hook to format and check spelling at commit time.
+You can also trigger the commands manually:
+
+Fix format:
+
+```shell
+yarn fix
 ```
-Go to [http://localhost:4000](http://localhost:4000) to view the page.
 
-# Continuous Integration
+Check spelling and format:
 
-- `develop` branch is pushed to [dev.waku.org](https://dev.waku.org) via [this CI Job](https://ci.status.im/job/website/job/dev.waku.org/)
-- `master` branch is pushed to [waku.org](https://waku.org) via [this CI Job](https://ci.status.im/job/website/job/waku.org/)
+```shell
+yarn check
+```
 
-# Change Process
+## Change Process
 
 1. Create a new working branch from `develop`: `git checkout develop; git checkout -b my-changes`,
 2. Proceed with changes, push to `origin` and open a Pull Request against `develop`,

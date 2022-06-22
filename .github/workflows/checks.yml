@@ -1,0 +1,24 @@
+name: Checks
+
+on:
+  push:
+    branches:
+      - 'develop'
+      - 'master'
+  pull_request:
+
+jobs:
+  yarn_test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2.3.3
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v2
+
+      - name: Yarn install
+        run: yarn install --frozen-lockfile
+
+      - name: Test
+        run: yarn test
