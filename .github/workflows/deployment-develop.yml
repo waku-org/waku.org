@@ -1,0 +1,13 @@
+name: Vercel deploy hook - staging
+on:
+  push:
+    branches: [ master ]
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Calling staging deploy webhook
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: ${{ secrets.VERCEL_WEBHOOK_STAGING }}
+          method: 'POST'
