@@ -46,4 +46,3 @@ yarn check
 2. Proceed with changes, push to `origin` and open a Pull Request against `develop`,
 3. Once approved, merge pull request, check changes on [dev.waku.org](https://dev.waku.org),
 4. Once ready to promote to live website, rebase master on develop: `git checkout master; git pull master; git rebase origin/develop; git push`.
-
