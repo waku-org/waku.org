@@ -30,9 +30,10 @@ It is possible to integrate Waku as a library.
 | Your Application's language | What to Use              | Links                                                                               |
 | --------------------------- | ------------------------ | ----------------------------------------------------------------------------------- |
 | Nim                         | nwaku as a library       | [repository](https://github.com/status-im/nwaku/tree/master/waku/v2)                |
-| Go                          | go-waku as a library     | [tutorials](https://github.com/status-im/go-waku#tutorials-and-documentation)       |
-| C                           | go-waku using C-Bindings | [C example](https://github.com/status-im/go-waku/tree/master/examples/c-bindings)   |
+| Go                          | go-waku as a library     | [tutorials](https://github.com/waku-org/go-waku#tutorials-and-documentation)        |
+| C/C++/etc                   | go-waku using C-Bindings | [C example](https://github.com/status-im/go-waku/tree/master/examples/c-bindings)   |
 | C#                          | go-waku using C-Bindings | [C# example](https://github.com/status-im/go-waku/tree/master/examples/waku-csharp) |
+| Rust                        | Waku Rust Bindings       | [Rust example](https://github.com/waku-org/waku-rust-bindings/tree/master/examples) |
 
 ## Browser Application
 
@@ -40,7 +41,7 @@ It is possible to integrate Waku as a library.
 
 You can use js-waku to run a Waku node in the browser.
 
-Docs: https://docs.wakuconnect.dev/
+Docs: https://js.waku.guide/
 
 ## Mobile Application
 

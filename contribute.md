@@ -11,7 +11,7 @@ You can contribute to Waku in several manners:
 The Waku Network is a permissionless, decentralized set of nodes.
 Anyone can run their own node, use and support the network.
 
-Learn more [here](/contribute).
+Learn more [here](https://github.com/status-im/nwaku/tree/master/docs/operators).
 
 ## Build Your Own Waku Application
 
@@ -34,9 +34,9 @@ potential bounties are marked with the label `bounty` on GitHub issues.
 
 Repositories:
 
-- [js-waku](https://github.com/status-im/js-waku)
+- [js-waku](https://github.com/waku-org/js-waku)
 - [nwaku](https://github.com/status-im/nwaku)
-- [go-waku](https://github.com/status-im/go-waku)
+- [go-waku](https://github.com/waku-org/go-waku)
 
 ## Research
 

@@ -28,7 +28,7 @@
       "operator.md",
       "contribute.md"
     ],
-    "folderOrdersInSidenav": ["docs"],
+    "folderOrdersInSidenav": [],
     "external_links": [
       {
         "text": "Blog",
@@ -47,7 +47,7 @@
       },
       {
         "text": "Careers",
-        "url": "https://status.im/our_team/jobs.html",
+        "url": "https://jobs.status.im/",
         "category": "Links"
       },
       {
@@ -79,7 +79,7 @@
       },
       {
         "provider": "github",
-        "handler": "status-im/?q=waku&type=&language=&sort="
+        "handler": "waku-org"
       },
       {
         "provider": "telegram",
