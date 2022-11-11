@@ -6,7 +6,7 @@ Waku is the communication layer for Web3. Decentralized communication that scale
 
 Private. Secure. Runs anywhere.
 
-[Check the docs](https://docs.wakuconnect.dev/)
+[Check the docs](https://js.waku.guide/)
 
 ## What is Waku?
 
@@ -53,12 +53,6 @@ Status is a secure messaging app, crypto wallet, and Web3 browser built with sta
 
 [Visit Status](https://status.im/)
 
-### WalletConnect
-
-WalletConnect v2 is using Waku v2 for decentralized messaging infrastructure.
-
-[Visit WalletConnect](https://walletconnect.com/)
-
 ### RAILGUN
 
 RAILGUN is a privacy system for Ethereum that shields your assets in your own smart contract wallet.
@@ -66,6 +60,12 @@ RAILGUN uses Waku when offering the ETH gas payments to other users,
 privately signaling fees and offers for gas payment relayers to keep the privacy & anonymity of your stablecoin & token transactions.
 
 [Visit RAILGUN](https://railgun.org/)
+
+### XMTP
+
+XMTP is using Waku v2 for their open protocol and network for secure web3 messaging.
+
+[Visit XMTP](https://xmtp.com/)
 
 ## Implementations
 
@@ -80,17 +80,23 @@ Reference client and flagship implementation.
 
 A JavaScript implementation for browser environments.
 
-[js-waku docs](https://docs.wakuconnect.dev/)
+[js-waku docs](https://js.waku.guide/)
 
 ### go-waku
 
 A Go implementation for native integration in go applications,
 C-Bindings are also available with C#, Swift and Kotlin examples.
 
-[go-waku repository](https://github.com/status-im/go-waku)
+[go-waku repository](https://github.com/waku-org/go-waku)
 
 ### @waku/react-native
 
 Integrate Waku in your React Native app using go-waku for mobile.
 
-[@waku/react-native repo](https://github.com/status-im/waku-react-native)
+[@waku/react-native repo](https://github.com/waku-org/waku-react-native)
+
+### Waku Rust Bindings
+
+Rust layer on top of go-waku C FFI bindings.
+
+[waku-rust-bindings repo](https://github.com/waku-org/waku-rust-bindings)

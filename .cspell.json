@@ -13,6 +13,7 @@
     "supercrypto",
     "RAILGUN",
     "unlinkability",
-    "Waku"
+    "Waku",
+    "XMTP"
   ]
 }

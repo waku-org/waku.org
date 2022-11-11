@@ -2,15 +2,15 @@
   "name": "@waku/waku.org",
   "version": "1.0.0",
   "main": "\"\"",
-  "repository": "git@github.com:vacp2p/waku.org.git",
+  "repository": "git@github.com:waku-org/waku.org.git",
   "author": "Franck Royer <franck@status.im>",
   "license": "MIT OR Apache-2.0",
   "private": true,
   "scripts": {
-    "fix": "prettier \"*.md\" \"docs/**/*.md\" \"./*.json\" --write",
+    "fix": "prettier \"*.md\" \"./*.json\" --write",
     "test": "run-p test:**",
-    "test:format": "prettier \"*.md\" \"docs/**/*.md\" \"./*.json\" --list-different",
-    "test:spelling": "cspell \"*.md\" \"docs/**/*.md\" config.json",
+    "test:format": "prettier \"*.md\" \"./*.json\" --list-different",
+    "test:spelling": "cspell \"*.md\" config.json",
     "prepare": "husky install"
   },
   "lint-staged": {
