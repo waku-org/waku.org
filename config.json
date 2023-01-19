@@ -21,7 +21,7 @@
   "static_assets_folder": "static-assets",
   "navigation": {
     "home": "main.md",
-    "exclude": ["privacy-policy.md", "terms-of-use.md"],
+    "exclude": ["privacy-policy", "terms-of-use"],
     "fileOrdersInSidenav": [
       "main.md",
       "about.md",
