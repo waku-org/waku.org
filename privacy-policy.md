@@ -98,10 +98,14 @@ decide, and Waku has no access to such private keys and doesn’t process
 any personal data in this respect.
 
 -   Data processed through external (social media) pages:
-
-| Personal Data                                                                                                                                                                                                                                                         	| Purpose(s)                                                                                                                                                                                                                                                                     	| Legal basis                                                                                                                                                                                                                                                                                             	| Stored                                                                                                                                   	|
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|------------------------------------------------------------------------------------------------------------------------------------------	|
-| - Information you make publicwhen you leave a comment orotherwise post something onour external (social media) pages- For example, Waku has pages onthe following (social media) platforms:Facebook, Twitter, Instagram, YouTube,Reddit, GitHub, Discuss and Discord. 	| We may use these data to:- Contact you via our (social media) pages- Process your input and/or feedbackleft on our (social media) pagesWe will explicitly not gatherany more information about youor link your social media accountto your chat name, ENS name, or IP-address. 	| Legitimate Interest:- Necessary to get in touch with you regarding your message- Process your input, respond to feedbackOur external (social media) pages are also controlled bythe platform itself.Please check the social media privacy policies,to see how each platform handles your personal data. 	| As long as your messageis available on the pages concerned,in accordance with the page’s privacy policy,or until you delete the message. 	|
+    - **Personal Data:**
+Information you make publicwhen you leave a comment orotherwise post something onour external (social media) pages- For example, Waku has pages onthe following (social media) platforms:Facebook, Twitter, Instagram, YouTube,Reddit, GitHub, Discuss and Discord.	
+    - **Purpose(s):**
+We may use these data to:- Contact you via our (social media) pages- Process your input and/or feedbackleft on our (social media) pagesWe will explicitly not gatherany more information about youor link your social media accountto your chat name, ENS name, or IP-address.
+    - **Legal basis:**
+    Legitimate Interest:- Necessary to get in touch with you regarding your message- Process your input, respond to feedbackOur external (social media) pages are also controlled bythe platform itself.Please check the social media privacy policies,to see how each platform handles your personal data.	
+    - **Stored:**
+    As long as your messageis available on the pages concerned,in accordance with the page’s privacy policy,or until you delete the message.
 
 -   Community support
 
@@ -111,11 +115,15 @@ platforms.
 
 Data processed when you contact us:
 
-| Personal Data                                                                                                                                                                                                                                                                                                     | Purpose(s)                                                                                 | Legal basis                                                                                                                                                                           | Stored                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| - Your chat name or ENS name andall (personal) data you share with usin your message on social media platforms.- Your email address when you send us an emailPlease note: as a rule, your chat nameis generated by you or on your own devices.Your chat name will only beKnown by us if you decide to contact us. | We use these data to:Contact you about your messageProvide you information and/or support. | Consent and Legitimate Interest :- Necessary to contact you aboutyour message to provide youthe support you requested- You give your consentto being contacted by reaching out to us. | As long as needed to resolve your concern. |
 
-
+- **Personal Data:**
+    Your chat name or ENS name andall (personal) data you share with usin your message on social media platforms.- Your email address when you send us an emailPlease note: as a rule, your chat nameis generated by you or on your own devices.Your chat name will only beKnown by us if you decide to contact us.	
+- **Purpose(s):**
+    We use these data to:Contact you about your messageProvide you information and/or support.
+- **Legal basis:**
+    Consent and Legitimate Interest :- Necessary to contact you aboutyour message to provide youthe support you requested- You give your consentto being contacted by reaching out to us.	
+- **Stored:**
+    As long as needed to resolve your concern.
 
 **4**
 
