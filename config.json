@@ -19,6 +19,7 @@
   },
   "template": "default",
   "static_assets_folder": "static-assets",
+  "useTerms": true,
   "navigation": {
     "home": "main.md",
     "exclude": ["privacy-policy", "terms-of-use"],
