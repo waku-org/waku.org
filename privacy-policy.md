@@ -97,11 +97,19 @@ This means, that your private keys are stored by you in the way you
 decide, and Waku has no access to such private keys and doesn’t process
 any personal data in this respect.
 
-- Data processed through external (social media) pages: - **Personal Data:**
-  Information you make public when you leave a comment or otherwise post something on our external (social media) pages- For example, Waku has pages on the following (social media) platforms:Facebook, Twitter, Instagram, YouTube,Reddit, GitHub, Discuss and Discord. - **Purpose(s):**
-  We may use these data to:- Contact you via our (social media) pages- Process your input and/or feedback left on our (social media) pagesWe will explicitly not gather any more information about you or link your social media account to your chat name, ENS name, or IP-address. - **Legal basis:**
-  Legitimate Interest:- Necessary to get in touch with you regarding your message- Process your input, respond to feedbackOur external (social media) pages are also controlled by the platform itself.Please check the social media privacy policies,to see how each platform handles your personal data. - **Stored:**
-  As long as your message is available on the pages concerned,in accordance with the page’s privacy policy,or until you delete the message.
+- Data processed through external (social media) pages:
+
+  - **Personal Data:**
+    Information you make public when you leave a comment or otherwise post something on our external (social media) pages- For example, Waku has pages on the following (social media) platforms:Facebook, Twitter, Instagram, YouTube,Reddit, GitHub, Discuss and Discord.
+
+  - **Purpose(s):**
+    We may use these data to:- Contact you via our (social media) pages- Process your input and/or feedback left on our (social media) pagesWe will explicitly not gather any more information about you or link your social media account to your chat name, ENS name, or IP-address.
+
+  - **Legal basis:**
+    Legitimate Interest:- Necessary to get in touch with you regarding your message- Process your input, respond to feedbackOur external (social media) pages are also controlled by the platform itself.Please check the social media privacy policies,to see how each platform handles your personal data.
+
+  - **Stored:**
+    As long as your message is available on the pages concerned,in accordance with the page’s privacy policy,or until you delete the message.
 
 - Community support
 
