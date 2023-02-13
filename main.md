@@ -74,7 +74,7 @@ XMTP is using Waku v2 for their open protocol and network for secure web3 messag
 A nim implementation of the Waku v2 protocol.
 Reference client and flagship implementation.
 
-[nwaku repository](https://github.com/status-im/nwaku)
+[nwaku repository](https://github.com/waku-org/nwaku)
 
 ### js-waku
 
