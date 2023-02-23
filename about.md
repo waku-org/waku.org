@@ -28,7 +28,7 @@ This messaging can be human-to-human or machine-to-machine or a mix.
 ### Resource restricted
 
 These applications often run in constrained environments,
-where resources or the environment is restricted in some fashion.
+where resources or the environment are restricted in some fashion.
 E.g.:
 
 - limited bandwidth, CPU, memory, disk, battery, etc.,
