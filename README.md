@@ -12,8 +12,8 @@ Content of https://waku.org website.
 
 ## Continuous Integration
 
-- `develop` branch is pushed to [dev.waku.org](https://dev.waku.org) via GitHub Action.
-- `master` branch is pushed to [waku.org](https://waku.org) via GitHub Action.
+* `master` branch is deployed to https://waku.org by [CI](https://ci.infra.status.im/job/website/job/waku.org/).
+* `develop` branch is deployed to https:/dev.waku.org by [CI](https://ci.infra.status.im/job/website/job/dev.waku.org/).
 
 ## Format & spelling checks
 
