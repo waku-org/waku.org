@@ -14,7 +14,7 @@
         "published": true,
         "title": "Main page"
       },
-      "navOrder": 1679484446.309,
+      "navOrder": 1685028084.829,
       "localPath": "main.md",
       "path": [],
       "children": [],
@@ -26,7 +26,7 @@
         "title": "About",
         "category": "page"
       },
-      "navOrder": 1679484445.308,
+      "navOrder": 1685028083.828,
       "localPath": "about.md",
       "path": [
         "about"
@@ -39,7 +39,7 @@
         "published": true,
         "title": "Use Waku in Your Application"
       },
-      "navOrder": 1679484444.31,
+      "navOrder": 1685028082.83,
       "localPath": "platform.md",
       "path": [
         "platform"
@@ -52,7 +52,7 @@
         "published": true,
         "title": "Run a Waku Node"
       },
-      "navOrder": 1679484443.309,
+      "navOrder": 1685028081.83,
       "localPath": "operator.md",
       "path": [
         "operator"
@@ -65,7 +65,7 @@
         "published": true,
         "title": "Contribute to Waku"
       },
-      "navOrder": 1679484442.309,
+      "navOrder": 1685028080.829,
       "localPath": "contribute.md",
       "path": [
         "contribute"
