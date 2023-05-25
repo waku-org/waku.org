@@ -55,17 +55,21 @@ Status is a secure messaging app, crypto wallet, and Web3 browser built with sta
 
 ### RAILGUN
 
-RAILGUN is a privacy system for Ethereum that shields your assets in your own smart contract wallet.
-RAILGUN uses Waku when offering the ETH gas payments to other users,
-privately signaling fees and offers for gas payment relayers to keep the privacy & anonymity of your stablecoin & token transactions.
+RAILGUN uses Waku to offer private gas payments to users, ensuring anonymity and privacy for their transactions.
 
 [Visit RAILGUN](https://railgun.org/)
 
 ### XMTP
 
-XMTP is using Waku v2 for their open protocol and network for secure web3 messaging.
+XMTP uses the Waku network to enable secure Web3 messaging in their open protocol and network.
 
 [Visit XMTP](https://xmtp.com/)
+
+### The Graph
+
+Waku powers the Graphcast SDK, enabling the development of gossip-powered applications within The Graph ecosystem.
+
+[Visit The Graph](https://thegraph.com/)
 
 ## Implementations
 
