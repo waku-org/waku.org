@@ -13,7 +13,7 @@ Yet, it doesn't have to be this way. Advances in cryptography, p2p technologies 
 
 <br/>
 
-### (Slowly) moving toward a decentralized web
+## (Slowly) moving toward a decentralized web
 
 The early Ethereum community realized this. Initially, the plan was to rebuild the web's architecture along decentralized lines by developing the so-called "Holy Trinity of the Decentralized Web." Ethereum itself would handle logic, Swarm was the reimagined web's storage layer and Whisper would take care of messaging.
 
@@ -29,7 +29,7 @@ Status, the decentralized messaging application, hoped to leverage Whisper but w
 
 <br/>
 
-### The birth of Waku
+## The birth of Waku
 
 In 2020, Waku v1 was released. A fork of the Whisper codebase, this initial version introduced various Vac-proposed optimizations, resulting in a more performant messaging protocol. Yet, it was clear that further changes were needed if Waku was to handle the volume of messages an application like Status would produce.
 

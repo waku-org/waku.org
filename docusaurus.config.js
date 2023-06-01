@@ -8,9 +8,6 @@ const config = {
   url: 'https://url',
   baseUrl: '/',
 
-  customFields: {
-    ghostAPiKey: process.env.GHOST_API_KEY,
-  },
   markdown: {
     mermaid: true,
   },
@@ -33,21 +30,34 @@ const config = {
           name: 'default',
           options: {
             customCss: [require.resolve('./src/css/custom.scss')],
+            docs: {
+              default: {
+                sidebar: {
+                  hide: true,
+                },
+              },
+            },
           },
         },
         docs: {
-          routeBasePath: '/about',
-          versions: {
-            current: {
-              label: 'current',
-            },
-          },
-          lastVersion: 'current',
+          routeBasePath: '/',
+          path: 'root-pages',
         },
       }),
     ],
   ],
   themes: ['@docusaurus/theme-mermaid'],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'about',
+        routeBasePath: '/about',
+        path: 'about',
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
@@ -57,6 +67,7 @@ const config = {
         disableSwitch: false,
       },
       navbar: {
+        hideOnScroll: true,
         items: [
           {
             type: 'search',
@@ -113,7 +124,7 @@ const config = {
                 label: 'Privacy policy',
               },
               {
-                href: '/',
+                href: '/terms',
                 label: 'Temrs & conditions',
               },
             ],
