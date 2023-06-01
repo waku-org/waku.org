@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.5":
-  version "1.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.5.tgz#5c2c0c5e853ac5fd7bcd60f4cfd5fbe32dca23a9"
-  integrity sha512-4QMlEhxByT7QXI33mFJoEkaxbS5XOnTbYZWna6WrnZGQf7P9SkrMKMY5r7sxWevJyDDrj9VAz/XkLgzCjGYvzg==
+"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.6":
+  version "1.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.6.tgz#e2d7473b909f3c6dd8292753db464cda4883ac4d"
+  integrity sha512-1WMDUNVTU9HmbS4Swy5OjmqHlMQqG6xeJ5TrvueG7T/uXEIGgqsoi+Cez+2ftaDeuD+MVbsmmOLSQjG2UoHNfQ==
   dependencies:
     "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.0"
-    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.5"
+    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.6"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -34,12 +34,12 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.5":
-  version "1.0.0-alpha.5"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.5.tgz#608bb4130baaabeb472278fb4737af58f44d1c3d"
-  integrity sha512-GQjuk03skPsdKyQYKt27OfuD5BcpTZxOQ8HMLwsUNWsLwEcHuVgCKJbb5UCom2yL3Fek0Qp6egf7AKR5w8xZ3g==
+"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.6":
+  version "1.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.6.tgz#de48ba3a2a904e53b0e216cdc7c25258e872c62d"
+  integrity sha512-ZoEOEGHBOATWkXjGT5EgQMxkM4zoqAwPkFv3PyLGl95ubd4SSp90gz3y7OX02NHhc39Q39bv2+/N5sTmDT2bTw==
   dependencies:
-    "@acid-info/logos-docusaurus-preset" "^1.0.0-alpha.5"
+    "@acid-info/logos-docusaurus-preset" "^1.0.0-alpha.6"
     "@acid-info/lsd-react" "^0.1.0-alpha.8"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/mdx-loader" "^2.4.1"
