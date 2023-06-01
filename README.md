@@ -1,48 +1,46 @@
-# Waku.org
+- [Description](#description)
+- [How to Run Locally](#how-to-run-locally)
+- [Configuration](#configuration)
+- [Customization](#customization)
 
 ## Description
 
-Content of https://waku.org website.
+This repository contains the content of your documentation website.
 
-## Practical notes
+## How to Run Locally
 
-- Please keep this repo clean and for markdown content ONLY
-- In case you have any issue with rendering, how website looks, etc,
-  please file an issue on [logos website builder](https://github.com/acid-info/logos-site-builder).
-
-## Continuous Integration
-
-* `master` branch is deployed to https://waku.org by [CI](https://ci.infra.status.im/job/website/job/waku.org/).
-* `develop` branch is deployed to https:/dev.waku.org by [CI](https://ci.infra.status.im/job/website/job/dev.waku.org/).
-
-## Format & spelling checks
-
-Format and spelling checks are done via npm commands.
-
-Installation:
-
-```shell
-yarn
+1. Clone this repository.
+2. Install the dependencies:
+```bash
+$ yarn
+```
+3. Start and open the website in your browser:
+```bash
+$ yarn start
 ```
 
-This will automatically install a git hook to format and check spelling at commit time.
-You can also trigger the commands manually:
+## Configuration
+Edit the `docusaurus.config.js` file in the repository's root directory, and update the value of the `businessUnit` field in presets section; below is a list of valid values:
+- Logos
+- Codex
+- Waku
 
-Fix format:
-
-```shell
-yarn fix
+Example:
+```js
+presets: [
+  [
+    '@acid-info/logos-docusaurus-preset',
+    {
+      businessUnit: 'Codex',
+    },
+  ],
+],
 ```
 
-Check spelling and format:
+This is probably enough in most cases, as the Logos plugins will fill in other configurations related to the specified business unit. If you find any error in the information coming from Logos Plugins, please head over to [Logos Docusaurus Plugins](https://github.com/acid-info/logos-docusaurus-plugins) and create an issue.
 
-```shell
-yarn check
-```
+## Customization
 
-## Change Process
+You can find the instructions on adding more documentation sections, localization, and versioning on the [Docusaurus](https://docusaurus.io/docs) website.
 
-1. Create a new working branch from `develop`: `git checkout develop; git checkout -b my-changes`,
-2. Proceed with changes, push to `origin` and open a Pull Request against `develop`,
-3. Once approved, merge pull request, check changes on [dev.waku.org](https://dev.waku.org),
-4. Once ready to promote to live website, rebase master on develop: `git checkout master; git pull master; git rebase origin/develop; git push`.
+> Note that theme customization is limited; for further instructions on customizing your theme, head over to [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/). 
