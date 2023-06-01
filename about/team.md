@@ -7,11 +7,11 @@ Leading Waku's R&D efforts is Franck Royer. Royer draws on more than five years 
 
 The core contributors building Waku are split into three subgroups:
 
-#### Waku Research
+## Waku Research
 
 Our research efforts are led by a former telecoms engineer with almost a decade of experience, and supported by a post-doctoral research engineer who specializes in communications networks.
 
-#### Waku Development
+## Waku Development
 
 Waku's development arm is broken down by client implementation.
 
@@ -21,7 +21,7 @@ Waku's development arm is broken down by client implementation.
 
 - go-waku: Building Waku's Golang implementation is a senior software engineer with almost 15 years of experience, including five in web3.
 
-#### Waku Outreach
+## Waku Outreach
 
 Ensuring that Waku attracts developers and users is the Waku Outreach team. It comprises a developer relations engineer and a technical writer. Both members are steeped in web3, having previously worked with Wallet Connect and Unstoppable Domains, and regularly presenting on the crypto conference circuit.
 

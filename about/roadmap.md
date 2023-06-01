@@ -11,31 +11,31 @@ Meanwhile, the team is also working on ensuring production readiness alongside n
 
 <br/>
 
-#### Secure scalability
+## Secure scalability
 
 Alongside Vac researchers, Waku is producing and implementing various RFCs to define the protocols and application guidelines required to serve more than one million simultaneous users. We then aim to study Waku's capacity through network simulations before designing and implementing scalability risk-mitigation strategies.
 
-#### Production readines
+## Production readines
 
 We will consider Waku v2 production ready when it's performant, stable and bug-free while satisfying user requirements. This process will involve collaboration with Status teams to test the protocols, and further simulations to assess future updates' expected performances. Ensuring that Waku has adequate protection against spam and DoS attacks is critically important to this milestone.
 
-#### Network sustainability
+## Network sustainability
 
 Many of Waku's core value propositions—privacy and resistance to censorship, for example—are reliant on its decentralization. While our most passionate users may well operate network infrastructure altruistically, incentivization mechanisms will ensure a wider node distribution and, thus, strengthen Waku's more disruptive properties.
 
 This process will involve defining a viable incentivization structure via RFC and studying its efficacy to tweak parameters through test net simulations before implementation on the main net.
 
-#### Development sustainability
+## Development sustainability
 
 We believe Waku will only realize its true potential if its community and users believe in its longevity. As such, Waku's development must remain funded. Again, arriving at a suitable funding mechanism will involve several RFCs to define how much of the network's extractable value can be diverted toward R&D efforts.
 
-#### Growth
+## Growth
 
 After achieving the above milestones, we will be in a position to aggressively market Waku to potential contributors and developers within the web3 sector and beyond. As a piece of public goods infrastructure, we encourage the wider community to help improve the protocols by contributing to our R&D efforts. However, promotion is an ongoing process that is already underway, involving conference attendance and sponsorship, hosting developer workshops, producing promotional material, and appearing on industry-focused podcasts.
 
 <br/>
 
-### Roadmap rationale
+## Roadmap rationale
 
 Completing the roadmap objectives described above will best position Waku for maximum user adoption. Proving Waku is scalable and reliable must come before subsequent milestones as the network's non-functionality will discourage infrastructure operators regardless of the incentive structure we put in place.
 

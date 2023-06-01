@@ -21,7 +21,7 @@ Waku was built as open-source public goods infrastructure to serve as the commun
 
 <br/>
 
-### Network architecture
+## Network architecture
 
 The Waku team has developed three clients to run in different environments along with a range of SDKs in Rust, React Native, Kotlin and Swift:
 
@@ -31,7 +31,7 @@ The Waku team has developed three clients to run in different environments along
 
 Waku is best thought of as a cohesive whole in terms of its capabilities. However, under the hood are three distinct network interaction domains: gossip, discovery and request/response.
 
-#### Waku protocols
+### Waku protocols
 
 Waku compromises multiple protocols, including but not limited to the following:
 
