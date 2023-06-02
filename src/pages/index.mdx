@@ -26,20 +26,18 @@ import {
       Waku is a decentralized communications network
     </HeroDescription>
     <HeroActions>
-      <HeroAction href="https://docs.waku.org" target="_blank">
-        Build on Waku
-      </HeroAction>
       <HeroAction variant="filled" href="https://docs.waku.org" target="_blank">
-        Run Waku
+        Explore Waku
       </HeroAction>
     </HeroActions>
   </HeroInfo>
   <HeroModel
-    modelId={'default'}
-    mode={'abstract'}
+    modelId={'atlas'}
+    mode={'simple'}
     rotateSpeed={0.04}
+    startY={'top'}
     asciiConfig={{
-      characters: '  w . a . k . u . & * ',
+      characters: ' + ^ ^%%%0 -a @@@ ###',
     }}
   />
 </Hero>
@@ -55,42 +53,32 @@ import {
     {
       title: 'Runs anywhere',
       description:
-        "Waku's modularity enables developers to integrate Waku protocols according to their use case and users' hardware restraints",
+        "Waku's modularity enables developers to integrate protocols according to their use case and users' hardware restraints. Waku was designed to be lightweight, enabling it to run in resource-restricted environments like browsers and mobile devices.",
     },
     {
       title: 'Scalable',
       description:
-        'Waku aims to scale to support millions of users by dividing the flow of messages into shards—not every node needs to forward every message—while discovery protocols ensure users connect to the nodes serving relevant messages.',
+        'Waku aims to scale to support millions of users by automatically sharding message flows while discovery protocols ensure users only connect to nodes serving relevant messages.',
     },
     {
-      title: 'Secure',
+      title: 'Decentralized',
       description:
-        "Waku's native incentivization mechanisms ensure a wide node distribution, making it highly secure and strengthening its privacy assurances.",
+        "Waku's native incentivization mechanisms will ensure a wide node distribution, making it highly secure and strengthening its privacy assurances.",
     },
   ]}
 >
-  <CallToActionButton variant="outlined" href="https://docs.waku.org">
-    Decentralize your DApp
+  <CallToActionButton variant="outlined" href="/about/architect" target="_self">
+    Read More
   </CallToActionButton>
 </FeatureList>
 
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
-    title="Team"
-    columns={1}
-    description="Waku is built and maintained by a global team of experienced and driven software developers and researchers that share a passion for privacy and decentralized technologies. "
-    label="Read more"
-    href="/about/team"
-  />
-</Box>
-
-<Box top={{ xs: 144, lg: 216 }}>
-  <CallToActionSection
     title="Used by"
     columns={2}
-    description="Waku has brought private, censorship-resistant communications to several notable web3 DApps, decentralizing their messaging components:"
-    label="Decentrialize your DApp"
-    href="https://docs.waku.org"
+    description="Waku is part of the Logos Collective's tech stack. Logos builds shared public infrastructure to provide trust-minimized, corruption-resistant governing services and social institutions to underserved citizens."
+    label="Fully decentralize your DApp"
+    href="https://github.com/waku-org"
   />
 </Box>
 
@@ -132,17 +120,21 @@ import {
 
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
-    title="Development roadmap"
-    description="Waku has the ambitious goal of attracting and supporting millions of simultaneous users, truly serving as the communications standard across web3. Our development roadmap focuses on achieving secure scalability before implementing incentivization mechanisms to sustain Waku."
+    title="Contributors"
+    columns={1}
+    description="Waku is built and maintained by a global team of experienced and driven software developers and researchers that share a passion for privacy and decentralized technologies."
     label="Read more"
-    href="/about/roadmap"
+    href="/about/team"
+    target="_self"
   />
 </Box>
 
-<Box top={{ xs: 144, lg: 336 }} bottom={{ lg: 16, xs: 64 }}>
+<Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
-    title="Join the community to discover what Waku can bring to your DApp"
-    label="Decentralize your DApp"
-    href="/join"
+    title="Development roadmap"
+    description="Waku has the ambitious goal of attracting and supporting millions of simultaneous users, truly serving as the communications standard across web3. Our development roadmap focuses on achieving secure scalability before implementing incentivization mechanisms needed to sustain Waku."
+    label="Read more"
+    href="/about/roadmap"
+    target="_self"
   />
 </Box>
