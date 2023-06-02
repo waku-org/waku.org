@@ -100,11 +100,11 @@ const config = {
                 label: 'Discord',
               },
               {
-                href: '/',
+                href: 'https://docs.waku.org',
                 label: 'Docs',
               },
               {
-                href: 'https://github.com/status-im',
+                href: 'https://github.com/waku-org',
                 label: 'Github',
               },
             ],
@@ -118,10 +118,6 @@ const config = {
               {
                 href: 'https://jobs.status.im/',
                 label: 'Work with us',
-              },
-              {
-                href: '/',
-                label: 'Privacy policy',
               },
               {
                 href: '/terms',
