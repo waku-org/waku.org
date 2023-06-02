@@ -77,6 +77,10 @@ const config = {
             to: '/about',
           },
           {
+            label: 'Docs',
+            href: 'https://docs.waku.org',
+          },
+          {
             label: 'Github',
             href: 'https://github.com/status-im',
           },
@@ -121,7 +125,7 @@ const config = {
               },
               {
                 href: '/terms',
-                label: 'Temrs & conditions',
+                label: 'Terms & conditions',
               },
             ],
           },
