@@ -66,10 +66,6 @@ const config = {
             to: '/about',
           },
           {
-            label: 'Blog',
-            href: '/',
-          },
-          {
             label: 'Github',
             href: 'https://github.com/status-im',
           },
