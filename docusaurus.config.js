@@ -82,7 +82,7 @@ const config = {
           },
           {
             label: 'Github',
-            href: 'https://github.com/status-im',
+            href: 'https://github.com/waku-org',
           },
         ],
       },
