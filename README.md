@@ -1,5 +1,7 @@
 - [Description](#description)
 - [How to Run Locally](#how-to-run-locally)
+- [Continuous Integration](#continuous-integration)
+- [Format \& spelling checks](#format--spelling-checks)
 - [Configuration](#configuration)
 - [Customization](#customization)
 
@@ -9,14 +11,23 @@ This repository contains the content of your documentation website.
 
 ## How to Run Locally
 
-1. Clone this repository.
-2. Install the dependencies:
-```bash
-$ yarn
-```
-3. Start and open the website in your browser:
-```bash
-$ yarn start
+- Please keep this repo clean and for markdown content ONLY
+- In case you have any issue with rendering, how website looks, etc,
+  please file an issue on [logos website builder](https://github.com/acid-info/logos-site-builder).
+
+## Continuous Integration
+
+- `master` branch is deployed to https://waku.org by [CI](https://ci.infra.status.im/job/website/job/waku.org/).
+- `develop` branch is deployed to https:/dev.waku.org by [CI](https://ci.infra.status.im/job/website/job/dev.waku.org/).
+
+## Format & spelling checks
+
+Format and spelling checks are done via npm commands.
+
+Installation:
+
+```shell
+yarn
 ```
 
 ## Configuration
