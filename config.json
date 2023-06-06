@@ -54,7 +54,7 @@
       },
       {
         "text": "Discord",
-        "url": "https://discord.gg/Nrac59MfSX",
+        "url": "https://discord.waku.org",
         "category": "Connect"
       },
       {
@@ -77,7 +77,7 @@
       },
       {
         "provider": "discord",
-        "handler": "j5pGbn7MHZ"
+        "handler": "gMPAzmcDER"
       },
       {
         "provider": "github",

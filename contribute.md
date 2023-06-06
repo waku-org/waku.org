@@ -48,7 +48,7 @@ Learn more at https://vac.dev/
 ## Other Ways of Contributing
 
 If you are keen to contribute but not sure how,
-join the discussion on [Vac Discord](https://discord.gg/Nrac59MfSX)
+join the discussion on [Waku Discord](https://discord.waku.org)
 or the [Waku Telegram Group](https://t.me/waku_org).
 
 Waku is a public good, we are always welcoming help from the community.
