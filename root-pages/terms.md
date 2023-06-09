@@ -1,6 +1,6 @@
 # Terms of Use
 
-These terms and conditions (“**Website Terms of Use**”) are entered into by you and us, and they govern your access and use of the Website, including any content and functionality contained in the Website.
+These terms and condition (“**Website Terms of Use**”) are entered into by you and us, and they govern your access and use of the Website, including any content and functionality contained in the Website.
 
 It is your responsibility to read the Website Terms of Use carefully before your use of the Website and your use of the Website means you have agreed to be bound and comply with these Website Terms of Use.
 
