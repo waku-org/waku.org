@@ -2,38 +2,39 @@ import {
   Hero,
   HeroTitle,
   HeroDescription,
+  HeroVideo,
   HeroActions,
   HeroAction,
   CallToActionSection,
   CallToActionButton,
   FeatureList,
   Showcase,
-  HeroModel,
   HeroInfo,
   Box,
 } from '../components/mdx'
 
 <Hero size="large">
   <HeroInfo>
-    <HeroTitle>The standard <br/>for web3 communications</HeroTitle>
+    <HeroTitle>
+      {`Waku Is Uncompromising Web3 Communication at Scale`}
+    </HeroTitle>
     <HeroDescription>
-      Waku is a decentralized communications network, built for generalized private and censorship-resistant messaging, supporting resource-restricted environments like phones and browsers
+      {`A family of robust, censorship-resistant communication protocols, designed to enable privacy-focused messaging for web3 apps.`} 
     </HeroDescription>
     <HeroActions>
-      <HeroAction variant="outlined" href="https://docs.waku.org" target="_blank">
-        Explore Waku
+      <HeroAction href="https://github.com/waku-org" target="_blank">
+        {`Get Waku`} 
       </HeroAction>
     </HeroActions>
   </HeroInfo>
-  <HeroModel
-    modelId={'atlas'}
-    mode={'abstract'}
-    rotateSpeed={0.04}
-    startY={'bottom'}
-    asciiConfig={{
-      characters: ' w . a . k . u ',
-    }}
-  />
+  <HeroVideo
+    placeholderSrc="/hero/prome01-1080x1080-placeholder.png"
+    desktop={{ scale: "68%", offsetY: "-14%" }}
+    mobile={{ scale: "140%", offsetY: "-25%" }}
+  >
+    <source src="/hero/prome01-2048x2048-24fps-1M.mov" type='video/mp4; codecs="hvc1"' />
+    <source src="/hero/prome01-2048x2048-24fps-1M.webm" type="video/webm" />  
+  </HeroVideo>
 </Hero>
 
 <FeatureList
