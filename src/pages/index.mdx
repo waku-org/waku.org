@@ -9,6 +9,7 @@ import {
   CallToActionButton,
   FeatureList,
   Showcase,
+  Roadmap,
   HeroInfo,
   Box,
 } from '../components/mdx'
@@ -19,18 +20,18 @@ import {
       {`Waku Is Uncompromising Web3 Communication at Scale`}
     </HeroTitle>
     <HeroDescription>
-      {`A family of robust, censorship-resistant communication protocols, designed to enable privacy-focused messaging for web3 apps.`} 
+      {`A family of robust, censorship-resistant communication protocols designed to enable privacy-focused messaging for web3 apps.`} 
     </HeroDescription>
     <HeroActions>
-      <HeroAction href="https://github.com/waku-org" target="_blank">
-        {`Get Waku`} 
+      <HeroAction href="https://docs.waku.org/" target="_blank">
+        {`Learn more`} 
       </HeroAction>
     </HeroActions>
   </HeroInfo>
   <HeroVideo
     placeholderSrc="/hero/prome01-1080x1080-placeholder.png"
-    desktop={{ scale: "68%", offsetY: "-14%" }}
-    mobile={{ scale: "140%", offsetY: "-25%" }}
+    desktop={{ scale: "2", offsetY: "max(-240px, -45%)" }}
+    mobile={{ scale: "1.45", offsetY: "-100px" }}
   >
     <source src="/hero/prome01-2048x2048-24fps-1M.mov" type='video/mp4; codecs="hvc1"' />
     <source src="/hero/prome01-2048x2048-24fps-1M.webm" type="video/webm" />  
@@ -43,22 +44,22 @@ import {
     {
       title: 'Private',
       description:
-        'Waku leverages cutting-edge zero-knowledge encryption to ensure all messages and associated metadata benefit from rock-solid privacy guarantees.',
+        'Waku leverages cutting-edge zero-knowledge encryption to guarantee all messaging and associated metadata benefit from rock-solid privacy, protecting users from third-party intervention.',
     },
     {
-      title: 'Runs anywhere',
+      title: 'Censorship resistant',
       description:
-        "Waku's modularity enables developers to integrate protocols according to their use case and users' hardware restraints. Waku was designed to be lightweight, enabling it to run in resource-restricted environments like browsers and mobile devices.",
+        "Decentralized human-to-human, machine-to-human, and machine-to-machine communication, with no single point of failure. Waku’s native incentivization mechanism stimulates an expanding node distribution, promoting an increasingly secure network.",
+    },
+    {
+      title: 'Modular',
+      description:
+        'Waku protocols are adaptive and platform agnostic and can be customized based on an application’s unique demands. Waku is built to flourish even in resource-restricted environments like browsers and mobile devices.',
     },
     {
       title: 'Scalable',
       description:
-        'Waku aims to scale to support millions of users by automatically sharding message flows while discovery protocols ensure users only connect to nodes serving relevant messages.',
-    },
-    {
-      title: 'Decentralized',
-      description:
-        "Waku's native incentivization mechanisms will ensure a wide node distribution, making it highly secure and strengthening its privacy assurances.",
+        "Waku employs message sharding for efficient throughput, while its discovery protocol ensures a user connects to nodes serving messages they are interested in.",
     },
   ]}
 >
@@ -69,9 +70,19 @@ import {
 
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
-    title="Used by"
+    title="Logos Network State"
+    columns={1}
+    description="Waku is powering the communication layer of the Logos Network State. Logos is a grassroots movement to provide trust-minimized, corruption-resistant governing services and social institutions to peaceful people worldwide. Learn more about our ambitious vision."
+    label="Explore Logos"
+    href="https://logos.co/"
+  />
+</Box>
+
+<Box top={{ xs: 144, lg: 216 }}>
+  <CallToActionSection
+    title="User Endorsements"
     columns={2}
-    description="Waku is part of the Logos Collective's tech stack. Logos builds shared public infrastructure to provide trust-minimized, corruption-resistant governing services and social institutions to underserved citizens."
+    description="Waku has brought private, censorship-resistant communications to several notable web3 DApps, decentralizing their messaging components:"
     label="Fully decentralize your DApp"
     href="https://github.com/waku-org"
   />
@@ -80,56 +91,103 @@ import {
 <Box top={{ xs: 64, lg: 100 }}>
   <Showcase
     id="showcase"
+    columns={3}
     items={[
       {
         name: 'Status',
         logo: '/showcase/status-mark-black.svg',
         logoDark: '/showcase/status-mark-white.svg',
         description:
-          "Waku powers many of the Status super app's features, including its private messaging.",
+          "Waku v2 has been instrumental in helping us scale the Status application securely while maintaining the decentralized nature of our network. The Waku team has been invaluable in providing practical solutions during the development of the Waku v2 protocol, enabling us to deliver essential Status Communities features.",
       },
       {
         name: 'Railgun',
         logo: '/showcase/railgun-mark-black.svg',
         logoDark: '/showcase/railgun-mark-white.svg',
         description:
-          'The privacy-focused DeFi protocol Railgun anonymizes Ethereum transactions with Waku. ',
+          "RAILGUN contributors selected Waku to run its relayer network as an early-stage but promising product of the privacy-centric status.im ecosystem. We have not been disappointed. The developers are extremely professional and responsive, and continue to strive to understand and meet our needs as a communication layer for relaying private transactions.",
       },
       {
         name: 'The Graph',
         logo: '/showcase/the-graph-mark-black.svg',
         logoDark: '/showcase/the-graph-mark-white.svg',
         description:
-          'Waku powers the Graphcast SDK, enabling the development of gossip-powered applications within The Graph ecosystem.',
-      },
-      {
-        name: 'XMTP',
-        logo: '/showcase/xmtp-mark-black.svg',
-        logoDark: '/showcase/xmtp-mark-white.svg',
-        description:
-          "Inter-blockchain account messaging protocol XMTP uses Waku's Go implementation to facilitate communication between nodes in its currently permissioned network.",
-      },
+          "Our experience with Waku has been transformative, proving to be a valuable tool that reveals the potential of peer-to-peer communication technologies. We are excited to continue using Waku's advanced features and contribute to the growth of Graphcast and the broader Graph ecosystem.",
+      }
     ]}
   />
 </Box>
 
 <Box top={{ xs: 144, lg: 216 }}>
-  <CallToActionSection
-    title="Contributors"
-    columns={1}
-    description="Waku is built and maintained by a global team of experienced and driven software developers and researchers that share a passion for privacy and decentralized technologies."
-    label="Read more"
-    href="/about/team"
-    target="_self"
-  />
+  <Roadmap
+    title="Roadmap"
+    description="Waku aims to support tens of millions of simultaneous users, truly serving as the communications standard across web3"
+    timeline={[
+      {
+        period: '2013',
+        borderStyle: 'dashed',
+        description: "Ethereum's Whisper unveiled as web3 messaging protocol",
+      },
+      {
+        period: '2018',
+        borderStyle: 'dashed',
+        description: 'Status establishes Vac to R&D Whisper improvements',
+      },
+      {
+        period: '2020',
+        borderStyle: 'dashed',
+        description: 'Waku v1 replaces Whisper in Status app',
+      },
+      {
+        period: '2021 Q1',
+        description: 'Waku v2 specs and PoC released with RLN Relay',
+      },
+      {
+        period: '2021 Q2',
+        borderStyle: 'dashed',
+        description: 'JS-Waku (for browsers) and Go-Waku released',
+      },
+      {
+        period: '2022 Q3',
+        description: 'DNS Discovery added, plus availability in more languages',
+      },
+      {
+        period: '2022 Q4',
+        borderStyle: 'dashed',
+        description:
+          'SQLite for Waku Store, RLN Relay testnet debuts at DevCon',
+      },
+      {
+        period: '2023 Q2',
+        description: 'Relay sharding, opt-in spam-protected topic',
+      },
+      {
+        period: '2023 Q4',
+        borderStyle: 'dashed',
+        description: 'Auto-sharding, DoS protection, bandwidth capping',
+      },
+      {
+        period: '2024+',
+        description: 'Operator Incentivization, use-case specific SDKs',
+      },
+    ]}
+  >
+    <CallToActionButton size="small" variant="outlined" href="/about">
+      Read more
+    </CallToActionButton>
+  </Roadmap>
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
+<Box top={{ xs: 144, lg: 336 }}>
   <CallToActionSection
-    title="Development roadmap"
-    description="Waku has the ambitious goal of attracting and supporting millions of simultaneous users, truly serving as the communications standard across web3. Our development roadmap focuses on achieving secure scalability before implementing incentivization mechanisms needed to sustain Waku."
-    label="Read more"
-    href="/about/roadmap"
-    target="_self"
+    title={
+      <>
+        Want to learn more about Waku? <br/> 
+        Join the Discord community.
+      </>
+    }
+    label="Join us on Discord"
+    target="_blank"
+    href="#"
   />
 </Box>
