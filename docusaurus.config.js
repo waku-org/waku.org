@@ -68,10 +68,6 @@ const config = {
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
     ({
-      colorMode: {
-        defaultMode: 'dark',
-        disableSwitch: false,
-      },
       navbar: {
         hideOnScroll: true,
         items: [
