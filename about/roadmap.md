@@ -1,6 +1,6 @@
 ---
 title: Development roadmap
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 Waku v1 is in production and was quickly adopted by the Status Mobile application. Yet, this initial version was unable to handle the scale required to support popular applications, prompting the v2 rewrite. Waku v2 has seen encouraging initial adoption beyond Status by projects such as Railgun's private transaction system and The Graph's indexer communication network Graphcast.

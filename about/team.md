@@ -1,6 +1,6 @@
 ---
 title: Core contributors
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 Leading Waku's R&D efforts is Franck Royer. Franck draws on more than five years of experience within the blockchain and crypto ecosystem, and over 13 years as a software engineer and team lead with a primary focus on backend development for mission-critical applications.
