@@ -17,10 +17,10 @@ import {
 <Hero size="large">
   <HeroInfo>
     <HeroTitle>
-      {`Waku Is Uncompromising Web3 Communication at Scale`}
+      {`Waku is Uncompromising Web3 Communication at Scale`}
     </HeroTitle>
     <HeroDescription>
-      {`A family of robust, censorship-resistant communication protocols designed to enable privacy-focused messaging for web3 apps.`} 
+      {`Waku is powering the communication layer of the Logos Network State. Logos is a grassroots movement to provide trust-minimized, corruption-resistant governing services and social institutions to peaceful people worldwide.`} 
     </HeroDescription>
     <HeroActions>
       <HeroAction href="https://docs.waku.org/" target="_blank">
@@ -39,7 +39,7 @@ import {
 </Hero>
 
 <FeatureList
-  id="features"
+  id="Waku attributes"
   features={[
     {
       title: 'Private',
@@ -62,11 +62,7 @@ import {
         "Waku employs message sharding for efficient throughput, while its discovery protocol ensures a user connects to nodes serving messages they are interested in.",
     },
   ]}
->
-  <CallToActionButton variant="outlined" href="/about/architect" target="_self">
-    Read More
-  </CallToActionButton>
-</FeatureList>
+/>
 
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
@@ -82,11 +78,6 @@ import {
 <Box top={{ xs: 144, lg: 216 }}>
   <CallToActionSection
     title="User Endorsements"
-    columns={2}
-    description="Waku has brought private, censorship-resistant communications to several notable web3 DApps, decentralizing their messaging components:"
-    label="Fully decentralize your DApp"
-    href="https://github.com/waku-org"
-    target="_blank"
   />
 </Box>
 
@@ -100,24 +91,26 @@ import {
         logo: '/showcase/status-mark-black.svg',
         logoDark: '/showcase/status-mark-white.svg',
         description:
-          "Waku v2 has been instrumental in helping us scale the Status application securely while maintaining the decentralized nature of our network. The Waku team has been invaluable in providing practical solutions during the development of the Waku v2 protocol, enabling us to deliver essential Status Communities features.",
+          `"Waku v2 has been instrumental in helping us scale the Status application securely while maintaining the decentralized nature of our network. The Waku team has been invaluable in providing practical solutions during the development of the Waku v2 protocol, enabling us to deliver essential Status Communities features.”`,
       },
       {
         name: 'Railgun',
         logo: '/showcase/railgun-mark-black.svg',
         logoDark: '/showcase/railgun-mark-white.svg',
         description:
-          "RAILGUN contributors selected Waku to run its relayer network as an early-stage but promising product of the privacy-centric status.im ecosystem. We have not been disappointed. The developers are extremely professional and responsive, and continue to strive to understand and meet our needs as a communication layer for relaying private transactions.",
+          <>"RAILGUN contributors selected Waku to run its relayer network as an early-stage but promising product of the privacy-centric <a href="https://status.im" target="_blank">status.im</a> ecosystem. We have not been disappointed. The developers are extremely professional and responsive, and continue to strive to understand and meet our needs as a communication layer for relaying private transactions."</>,
       },
       {
         name: 'The Graph',
         logo: '/showcase/the-graph-mark-black.svg',
         logoDark: '/showcase/the-graph-mark-white.svg',
         description:
-          "Our experience with Waku has been transformative, proving to be a valuable tool that reveals the potential of peer-to-peer communication technologies. We are excited to continue using Waku's advanced features and contribute to the growth of Graphcast and the broader Graph ecosystem.",
+          `"Our experience with Waku has been transformative, proving to be a valuable tool that reveals the potential of peer-to-peer communication technologies. We are excited to continue using Waku's advanced features and contribute to the growth of Graphcast and the broader Graph ecosystem."`,
       }
     ]}
   />
+
+  <CallToActionButton href="https://docs.waku.org/" variant="outlined">Build on Waku</CallToActionButton>
 </Box>
 
 <Box top={{ xs: 144, lg: 216 }}>
@@ -190,6 +183,6 @@ import {
     }
     label="Join us on Discord"
     target="_blank"
-    href="#"
+    href="http://discord.waku.org"
   />
 </Box>
