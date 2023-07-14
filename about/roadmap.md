@@ -21,7 +21,7 @@ We will consider Waku v2 production ready when it's performant, stable and bug-f
 
 ## Network sustainability
 
-Many of Waku's core value propositions—privacy and resistance to censorship, for example—are reliant on its decentralization. While our most passionate users may well operate network infrastructure altruistically, incentivization mechanisms will ensure a wider node distribution and, thus, strengthen Waku's more disruptive properties. 
+Many of Waku's core value propositions—privacy and resistance to censorship, for example—are reliant on its decentralisation. While our most passionate users may well operate network infrastructure altruistically, incentivization mechanisms will ensure a wider node distribution and, thus, strengthen Waku's more disruptive properties. 
 
 This process will involve defining a viable incentivization structure via RFC and studying its efficacy to tweak parameters through test net simulations before implementation on the main net. 
 
