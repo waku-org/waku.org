@@ -3,7 +3,7 @@ title: About
 sidebar_position: 1
 ---
 
-Waku is the communication standard for the decentralized web. A suite of generalized messaging protocols, it enables private, secure, bidirectional human-to-human, machine-to-machine and human-to-machine communication without reliance on centralized intermediaries.
+Waku is the communication standard for the decentralised web. A suite of generalised messaging protocols, it enables private, secure, bidirectional human-to-human, machine-to-machine and human-to-machine communication without reliance on centralised intermediaries.
 
 Waku serves as the communications branch of the [Logos](https://logos.co/) tech stack. Alongside the computational branch, [Nomos](http://www.nomos.tech), and the storage branch, [Codex](http://www.codex.storage), it is one of the Logos Collective's foundational projects. 
 
@@ -13,15 +13,15 @@ Waku serves as the communications branch of the [Logos](https://logos.co/) tech 
 
 Today's internet is increasingly controlled by a vanishingly small number of tech giants. The Googles, Amazons and Metas of the world dictate what we see and with whom we can communicate. Their influence is absolute, and their actions shape global public opinion and even geopolitics. 
 
-To anyone that understands the internet's present architecture, this outcome should be expected. The centralized entities through which we communicate have privileged access to reams of data that we, as internet users, produce daily, presenting an opportunity for the kind of surveillance that was once confined to the pages of science-fiction literature. Thinking that the most powerful commercial and political institutions would not leverage this would be naive. 
+To anyone that understands the internet's present architecture, this outcome should be expected. The centralised entities through which we communicate have privileged access to reams of data that we, as internet users, produce daily, presenting an opportunity for the kind of surveillance that was once confined to the pages of science-fiction literature. Thinking that the most powerful commercial and political institutions would not leverage this would be naive. 
 
-Yet, it doesn't have to be this way. Advances in cryptography, P2P technologies and decentralized networking provide an alternate path forward.
+Yet, it doesn't have to be this way. Advances in cryptography, P2P technologies and decentralised networking provide an alternate path forward.
 
 <br/>
 
-### (Slowly) moving toward a decentralized web
+### (Slowly) moving toward a decentralised web
 
-The early Ethereum community realized this. Initially, the plan was to rebuild the web's architecture along decentralized lines by developing the so-called "Holy Trinity of the Decentralized Web." Ethereum itself would handle computation, Swarm was the reimagined web's storage layer and Whisper would take care of messaging. 
+The early Ethereum community realised this. Initially, the plan was to rebuild the web's architecture along decentralised lines by developing the so-called "Holy Trinity of the Decentralised Web." Ethereum itself would handle computation, Swarm was the reimagined web's storage layer and Whisper would take care of messaging. 
 
 <br/>
 
@@ -29,9 +29,9 @@ The early Ethereum community realized this. Initially, the plan was to rebuild t
 
 <br/>
 
-Whisper was a promising start but scalability shortcomings quickly became apparent. Meanwhile, for reasons upon which we can only speculate, the development of Swarm and Whisper was relegated to a backseat while Ethereum took center stage. Yet, without adequate communication and storage layers, the decentralized web's potential for disruption remained severely handicapped.
+Whisper was a promising start but scalability shortcomings quickly became apparent. Meanwhile, for reasons upon which we can only speculate, the development of Swarm and Whisper was relegated to a backseat while Ethereum took centre stage. Yet, without adequate communication and storage layers, the decentralised web's potential for disruption remained severely handicapped.
 
-Status, the decentralized messaging application, hoped to leverage Whisper but with development grinding to a snail's pace, it was forced to take up the job itself. Consequently, the R&D group [Vac](https://vac.dev/) was put together in 2018 to research solutions to Whisper's scaling woes.
+Status, the decentralised messaging application, hoped to leverage Whisper but with development grinding to a snail's pace, it was forced to take up the job itself. Consequently, the R&D group [Vac](https://vac.dev/) was put together in 2018 to research solutions to Whisper's scaling woes.
 
 
 <br/>
