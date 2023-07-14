@@ -9,7 +9,7 @@ The core contributors building Waku are split into three subgroups:
 
 ## Waku Research
 
-Our research efforts are led by a former telecoms engineer with almost a decade of experience, and supported by a post-doctoral research engineer who specializes in communications networks.
+Our research efforts are led by a former telecoms engineer with almost a decade of experience, and supported by a post-doctoral research engineer who specialises in communications networks.
 
 ## Waku Development
 

@@ -7,7 +7,7 @@ Waku v1 is in production and was quickly adopted by the Status Mobile applicatio
 
 Given Waku v1's scaling difficulties, the team behind Waku is primarily focused on ensuring v2 scales securely. By the end of Q2 2023, we aim to support more than one million users. 
 
-Meanwhile, the team is also working on ensuring production readiness alongside network and development sustainability. Although work on these areas is already underway, our efforts will intensify as we progress toward our million-user-milestone. Finally, Waku aims to promote itself among developers looking to add decentralized communications to their applications.
+Meanwhile, the team is also working on ensuring production readiness alongside network and development sustainability. Although work on these areas is already underway, our efforts will intensify as we progress toward our million-user-milestone. Finally, Waku aims to promote itself among developers looking to add decentralised communications to their applications.
 
 <br/>
 
