@@ -87,6 +87,10 @@ const config = {
             label: 'Github',
             href: 'https://github.com/waku-org',
           },
+          {
+            label: 'Discord',
+            href: 'https://discord.waku.org/',
+          },
         ],
       },
       footer: {
@@ -99,7 +103,7 @@ const config = {
                 label: 'Twitter',
               },
               {
-                href: 'https://discord.gg/wc8gj26cwH',
+                href: 'https://discord.waku.org/',
                 label: 'Discord',
               },
               {
