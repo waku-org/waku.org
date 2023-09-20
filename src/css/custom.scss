@@ -5,3 +5,18 @@ body,
 html {
   overflow-x: hidden;
 }
+
+// TODO: breadcrumbs: false in docusaurus.config.js does not work
+.theme-doc-breadcrumbs {
+  display: none;
+}
+
+.community-container {
+  max-width: 796px;
+  margin: 16px auto 0 auto;
+}
+
+div:has(.community-container) > .container {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}

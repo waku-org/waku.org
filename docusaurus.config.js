@@ -76,20 +76,22 @@ const config = {
             type: 'search',
           },
           {
-            label: 'About',
+            label: 'About Waku',
             to: '/about',
+          },
+          {
+            label: 'Community',
+            to: '/community',
           },
           {
             label: 'Docs',
             href: 'https://docs.waku.org',
           },
           {
-            label: 'Github',
-            href: 'https://github.com/waku-org',
-          },
-          {
-            label: 'Discord',
-            href: 'https://discord.waku.org/',
+            href: 'https://github.com/logos-co',
+            position: 'right',
+            className: 'header-github-link',
+            title: 'Waku GitHub repository',
           },
         ],
       },
