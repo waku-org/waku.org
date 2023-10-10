@@ -1450,7 +1450,7 @@ module.exports = coseBase;
 
 /***/ }),
 
-/***/ 14607:
+/***/ 23701:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -40306,7 +40306,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var d3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(59373);
 /* harmony import */ var cytoscape_dist_cytoscape_umd_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(71377);
 /* harmony import */ var cytoscape_dist_cytoscape_umd_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(cytoscape_dist_cytoscape_umd_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var cytoscape_cose_bilkent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(14607);
+/* harmony import */ var cytoscape_cose_bilkent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(23701);
 /* harmony import */ var cytoscape_cose_bilkent__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(cytoscape_cose_bilkent__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var khroma__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(91619);
 /* harmony import */ var khroma__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(12281);
