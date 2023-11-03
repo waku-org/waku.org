@@ -81,7 +81,7 @@ const config = {
             href: 'https://docs.waku.org',
           },
           {
-            href: 'https://github.com/logos-co',
+            href: 'https://github.com/waku-org',
             position: 'right',
             className: 'header-github-link',
             title: 'Waku GitHub repository',
