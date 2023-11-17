@@ -28,7 +28,15 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'yarn build'
+        /* Issues from waku-org/bounties are fetched. */
+        withCredentials([
+          string(
+            credentialsId: 'waku-org-bounties-access-gh-token',
+            variable: 'GITHUB_ACCESS_TOKEN'
+          ),
+        ]) {
+          sh 'yarn build'
+        }
         sh "echo ${env.PROD_SITE} > build/CNAME"
       }
     }
