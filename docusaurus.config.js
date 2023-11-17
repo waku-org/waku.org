@@ -47,6 +47,11 @@ const config = {
           routeBasePath: '/',
           path: 'root-pages',
         },
+        generated: {
+          jobList: {
+            jobBoard: 'waku',
+          },
+        },
         og: {},
       }),
     ],
@@ -83,6 +88,10 @@ const config = {
           {
             label: 'Docs',
             href: 'https://docs.waku.org',
+          },
+          {
+            label: 'Join Us',
+            href: '/join-us',
           },
           {
             href: 'https://github.com/waku-org',
