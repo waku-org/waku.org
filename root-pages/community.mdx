@@ -6,7 +6,8 @@ displayed_sidebar: null
 sidebar_class_name: hidden
 ---
 
-import { Grid, Box, SocialCard } from '/src/components/mdx'
+import { Grid, Box, SocialCard, GithubChallenges } from '/src/components/mdx'
+import * as challengesData from '/generated/challenges.json'
 
 # Join the community
 
@@ -55,3 +56,7 @@ import { Grid, Box, SocialCard } from '/src/components/mdx'
     </Grid.Item>
   </Grid>
 </Box>
+
+<GithubChallenges
+  challengesData={challengesData}
+/>
