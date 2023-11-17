@@ -37,6 +37,10 @@ const config = {
                 },
               },
             },
+            newsletterSubscription: {
+              mailingListId: 5,
+              pagePath: '/subscribe',
+            },
           },
         },
         docs: {
