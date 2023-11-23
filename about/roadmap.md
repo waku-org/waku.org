@@ -15,7 +15,7 @@ Meanwhile, the team is also working on ensuring production readiness alongside n
 
 Alongside Vac researchers, Waku is producing and implementing various RFCs to define the protocols and application guidelines required to serve more than one million simultaneous users. We then aim to study Waku's capacity through network simulations before designing and implementing scalability risk-mitigation strategies. 
 
-## Production readines
+## Production readiness
 
 We will consider Waku v2 production ready when it's performant, stable, and bug-free while satisfying user requirements. This process will involve collaboration with Status teams to test the protocols, as well as further simulations to assess future updates' expected performances. Ensuring that Waku has adequate protection against spam and DoS attacks is critically important to this milestone. 
 
