@@ -48,10 +48,6 @@ const config = {
           path: 'root-pages',
         },
         generated: {
-          challenges: {
-            repoArray: [{ owner: 'waku-org', repo: 'bounties' }],
-            githubAccessToken: process.env.GITHUB_ACCESS_TOKEN,
-          },
           jobList: {
             jobBoard: 'waku',
           },
