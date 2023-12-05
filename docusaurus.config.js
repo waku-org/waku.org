@@ -90,6 +90,10 @@ const config = {
             to: '/community',
           },
           {
+            label: 'Blog',
+            href: 'https://blog.waku.org/',
+          },
+          {
             label: 'Docs',
             href: 'https://docs.waku.org',
           },
@@ -130,6 +134,10 @@ const config = {
           },
           {
             items: [
+              {
+                href: 'https://blog.waku.org/',
+                label: 'Blog',
+              },
               {
                 href: 'https://jobs.status.im/',
                 label: 'Work with us',
