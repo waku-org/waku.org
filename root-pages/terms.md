@@ -40,6 +40,11 @@ While we aim to update our website regularly, all information, including the tim
 
 The Website and its contents are made available under free and open source licences. This means that anyone can use, share, and modify such content, as long as they follow the terms of the applicable licence.
 
+
+### Collection of email addresses
+
+We collect your email address and first name (or if preferred, your pseudonym), on our website for the purpose of sending you information in relation to the project (s) on this website concerning technical and non-technical content and updates, as well as potentially invitations to project related events. Your email address is securely stored on our self-hosted servers, and we have implemented measures to protect such personal data by securing it with appropriate technical and organisational measures. We will not share such personal data to third parties without your consent, except as required by law. We will only collect and process your email address, first name and last name on the basis of you providing your consent for us to do so. If you wish to stop receiving our email communications, you can do so by clicking the "unsubscribe" link in the emails you receive from us. 
+
 ### Third-party website links
 
 To the extent the Website provides any links to a third party website, then their terms and conditions, including privacy policies, govern your use of those third party websites. We have no control over such third party websites and will not be liable for your use of or activities on any third party websites accessed through the Website. If you access such third party websites through the Website, it is at your own risk and you are solely responsible for your activities on such third party websites.
