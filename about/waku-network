@@ -5,7 +5,7 @@ The Waku Network Gen 0 is the first iteration of a public network for peer-to-pe
 
 ## Motive
 
-The Waku Network is a solution to achieve scalability and reasonable Denial of Service (DoS) protection, even when sharing a message routing layer with other applications. The Waku Network is actively addressing the challenge of a single routing layer, where each user is required to relay traffic for all applications. As the adoption of Waku continues to grow, the bandwidth consumption skyrockets. Users with limited bandwidth capabilities are becoming increasingly marginalised and unable to participate fully in the Waku Relay network. 
+The Waku Network is a solution to achieve scalability and reasonable Denial of Service (DoS) protection, even when sharing a decentralised message routing layer with other applications. The Waku Network is actively addressing the challenge of scaling a shared routing layer, where each user participates in relaying traffic for all applications. As the adoption of Waku continues to grow, the bandwidth consumption skyrockets. Users with limited bandwidth capabilities are becoming increasingly marginalised and unable to participate fully in the Waku Relay network. 
 
 The Waku Network also aims to mitigate the risk of users being susceptible to spam or DoS attacks that may occur when the network is fully accessible to all users and applications.
 
