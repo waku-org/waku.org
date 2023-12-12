@@ -16,11 +16,12 @@
   },
   "dependencies": {
     "@acid-info/docusaurus-fathom": "^1.0.0-alpha.61",
-    "@acid-info/logos-docusaurus-preset": "^1.0.0-topic-upgrade-lsd.1",
+    "@acid-info/logos-docusaurus-preset": "^1.0.0-topic-upgrade-lsd.4",
     "@docusaurus/theme-mermaid": "^2.4.1",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mdx-js/react": "^1.6.22",
+    "add": "^2.0.6",
     "clsx": "^1.2.1",
     "docusaurus-plugin-sass": "^0.2.3",
     "dotenv": "^16.0.3",
@@ -28,7 +29,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sass": "^1.62.1",
-    "tsdx": "^0.14.1"
+    "tsdx": "^0.14.1",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.4.1",

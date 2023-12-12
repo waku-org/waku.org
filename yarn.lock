@@ -36,14 +36,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-topic-upgrade-lsd.1":
-  version "1.0.0-topic-upgrade-lsd.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-upgrade-lsd.1.tgz#e171eb13c67c63f7b14e943e3423624a300637aa"
-  integrity sha512-xIxpA+xbzRNm3vavwI2AbasECMY1kGj9GIJxFhNIgSLESizjjIk2p2WrlvCHiOW7nIpmh7ofEl9Q7gt4wm+hbA==
+"@acid-info/logos-docusaurus-preset@^1.0.0-topic-upgrade-lsd.4":
+  version "1.0.0-topic-upgrade-lsd.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-upgrade-lsd.4.tgz#4033610dd98aff84a0988c9b85ca975c7778a96d"
+  integrity sha512-TEljcWLxPRUYd85juUcYFb+IjnkYO+c8Qmm+mxZn5mbBq4Rc8Zgufh+zZMOqow2+3iWlkpYeNinpyORMcW68bg==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.0-alpha.111"
     "@acid-info/logos-docusaurus-search-local" "1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-upgrade-lsd.1+4d63a74"
+    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-upgrade-lsd.4+6de2ad4"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -71,10 +71,10 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@1.0.0-topic-upgrade-lsd.1+4d63a74":
-  version "1.0.0-topic-upgrade-lsd.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-upgrade-lsd.1.tgz#49206f044075571e06bfe5c829105226b9120e59"
-  integrity sha512-InYRMRcEy7mO/VWBmq2I1UAUynVNjY7Dm+ipHEYT1htDLQxL08WWwSnoQUyIEOh4TlYl865++xN8tL5Dkf98og==
+"@acid-info/logos-docusaurus-theme@1.0.0-topic-upgrade-lsd.4+6de2ad4":
+  version "1.0.0-topic-upgrade-lsd.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-upgrade-lsd.4.tgz#cde7142232aa7da0c3d186ebaad557f94ef0072d"
+  integrity sha512-evBiqmsaL34zSHOTk1rK/7RgyW6E6Q6/hTi1KO4DF+NcPVvp0Jikc/j9jqfyjR6NY+qA9UoRzl6A+Vaqp8/OLw==
   dependencies:
     "@acid-info/docusaurus-og" "1.0.0-alpha.111"
     "@acid-info/lsd-react" "^0.1.0-beta.1"
@@ -3405,6 +3405,11 @@ acorn@^8.0.4, acorn@^8.7.1, acorn@^8.8.2:
   version "8.11.2"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.11.2.tgz#ca0d78b51895be5390a5903c5b3bdcdaf78ae40b"
   integrity sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==
+
+add@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
+  integrity sha512-j5QzrmsokwWWp6kUcJQySpbG+xfOBqqKnup3OIk1pz+kB/80SLorZ9V8zHFLO92Lcd+hbvq8bT+zOGoPkmBV0Q==
 
 address@^1.0.1, address@^1.1.2:
   version "1.2.2"
@@ -13792,6 +13797,11 @@ yargs@^15.3.1:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
+
+yarn@^1.22.21:
+  version "1.22.21"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.21.tgz#1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
+  integrity sha512-ynXaJsADJ9JiZ84zU25XkPGOvVMmZ5b7tmTSpKURYwgELdjucAOydqIOrOfTxVYcNXe91xvLZwcRh68SR3liCg==
 
 yocto-queue@^0.1.0:
   version "0.1.0"
