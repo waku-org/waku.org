@@ -130,6 +130,10 @@ const config = {
                 href: 'https://github.com/waku-org',
                 label: 'Github',
               },
+              {
+                href: 'https://guide.waku.org/',
+                label: 'Brand Guidelines',
+              },
             ],
           },
           {
