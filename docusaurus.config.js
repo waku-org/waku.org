@@ -130,10 +130,6 @@ const config = {
                 href: 'https://github.com/waku-org',
                 label: 'Github',
               },
-              {
-                href: 'https://guide.waku.org/',
-                label: 'Brand Guidelines',
-              },
             ],
           },
           {
@@ -145,6 +141,10 @@ const config = {
               {
                 href: 'https://jobs.status.im/',
                 label: 'Work with us',
+              },
+              {
+                href: 'https://guide.waku.org/',
+                label: 'Brand Guidelines',
               },
               {
                 href: '/terms',
