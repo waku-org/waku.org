@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwaku_docusaurus_template=self.webpackChunkwaku_docusaurus_template||[]).push([[612],{35361:u=>{u.exports=JSON.parse('{"name":"logos-docusaurus-theme","id":"default"}')}}]);
