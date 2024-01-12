@@ -7,18 +7,19 @@ pagination_next: null
 
 # Privacy Policy
 
-This Privacy Policy is intended to inform users of our approach to privacy in respect of this website (**'Website Terms of Use'**). In this regard, if you are visiting our Website, this Privacy Policy applies to you.
+This Privacy Policy is intended to inform users of our approach to privacy in respect of this website (**"Website"**). In this regard, if you are visiting our Website, this Privacy Policy applies to you.
 
 ### 1) Who we are
 
 For the purposes of this Privacy Policy and the collection and processing of personal data as a controller, the relevant entity is the Logos Collective Association, which has its registered office in Zug and its legal domicile address at
 
+```
 Logos Collective Association
-
 c/o PST Consulting GmbH
 Baarerstrasse 10
 6300 Zug
 Switzerland
+```
 
 Whenever we refer to “Logos”, “we” or other similar references, we are referring to the Logos Collective Association.
 
@@ -28,9 +29,9 @@ We aim to limit the collection and collection and processing of personal data fr
 
 In this regard, we collect and process the following personal data from your use of the Website:  
 
-* IP address: As part of such use of the Website we briefly process your IP address but we have no way of identifying you. We however have a legitimate interest in processing such IP addresses to ensure the technical functionality and enhance the security measures of the Website. This IP address is not stored by us over time.
+* **IP address**: As part of such use of the Website we briefly process your IP address but we have no way of identifying you. We however have a legitimate interest in processing such IP addresses to ensure the technical functionality and enhance the security measures of the Website. This IP address is not stored by us over time.
 
-* Collection of email addresses: We collect your email address and first name (or if preferred, your pseudonym), on our website for the purpose of sending you information in relation to the project (s) on this website concerning technical and non-technical content and updates, as well as potentially invitations to project related events. Your email address is securely stored on our self-hosted servers, and we have implemented measures to protect such personal data by securing it with appropriate technical and organisational measures. We will not share such personal data to third parties without your consent, except as required by law. We will only collect and process your email address, first name and if applicable, your pseudonym on the basis of you providing your consent for us to do so. If you wish to stop receiving our email communications, you can do so by clicking the "unsubscribe" link in the emails you receive from us.
+* **Collection of email addresses**: We collect your email address and first name (or if preferred, your pseudonym), on our website for the purpose of sending you information in relation to the project (s) on this website concerning technical and non-technical content and updates, as well as potentially invitations to project related events. Your email address is securely stored on our self-hosted servers, and we have implemented measures to protect such personal data by securing it with appropriate technical and organisational measures. We will not share such personal data to third parties without your consent, except as required by law. We will only collect and process your email address, first name and if applicable, your pseudonym on the basis of you providing your consent for us to do so. If you wish to stop receiving our email communications, you can do so by clicking the "unsubscribe" link in the emails you receive from us.
 
 ### 3) Third party processing of personal data
 
@@ -38,7 +39,7 @@ In addition to our limited and collection of personal data, third parties may co
 
 We would however like to draw your attention to the following: 
 
-* Youtube: The Website may embed videos from Youtube, a service provided by Google LLC, using Youtube’s privacy-enhanced mode. When you interact with such videos, Youtube may place cookies on your personal device. The cookies do not directly identify individual users and YouTube will not store information to personalise your experience unless you are logged in to a Google account. We do not have any control over these cookies set by Youtube and it is recommended that you review YouTube’s embedding videos information page.
+* **Youtube**: The Website may embed videos from Youtube, a service provided by Google LLC, using Youtube’s privacy-enhanced mode. When you interact with such videos, Youtube may place cookies on your personal device. The cookies do not directly identify individual users and YouTube will not store information to personalise your experience unless you are logged in to a Google account. We do not have any control over these cookies set by Youtube and it is recommended that you review YouTube’s embedding videos information page.
 
 ### 4) Security measures we take in respect of the Website 
 
