@@ -7,11 +7,24 @@ pagination_next: null
 
 # Terms of Use
 
-These terms and conditions ('**Website Terms of Use**') are entered into by you and us, and they govern your access and use of the Website, including any content and functionality contained in the Website.
+These website terms of use ('**Website Terms of Use**') are entered into by you and us, and they govern your access and use of this Website, including any content and functionality contained in the Website.
 
 It is your responsibility to read the Website Terms of Use carefully before your use of the Website and your use of the Website means you have agreed to be bound and comply with these Website Terms of Use.
 
 If you do not agree with these Website Terms of Use, you must not access or use the Website.
+
+### Who we are
+
+For the purposes of these Website Terms of Use, the relevant entity is the Logos Collective Association, which has its registered office in Zug and its legal domicile address at:
+
+Logos Collective Association
+
+c/o PST Consulting GmbH
+Baarerstrasse 10
+6300 Zug
+Switzerland
+
+Whenever we refer to “Logos”, “we”, “us” or any other similar references, we are referring to the Logos Collective Association.
 
 ### Disclaimers
 
@@ -35,21 +48,13 @@ The forward looking statements, which may include statements about the roadmap, 
 
 While we aim to update our website regularly, all information, including the timeline and the specifics of each stage, is subject to change and may be amended or supplemented at any time, without notice and at our sole discretion.
 
-
 ### Intellectual property rights
 
 The Website and its contents are made available under free and open source licences. This means that anyone can use, share, and modify such content, as long as they follow the terms of the applicable licence.
 
-
-### Collection of email addresses
-
-We collect your email address and first name (or if preferred, your pseudonym), on our website for the purpose of sending you information in relation to the project (s) on this website concerning technical and non-technical content and updates, as well as potentially invitations to project related events. Your email address is securely stored on our self-hosted servers, and we have implemented measures to protect such personal data by securing it with appropriate technical and organisational measures. We will not share such personal data to third parties without your consent, except as required by law. We will only collect and process your email address, first name and last name on the basis of you providing your consent for us to do so. If you wish to stop receiving our email communications, you can do so by clicking the "unsubscribe" link in the emails you receive from us. 
-
 ### Third-party website links
 
-To the extent the Website provides any links to a third party website, then their terms and conditions, including privacy policies, govern your use of those third party websites. We have no control over such third party websites and will not be liable for your use of or activities on any third party websites accessed through the Website. If you access such third party websites through the Website, it is at your own risk and you are solely responsible for your activities on such third party websites.
-
-The Website may embed videos from Youtube, a service provided by Google LLC, using Youtube’s privacy-enhanced mode. When you interact with such videos, Youtube may place cookies on your personal device. The cookies do not directly identify individual users and YouTube will not store information to personalise your experience unless you are logged in to a Google account. We do not have any control over these cookies set by Youtube and it is recommended that you review YouTube’s embedding videos information page.
+To the extent the Website provides any links to a third party website, then their terms and conditions, including privacy policies, govern your use of those third party websites. By linking such third party websites, Status does not represent or imply that it endorses or supports such third party websites or content therein, or that it believes such third party websites and content therein to be accurate, useful or non-harmful. We have no control over such third party websites and will not be liable for your use of or activities on any third party websites accessed through the Website. If you access such third party websites through the Website, it is at your own risk and you are solely responsible for your activities on such third party websites.
 
 ### Limitation of liability
 
@@ -86,3 +91,5 @@ These Website Terms of Use cover the entire agreement between you and us regardi
 The captions and headings identifying sections and subsections of these Website Terms of Use are for reference only and do not define, modify, expand, limit, or affect the interpretation of any provisions of these Website Terms of Use.
 
 If any part of these Website Terms of Use is held invalid or unenforceable, that part will be severable from these Website Terms of Use, and the remaining portions will remain in full force and effect. If we fail to enforce any of these Website Terms of Use, that does not mean that we have waived our right to enforce them.
+
+If you have any specific questions about these Website Terms of Use, please contact us through the relevant channels.
