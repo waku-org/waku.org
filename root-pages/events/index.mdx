@@ -1,0 +1,75 @@
+---
+title: Events
+description: List of all Waku events
+hide_table_of_contents: true
+hude_title: true
+---
+
+import {
+  EventCardList,
+  EventCTASection,
+  Grid,
+  Box,
+} from '@site/src/components/mdx'
+
+# Events
+
+List of all Waku events
+
+<head>
+  <body className="events" />
+</head>
+
+<EventCardList
+  data={[
+    {
+      thumbnail: '/events/eth-denver.png',
+      title: 'Meet Waku: Uncompromising Web3 Communication at Scale',
+      date: 'Feb 23 - Mar 3\n2024',
+      location: 'Denver, Colorado\nUSA',
+      href: '/events/eth-denver',
+    },
+  ]}
+/>
+
+<Box top={{ xs: 152 }}>
+  <Grid
+    xs={{ cols: 1, gap: '1rem' }}
+    md={{ cols: 2 }}
+    className="events-cta-sections"
+  >
+    <Grid.Item xs={1}>
+      <EventCTASection
+        title="Logos Network State"
+        description={
+          'Want to get involved with Waku?\nJoin the Discord community.'
+        }
+        link="https://discord.waku.org/"
+        label="Get Involved"
+      />
+    </Grid.Item>
+    <Grid.Item xs={1}>
+      <EventCTASection
+        title="Newsletter"
+        description={'Subscribe\nto our newsletter'}
+        label="Subscribe"
+        formInput={[
+          {
+            label: 'Name',
+            placeholder: 'Name',
+            type: 'text',
+            name: 'name',
+            required: true,
+          },
+          {
+            label: 'Email',
+            placeholder: 'Enter your email',
+            type: 'email',
+            name: 'email',
+            required: true,
+          },
+        ]}
+      />
+    </Grid.Item>
+  </Grid>
+</Box>

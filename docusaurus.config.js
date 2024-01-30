@@ -138,6 +138,10 @@ const config = {
                 label: 'Blog',
               },
               {
+                href: '/events',
+                label: 'Events',
+              },
+              {
                 href: 'https://jobs.status.im/',
                 label: 'Work with us',
               },

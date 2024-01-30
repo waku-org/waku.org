@@ -11,7 +11,7 @@ html {
   display: none;
 }
 
-.community-container  article {
+.community-container article {
   max-width: 796px;
   margin: 16px auto 0 auto;
 }
@@ -19,4 +19,39 @@ html {
 div:has(.community-container) > .container {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
+}
+
+// Temporary CSS for events
+
+.mdx-event-card__info {
+  & > span:first-of-type {
+    opacity: 0.6;
+  }
+}
+
+.mdx-event-info__label {
+  opacity: 0.6;
+}
+
+.mdx-event-info__content {
+  white-space: pre-wrap;
+}
+
+.breadcrumbs__link,
+.breadcrumbs__item {
+  text-decoration: none;
+}
+
+.breadcrumbs__item--active {
+  border: none !important;
+
+  & > span {
+    padding: unset !important;
+  }
+}
+
+.mdx-event-cta-section__form {
+  .lsd-typography--body2 {
+    margin-left: 16px;
+  }
 }
