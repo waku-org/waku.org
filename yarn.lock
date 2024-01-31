@@ -19,10 +19,10 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/docusaurus-og@1.0.0-alpha.131":
-  version "1.0.0-alpha.131"
-  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-og/-/docusaurus-og-1.0.0-alpha.131.tgz#316a736455c3c0e542b32ad63f1b34714588b67b"
-  integrity sha512-a0EbvwffHdShC8+bDzLA3VqPW71n2NPy01t0c2Tm8lMu1Xo/JOUEAr23qcuRETfOPbiHWY2DJC/3AGWOffc59g==
+"@acid-info/docusaurus-og@1.0.0-topic-events.4+77c99d6":
+  version "1.0.0-topic-events.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-og/-/docusaurus-og-1.0.0-topic-events.4.tgz#fc8e4a094f4a90d2c9989227cc936b51b0af559f"
+  integrity sha512-Z+LQy+oH0em3j0oXRr94eRhw0DAWrJnPUjDBWiiarRMgTaZ0oe7tHZ1+vzT6S44920lcWgtqpSi21BESCNHhsA==
   dependencies:
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
@@ -36,14 +36,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-topic-events.1":
-  version "1.0.0-topic-events.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-events.1.tgz#43e53fd87fa8a2c0809df04baea1df9fdd90e8f4"
-  integrity sha512-iO2Wn32adpJ5ZAtNbrAhXrsN4NfnnpRijw0z6OoJ1LgXDtgUYOiiYu8EjRqByv3MKTXK9TZo+pY8dZopMpNs2w==
+"@acid-info/logos-docusaurus-preset@^1.0.0-topic-events.4":
+  version "1.0.0-topic-events.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-topic-events.4.tgz#ff98177cd8e2e0f8cbd90e2fb18aa9eb904d4187"
+  integrity sha512-mIJgqQuEWqfaFmBlZTr7hKL4fgFne1qJSWJrtQGobO3O9q97EtwJTs8craHRe/6GHEYt9darWxqttmgEF842nQ==
   dependencies:
-    "@acid-info/docusaurus-og" "1.0.0-alpha.131"
-    "@acid-info/logos-docusaurus-search-local" "1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-events.1+dece47d"
+    "@acid-info/docusaurus-og" "1.0.0-topic-events.4+77c99d6"
+    "@acid-info/logos-docusaurus-search-local" "1.0.0-topic-events.4+77c99d6"
+    "@acid-info/logos-docusaurus-theme" "1.0.0-topic-events.4+77c99d6"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -57,10 +57,10 @@
     lodash "^4.17.21"
     node-fetch "2"
 
-"@acid-info/logos-docusaurus-search-local@1.0.0-alpha.111":
-  version "1.0.0-alpha.111"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-search-local/-/logos-docusaurus-search-local-1.0.0-alpha.111.tgz#f4a19ad1fdee4da58b7793dde5294304475cff70"
-  integrity sha512-W8ILeA095JgaBcze/zsh7GX5yH+oee7QG7kFqfiO7F5apai/0tGfLm1tq7oiJT+jR7guW1jxwuACIFxP7Jm8pw==
+"@acid-info/logos-docusaurus-search-local@1.0.0-topic-events.4+77c99d6":
+  version "1.0.0-topic-events.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-search-local/-/logos-docusaurus-search-local-1.0.0-topic-events.4.tgz#f4d7c55d66b42eab86dca559dea90ea841fba055"
+  integrity sha512-ysF3uX80g2a9f9H9nQlBs+B/mxx8qxbahK/e0QtmPY/8OmkgXzjFLUI8uOLvHHaCsxdnFqNt44/xKi4neUyx0A==
   dependencies:
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
@@ -71,12 +71,12 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@1.0.0-topic-events.1+dece47d":
-  version "1.0.0-topic-events.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-events.1.tgz#4227968c5ef438205a146cdf35a4ce0dfe9c5aef"
-  integrity sha512-iEI9a0OCKTQRWw6ZBUVFA25kdxLaIFxQ04YSY11PKbrgz+c25YNDgz+na7VJtPJHi3bdmG0ZlIxBs/+xA6YqKw==
+"@acid-info/logos-docusaurus-theme@1.0.0-topic-events.4+77c99d6":
+  version "1.0.0-topic-events.4"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-topic-events.4.tgz#1fb9ad4139e159100d037e80fe823452b9e4307c"
+  integrity sha512-rWkMGp7Hn4u454XuRXq094tZ77widnhTGbhJ6oo8itj1M6DrvLfc5/QPQ8f0YtHKffu8edkSQmcvNqlFrYIHCw==
   dependencies:
-    "@acid-info/docusaurus-og" "1.0.0-alpha.131"
+    "@acid-info/docusaurus-og" "1.0.0-topic-events.4+77c99d6"
     "@acid-info/lsd-react" "^0.1.0-beta.1"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/mdx-loader" "^2.4.1"
