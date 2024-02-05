@@ -109,7 +109,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: 'Waku @2023<br/>All Rights Reserved.',
+        copyright: 'Waku',
         links: [
           {
             items: [
