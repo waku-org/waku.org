@@ -65,6 +65,13 @@ const config = {
         path: 'about',
       },
     ],
+    [
+      '@acid-info/docusaurus-fathom',
+      {
+        siteId: 'BBYCC',
+        scriptUrl: 'https://fathom.status.im/tracker.js',
+      },
+    ],
   ],
 
   themeConfig:
