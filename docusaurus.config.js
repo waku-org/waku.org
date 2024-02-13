@@ -70,6 +70,7 @@ const config = {
       {
         siteId: 'BBYCC',
         scriptUrl: 'https://fathom.status.im/tracker.js',
+        hostnames: ['waku.org'],
       },
     ],
   ],
