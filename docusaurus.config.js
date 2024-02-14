@@ -68,7 +68,7 @@ const config = {
     [
       '@acid-info/docusaurus-fathom',
       {
-        siteId: 'BBYCC',
+        siteId: 'CWPDQ',
         scriptUrl: 'https://fathom.status.im/tracker.js',
         hostnames: ['waku.org'],
       },
