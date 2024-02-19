@@ -1,0 +1,15 @@
+{
+    "timestamp": "2024-02-19T14:21:29Z",
+    "git": {
+        "commit": "2e2ecfa13bdcbb5102e77b41440da3e7d095e1d5",
+        "branch": "origin/ci/two-deploy-branches",
+        "url": "git@github.com:waku-org/waku.org.git"
+    },
+    "build": {
+        "id": "244",
+        "number": "244",
+        "name": "website/dev.waku.org",
+        "slave": "linux-01",
+        "url": "https://ci.infra.status.im/job/website/job/dev.waku.org/244/"
+    }
+}
