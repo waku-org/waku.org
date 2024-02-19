@@ -1,3 +1,6 @@
+#!/usr/bin/env groovy
+library 'status-jenkins-lib@v1.8.8'
+
 pipeline {
   agent { label 'linux' }
 
@@ -27,7 +30,7 @@ pipeline {
     }
 
     stage('Build') {
-      steps {
+      steps { script {
         /* Issues from waku-org/bounties are fetched. */
         withCredentials([
           string(
@@ -37,8 +40,11 @@ pipeline {
         ]) {
           sh 'yarn build'
         }
-        sh "echo ${env.PROD_SITE} > build/CNAME"
-      }
+        dir('build') {
+          sh "echo ${env.PROD_SITE} > CNAME"
+          jenkins.genBuildMetaJSON()
+        }
+      } }
     }
 
     stage('Publish Prod') {
