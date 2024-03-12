@@ -157,6 +157,10 @@ const config = {
                 href: 'https://guide.waku.org/',
                 label: 'Brand Guidelines',
               },
+            ],
+          },
+          {
+            items: [
               {
                 href: '/terms',
                 label: 'Terms & conditions',
@@ -164,6 +168,10 @@ const config = {
               {
                 href: '/privacy-policy',
                 label: 'Privacy Policy',
+              },
+              {
+                href: '/rules-of-engagement',
+                label: 'Rules of Engagement',
               },
             ],
           },
