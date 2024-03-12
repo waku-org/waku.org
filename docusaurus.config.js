@@ -5,7 +5,7 @@ require('dotenv').config()
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Waku',
-  url: 'https://url',
+  url: 'https://waku.org',
   baseUrl: '/',
 
   markdown: {
@@ -16,8 +16,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'en-GB',
+    locales: ['en-GB'],
   },
 
   presets: [
