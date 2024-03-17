@@ -135,7 +135,23 @@ const config = {
               },
               {
                 href: 'https://github.com/waku-org',
-                label: 'Github',
+                label: 'GitHub',
+              },
+              {
+                href: 'https://www.youtube.com/@waku-org',
+                label: 'YouTube',
+              },
+              {
+                href: 'https://www.linkedin.com/company/waku-org',
+                label: 'LinkedIn',
+              },
+              {
+                href: 'https://warpcast.com/waku',
+                label: 'Farcaster',
+              },
+              {
+                href: 'https://t.me/waku_org',
+                label: 'Telegram',
               },
             ],
           },
@@ -151,7 +167,7 @@ const config = {
               },
               {
                 to: '/join-us',
-                label: 'Work with us',
+                label: 'Work with Us',
               },
               {
                 href: 'https://guide.waku.org/',
@@ -163,7 +179,7 @@ const config = {
             items: [
               {
                 href: '/terms',
-                label: 'Terms & conditions',
+                label: 'Terms of Use',
               },
               {
                 href: '/privacy-policy',
