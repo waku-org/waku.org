@@ -55,3 +55,14 @@ div:has(.community-container) > .container {
     margin-left: 16px;
   }
 }
+
+.mdx-section-header__extra {
+  display: flex;
+  align-items: center;
+}
+
+.build-on-waku-button {
+  display: flex;
+  align-items: center;
+  text-decoration: none !important;
+}

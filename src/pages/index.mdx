@@ -7,76 +7,93 @@ import {
   Hero,
   HeroTitle,
   HeroDescription,
-  HeroVideo,
   HeroActions,
   HeroAction,
   CallToActionSection,
   CallToActionButton,
   FeatureList,
   HeroInfo,
+  HeroImage,
   Box,
   Grid,
   Roadmap,
   ShowcaseCard,
   SectionHeader,
-  NewsletterSubscription,
+  InputCTASection,
 } from '../components/mdx'
 
-<Hero size="large">
-  <HeroInfo>
-    <HeroTitle>
-      {`Waku is Uncompromising Web3 Communication at Scale`}
+import { Button } from '@acid-info/lsd-react'
+import Link from '@docusaurus/Link'
+
+<Hero size="large" verticalAlign="center">
+  <HeroInfo hideScrollToBottom>
+    <HeroTitle uppercase={false}>
+      Waku is Uncompromising Web3 Communication at Scale
     </HeroTitle>
     <HeroDescription>
-      {`A family of robust, censorship-resistant communication protocols designed to enable privacy-focused messaging for web3 apps.`} 
+      A family of robust, censorship-resistant communication protocols designed to enable privacy-focused messaging for web3 apps. 
     </HeroDescription>
     <HeroActions>
       <HeroAction href="https://docs.waku.org/" target="_blank">
-        {`Learn more`} 
+        Learn more
       </HeroAction>
     </HeroActions>
   </HeroInfo>
-  <HeroVideo
-    placeholderSrc="/hero/prome01-1080x1080-placeholder.png"
-    desktop={{ scale: '1.43', height: '160%', offsetY: "-220px"  }}
-    mobile={{ scale: '1.43', offsetY: "-70px", height: '200%' }}
-  >
-    <source src="/hero/prome01-2048x2048-24fps-1M.mov" type='video/mp4; codecs="hvc1"' />
-    <source src="/hero/prome01-2048x2048-24fps-1M.webm" type="video/webm" />  
-  </HeroVideo>
+  <HeroImage>
+  </HeroImage>
 </Hero>
 
-<FeatureList
-  id="Waku attributes"
-  alignment="top"
-  features={[
-    {
-      title: 'Private',
-      description:
-        'Waku uses cutting-edge zero-knowledge technology to protect applications from Denial of Service attacks. Tailor your application\'s privacy settings to suit your needs.',
-    },
-    {
-      title: 'Censorship resistant',
-      description:
-        "Decentralised human-to-human, machine-to-human, and machine-to-machine communication, with no single point of failure. Waku\'s native incentivization mechanism stimulates an expanding node distribution, promoting an increasingly secure network.",
-    },
-    {
-      title: 'Modular',
-      description:
-        'Waku protocols are adaptive and platform agnostic, and can be customised based on an application\'s unique demands. Waku is built to flourish even in resource-restricted environments like browsers and mobile devices.',
-    },
-    {
-      title: 'Scalable',
-      description:
-        "Waku employs message sharding for efficient throughput, while its discovery protocol ensures a user connects to nodes serving messages they are interested in.",
-    },
-  ]}
-/>
+<Box>
+  <SectionHeader noBorder title="Features">
+  </SectionHeader>
+  <Box top={{ xs: 64 }}>
+    <Grid
+      xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
+      lg={{ cols: 4, gap: '1rem' }}
+    >
+      <Grid.Item>
+        <ShowcaseCard
+          index={1}
+          name="Private"
+          description="Waku uses cutting-edge zero-knowledge technology to protect applications from Denial of Service attacks. Tailor your application's privacy settings to suit your needs."
+          borderStyle="none"
+        />
+      </Grid.Item>
+      <Grid.Item>
+        <ShowcaseCard
+          index={2}
+          name="Censorship resistant"
+          description="Decentralised human-to-human, machine-to-human, and machine-to-machine communication, with no single point of failure. Waku's native incentivization mechanism stimulates an expanding node distribution, promoting an increasingly secure network."
+          borderStyle="none"
+        />
+      </Grid.Item>
+      <Grid.Item>
+        <ShowcaseCard
+          index={3}
+          name="Modular"
+          description="Waku protocols are adaptive and platform agnostic, and can be customised based on an application's unique demands. Waku is built to flourish even in resource-restricted environments like browsers and mobile devices."
+          borderStyle="none"
+        />
+      </Grid.Item>
+      <Grid.Item>
+        <ShowcaseCard
+          index={4}
+          name="Scalable"
+          description='Waku employs message sharding for efficient throughput, while its discovery protocol ensures a user connects to nodes serving messages they are interested in.'
+          borderStyle="none"
+        />
+      </Grid.Item>
+    </Grid>
+  </Box>
+</Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
+
+<Box top={{ xs: 144, lg: 190 }}>
   <CallToActionSection
     title="Logos Collective"
     columns={1}
+    border={false}
+    align="center"
     description={<>
         Waku is powering the communication layer of the Logos technology stack. Logos is a grassroots movement, building the infrastructure for trust-minimised, corruption-resistant governing services and social institutions for peaceful people worldwide.<br/><br/> 
         Learn more about our ambitious vision.
@@ -87,55 +104,62 @@ import {
   />
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
-  <CallToActionSection
-    title="User Endorsements"
-  />
-</Box>
-
-<Box top={{ xs: 64, lg: 100 }}>
- <Grid
-    id="showcase"
-    xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
-    lg={{ cols: 3, gap: '1rem' }}
+<Box top={{ xs: 144, lg: 190 }}>
+    <SectionHeader noBorder title="User Endorsements">
+    <Link className="build-on-waku-button" href="/about">
+      <Button size="small">Build on Waku</Button>
+    </Link>
+  </SectionHeader>
+  <Box
+    top={{ xs: 64 }}
+    bottom={{ xs: 64 }}
   >
-    <Grid.Item xs={1}> 
-      <ShowcaseCard
-        name='Status'
-        logoSrc='/showcase/status-mark-black.svg'
-        logoSrcDark='/showcase/status-mark-white.svg'
-        description={`"Waku v2 has been instrumental in helping us scale the Status application securely while maintaining the decentralised nature of our network. The Waku team has been invaluable in providing practical solutions during the development of the Waku v2 protocol, enabling us to deliver essential Status Communities features.”`}
-      />
-    </Grid.Item> 
-    <Grid.Item xs={1}> 
-      <ShowcaseCard
-        name='Railgun'
-        logoSrc='/showcase/railgun-mark-black.svg'
-        logoSrcDark='/showcase/railgun-mark-white.svg'
-        description={<>"RAILGUN contributors selected Waku to run its relayer network as an early-stage but promising product of the privacy-centric <a href="https://status.im" target="_blank">status.im</a> ecosystem. We have not been disappointed. The developers are extremely professional and responsive, and continue to strive to understand and meet our needs as a communication layer for relaying private transactions."</>}
-      />
-    </Grid.Item> 
-    <Grid.Item xs={1}> 
-      <ShowcaseCard
-        name='The Graph'
-        logoSrc='/showcase/the-graph-mark-black.svg'
-        logoSrcDark='/showcase/the-graph-mark-white.svg'
-        description={`"Our experience with Waku has been transformative, proving to be a valuable tool that reveals the potential of peer-to-peer communication technologies. We are excited to continue using Waku's advanced features and contribute to the growth of Graphcast and the broader Graph ecosystem."`}
-      /><>
-        Want to learn more about Waku? <br/> 
-        Join the Discord community.
-      </>
-    </Grid.Item> 
-  </Grid>
+    <Grid
+      id="showcase"
+      xs={{ cols: 2, wrap: true, gap: '1.5rem 1em' }}
+      lg={{ cols: 3, gap: '1rem' }}
+    >
+      <Grid.Item xs={1}> 
+        <ShowcaseCard
+          name='Status'
+          logoSrc='/showcase/status-mark-black.svg'
+          logoSrcDark='/showcase/status-mark-white.svg'
+          description={`"Waku v2 has been instrumental in helping us scale the Status application securely while maintaining the decentralised nature of our network. The Waku team has been invaluable in providing practical solutions during the development of the Waku v2 protocol, enabling us to deliver essential Status Communities features.”`}
+        />
+      </Grid.Item> 
+      <Grid.Item xs={1}> 
+        <ShowcaseCard
+          name='Railgun'
+          logoSrc='/showcase/railgun-mark-black.svg'
+          logoSrcDark='/showcase/railgun-mark-white.svg'
+          description={<>"RAILGUN contributors selected Waku to run its relayer network as an early-stage but promising product of the privacy-centric <a href="https://status.im" target="_blank">status.im</a> ecosystem. We have not been disappointed. The developers are extremely professional and responsive, and continue to strive to understand and meet our needs as a communication layer for relaying private transactions."</>}
+        />
+      </Grid.Item> 
+      <Grid.Item xs={1}> 
+        <ShowcaseCard
+          name='The Graph'
+          logoSrc='/showcase/the-graph-mark-black.svg'
+          logoSrcDark='/showcase/the-graph-mark-white.svg'
+          description={`"Our experience with Waku has been transformative, proving to be a valuable tool that reveals the potential of peer-to-peer communication technologies. We are excited to continue using Waku's advanced features and contribute to the growth of Graphcast and the broader Graph ecosystem."`}
+        /><>
+          Want to learn more about Waku? <br/> 
+          Join the Discord community.
+        </>
+      </Grid.Item> 
+    </Grid>
+  </Box>
   <Box top={32}>
     <CallToActionButton href="https://docs.waku.org/" variant="outlined">Build on Waku</CallToActionButton>
   </Box>
 </Box>
 
-<Box top={{ xs: 144, lg: 216 }}>
+<Box top={{ xs: 144, lg: 190 }}>
   <Roadmap 
+    noBorder
     title="Roadmap"
-    description="Waku aims to support tens of millions of simultaneous users, truly serving as the communications standard across web3" 
+    description="Waku aims to support tens of millions of simultaneous users, truly serving as the communications standard across web3"
+    href="/about/roadmap"
+    linkLabel="Learn more"
     timeline={[
       {
         period: [2013],
@@ -179,26 +203,46 @@ import {
       }
     ]}
   >
-    <CallToActionButton style={{ marginTop: 0 }} size="large" variant="outlined" href="/about">
-        Read more
-    </CallToActionButton>
   </Roadmap>
 </Box>
 
-<Box top={{ xs: 144, lg: 336 }}>
-  <NewsletterSubscription />
+<Box top={{ xs: 152, lg: 300 }}>
+  <Grid
+    xs={{ cols: 1, gap: '1rem' }}
+    md={{ cols: 2 }}
+  >
+    <Grid.Item xs={1}>
+      <InputCTASection
+        description={
+          'Want to get involved with Waku?\nJoin the Discord community.'
+        }
+        link="https://discord.waku.org/"
+        label="Get Involved"
+      />
+    </Grid.Item>
+    <Grid.Item xs={1}>
+      <InputCTASection
+        description={'Subscribe\nto our newsletter'}
+        label="Subscribe"
+        formInput={[
+          {
+            label: 'Name',
+            placeholder: 'Name',
+            type: 'text',
+            name: 'name',
+            required: true,
+          },
+          {
+            label: 'Email',
+            placeholder: 'Enter your email',
+            type: 'email',
+            name: 'email',
+            required: true,
+          },
+        ]}
+        formListId={5}
+      />
+    </Grid.Item>
+  </Grid>
 </Box>
 
-<Box top={{ xs: 144, lg: 96 }}>
-  <CallToActionSection
-    title={
-      <>
-        Want to learn more about Waku? <br/> 
-        Join the Discord community.
-      </>
-    }
-    label="Join us on Discord"
-    target="_blank"
-    href="https://discord.waku.org/"
-  />
-</Box>
