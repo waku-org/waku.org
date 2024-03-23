@@ -78,12 +78,18 @@ div:has(.community-container) > .container {
   overflow-x: hidden;
 }
 
+@media screen and (min-width: 1200px) {
+  .mdx-hero > .mdx-hero-image > img {
+    margin-right: -160px;
+  }
+}
+
 @media screen and (min-width: 996px) {
   .mdx-hero > .mdx-hero-image > img {
     position: absolute;
     right: 0;
     top: 0;
-    margin-right: -160px;
+    margin-right: -200px;
     margin-top: -50%;
     scale: 0.95;
   }
