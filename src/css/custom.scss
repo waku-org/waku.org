@@ -104,7 +104,7 @@ div:has(.community-container) > .container {
 
 @media screen and (max-width: 930px) {
   .mdx-hero {
-    margin-bottom: 260px;
+    margin-bottom: 280px;
   }
 
   .mdx-hero > .mdx-hero-image > img {
@@ -114,10 +114,20 @@ div:has(.community-container) > .container {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
+  .mdx-hero {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mdx-hero {
+    margin-bottom: -20px;
+  }
+
   .mdx-hero > .mdx-hero-image > img {
+    margin-top: -5%;
     margin-right: -20px;
-    scale: 1;
-    margin-bottom: 180px;
+    scale: 1.2;
   }
 }
