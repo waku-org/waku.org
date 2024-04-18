@@ -74,12 +74,6 @@ div:has(.community-container) > .container {
   margin-top: -40%;
 }
 
-@media screen and (min-width: 1200px) {
-  .mdx-hero > .mdx-hero-image > img {
-    margin-right: -160px;
-  }
-}
-
 @media screen and (min-width: 996px) {
   .mdx-hero > .mdx-hero-image > img {
     position: absolute;
