@@ -74,10 +74,6 @@ div:has(.community-container) > .container {
   margin-top: -40%;
 }
 
-.main-wrapper > .container {
-  overflow-x: hidden;
-}
-
 @media screen and (min-width: 1200px) {
   .mdx-hero > .mdx-hero-image > img {
     margin-right: -160px;
@@ -89,8 +85,8 @@ div:has(.community-container) > .container {
     position: absolute;
     right: 0;
     top: 0;
-    margin-right: -200px;
-    margin-top: -50%;
+    margin-right: -250px;
+    margin-top: -55%;
     scale: 0.95;
   }
 }
@@ -134,6 +130,6 @@ div:has(.community-container) > .container {
   .mdx-hero > .mdx-hero-image > img {
     margin-top: -5%;
     margin-right: -20px;
-    scale: 1.2;
+    scale: 0.95;
   }
 }
