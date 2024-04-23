@@ -5,7 +5,7 @@ require('dotenv').config()
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Waku',
-  url: 'https://url',
+  url: 'https://waku.org',
   baseUrl: '/',
 
   markdown: {
