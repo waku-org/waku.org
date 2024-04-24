@@ -67,7 +67,7 @@ div:has(.community-container) > .container {
   text-decoration: none !important;
 }
 
-.mdx-hero > .mdx-hero-image > img {
+.mdx-hero > .mdx-hero-asset img {
   position: absolute;
   right: 0;
   top: 0;
@@ -75,7 +75,7 @@ div:has(.community-container) > .container {
 }
 
 @media screen and (min-width: 996px) {
-  .mdx-hero > .mdx-hero-image > img {
+  .mdx-hero > .mdx-hero-asset img {
     position: absolute;
     right: 0;
     top: 0;
@@ -86,7 +86,7 @@ div:has(.community-container) > .container {
 }
 
 @media screen and (max-width: 996px) {
-  .mdx-hero > .mdx-hero-image > img {
+  .mdx-hero > .mdx-hero-asset img {
     margin-right: -200px;
     margin-left: 0;
     scale: 0.9;
@@ -103,7 +103,7 @@ div:has(.community-container) > .container {
     margin-bottom: 280px;
   }
 
-  .mdx-hero > .mdx-hero-image > img {
+  .mdx-hero > .mdx-hero-asset img {
     margin-right: 0;
     scale: 0.9;
     margin-top: -15%;
@@ -121,7 +121,7 @@ div:has(.community-container) > .container {
     margin-bottom: -20px;
   }
 
-  .mdx-hero > .mdx-hero-image > img {
+  .mdx-hero > .mdx-hero-asset img {
     margin-top: -5%;
     margin-right: -20px;
     scale: 0.95;
