@@ -20,6 +20,7 @@ import {
   ShowcaseCard,
   SectionHeader,
   InputCTASection,
+  VideoSection,
 } from '../components/mdx'
 
 import { Button } from '@acid-info/lsd-react'
@@ -107,6 +108,23 @@ import Link from '@docusaurus/Link'
     target="_blank"
   />
 </Box>
+
+<Box top={{ xs: 144, lg: 190 }}>
+  <VideoSection
+    title={<>What is Waku?</>}
+    description={
+      <>
+        Watch this introductory video to understand Waku's technology and
+        purpose.
+      </>
+    }
+    border={false}
+    label="Watch now"
+    target="_blank"
+    src="https://www.youtube.com/embed/SK5TF3l3XM4"
+  />
+</Box>
+
 
 <Box top={{ xs: 144, lg: 190 }}>
     <SectionHeader noBorder title="User Endorsements">
