@@ -2,7 +2,7 @@
 title: TOR-PUSH
 name: Waku v2 Tor Push
 category: Best Current Practice
-tags: [application]
+tags: [waku/application]
 editor: Daniel Kaiser <danielkaiser@status.im>
 contributors:
 ---

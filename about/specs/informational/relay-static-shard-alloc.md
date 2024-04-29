@@ -3,7 +3,7 @@ title: RELAY-STATIC-SHARD-ALLOC
 name: Waku v2 Relay Static Shard Allocation
 status: raw
 category: Informational
-tags: [informational]
+tags: [waku/informational]
 editor: Daniel Kaiser <danielkaiser@status.im>
 contributors:
 ---

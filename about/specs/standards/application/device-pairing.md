@@ -2,7 +2,7 @@
 title: WAKU2-DEVICE-PAIRING
 name: Device pairing and secure transfers with Noise
 category: Standards Track
-tags: [core-protocol]
+tags: [waku/core-protocol]
 editor: Giuseppe <giuseppe@status.im>
 contributors:
 ---
@@ -15,7 +15,7 @@ and securely exchange (arbitrary) information over the Waku network.
 
 ## Background / Rationale / Motivation
 
-In order to implement multi-device communications using one of the Noise session management mechanisms proposed in [WAKU2-NOISE-SESSIONS](./noise-sessions/noise-sessions.md),
+In order to implement multi-device communications using one of the Noise session management mechanisms proposed in [WAKU2-NOISE-SESSIONS](./noise-sessions.md),
 we require a protocol to securely exchange (cryptographic) information between 2 or more devices possessed by a user.
 
 Since, in this scenario, the devices would be close to each other,
@@ -328,13 +328,13 @@ unless `mntsInbound`, `mntsOutbound` or the `messageNametag` buffer lists were c
 
 ### The N11M session management mechanism
 
-In the [`N11M` session management mechanism](./noise-sessions/noise-sessions.md/#the-n11m-session-management-mechanism),
+In the [`N11M` session management mechanism](./noise-sessions.md/#the-n11m-session-management-mechanism),
 one of Alice's devices is already communicating with one of Bob's devices within an active Noise session,
 e.g. after a successful execution of a Noise handshake.
 
 Alice and Bob would then share some cryptographic key material,
 used to encrypt their communications.
-According to [WAKU2-NOISE-SESSIONS](./noise-sessions/noise-sessions.md) this information consists of:
+According to [WAKU2-NOISE-SESSIONS](./noise-sessions.md) this information consists of:
 
 - A `session-id` (32 bytes)
 - Two cipher state `CSOutbound`, `CSInbound`, where each of them contains:
@@ -344,7 +344,7 @@ According to [WAKU2-NOISE-SESSIONS](./noise-sessions/noise-sessions.md) this inf
 
 for a total of **176 bytes** of information.
 
-In a [`N11M`](./noise-sessions/noise-sessions.md/#the-n11m-session-management-mechanism) session mechanism scenario,
+In a [`N11M`](./noise-sessions.md/#the-n11m-session-management-mechanism) session mechanism scenario,
 all (synced) Alice's devices that are communicating with Bob
 share the same Noise session cryptographic material.
 Hence, if Alice wishes to add a new device,
@@ -365,7 +365,7 @@ Copyright and related rights waived via [CC0](https://creativecommons.org/public
 ### Normative
 
 - [35/WAKU2-NOISE](./noise.md/#session-states)
-- [WAKU2-NOISE-SESSIONS](./noise-sessions/noise-sessions.md/)
+- [WAKU2-NOISE-SESSIONS](./noise-sessions.md)
 
 ### Informative
 

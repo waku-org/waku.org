@@ -3,7 +3,7 @@ title: RELAY-SHARDING
 name: Waku v2 Relay Sharding
 status: raw
 category: Standards Track
-tags: [core]
+tags: [waku/core]
 editor: Daniel Kaiser <danielkaiser@status.im>
 contributors:
   - Simon-Pierre Vivier <simvivier@status.im>
@@ -100,7 +100,7 @@ And for shard 43 of the Status app (which has allocated index 16):
 Waku v2 supports the discovery of peers within static shards,
 so app protocols do not have to implement their own discovery method.
 
-Nodes add information about their shard participation in their [WAKU2-ENR](./enr.md/).
+Nodes add information about their shard participation in their [WAKU2-ENR](./enr.md).
 Having a static shard participation indication as part of the ENR allows nodes
 to discover peers that are part of shards via [33/WAKU2-DISCV5](https://rfc.vac.dev/spec/33/) as well as via DNS.
 
@@ -257,7 +257,7 @@ The transition to the second method will be seamless and fully backwards compati
 
 ## Security/Privacy Considerations
 
-See [WAKU2-ADVERSARIAL-MODELS](../../informational/adersarial-models.md), especially the parts on k-anonymity.
+See [WAKU2-ADVERSARIAL-MODELS](../../informational/adversarial-models.md), especially the parts on k-anonymity.
 We will add more on security considerations in future versions of this document.
 
 ### Receiver Anonymity

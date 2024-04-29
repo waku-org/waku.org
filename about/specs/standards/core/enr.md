@@ -1,7 +1,7 @@
 ---
 title: WAKU2-ENR
 name: Waku v2 usage of ENR
-tags: [core-protocol]
+tags: [waku/core-protocol]
 editor: Franck Royer <franck@status.im>
 contributors:
 ---

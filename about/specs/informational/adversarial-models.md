@@ -147,7 +147,7 @@ Nodes controlled by the attacker can efficiently communicate out-of-band to coor
 ### External
 
 An external attacker can only see encrypted traffic.
-Waku protocols are protected by a secure channel set up with [Noise](../standards/core/noise.md).
+Waku protocols are protected by a secure channel set up with [Noise](../standards/application/noise.md).
 
 #### Local
 
@@ -176,7 +176,7 @@ An entity with this power would, in practice, also have the power of the interna
 ## Attack-based Threats
 
 The following lists various attacks against [Waku v2](https://rfc.vac.dev/spec/10/) protocols.
-If not specifically mentioned, the attacks refer to [Waku relay](/spec/11) and the underlying [libp2p GossipSub](https://github.com/libp2p/specs/blob/master/pubsub/gossipsub/README.md).
+If not specifically mentioned, the attacks refer to [Waku relay](https://rfc.vac.dev/spec/11/) and the underlying [libp2p GossipSub](https://github.com/libp2p/specs/blob/master/pubsub/gossipsub/README.md).
 We also list the weakest attacker model in which the attack can be successfully performed against.
 
 An attack is considered more powerful if it can be successfully performed in a weaker attacker model.
@@ -203,7 +203,7 @@ This section lists attacks that aim at deanonymizing a message sender.
 
 We assume that protocol messages are transmitted within a secure channel set up using the [Noise Protocol Framework](https://noiseprotocol.org/).
 For [Waku Relay](https://rfc.vac.dev/spec/11/) this means we only consider messages with version field `2`,
-which indicates that the payload has to be encoded using [Noise](../standards/core/noise.md).
+which indicates that the payload has to be encoded using [Noise](../standards/application/noise.md).
 
 Note: The currently listed attacks are against libp2p in general.
 The [data field of Waku v2 relay](https://rfc.vac.dev/spec/11/#message-fields) must be a [Waku v2 message](https://rfc.vac.dev/spec/14/).
@@ -328,7 +328,7 @@ Copyright and related rights waived via [CC0](https://creativecommons.org/public
 - [Sybil attack](https://en.wikipedia.org/wiki/Sybil_attack)
 - [Dolev-Yao model](https://en.wikipedia.org/wiki/Dolev%E2%80%93Yao_model)
 - [Noise Protocol Framework](https://noiseprotocol.org/)
-- [Noise](../standards/core/noise.md)
+- [Noise](../standards/application/noise.md)
 - [17/WAKU-RLN-RELAY](https://rfc.vac.dev/spec/17/)
 - [18/WAKU2-SWAP](https://rfc.vac.dev/spec/18/)
 - [Dandelion++](https://arxiv.org/abs/1805.11060)

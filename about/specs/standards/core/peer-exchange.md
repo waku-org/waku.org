@@ -2,7 +2,7 @@
 title: WAKU2-PEER-EXCHANGE
 name: Waku v2 Peer Exchange
 category: Standards Track
-tags: [core-protocol]
+tags: [waku/core-protocol]
 editor: Daniel Kaiser <danielkaiser@status.im>
 contributors:
 ---
@@ -31,7 +31,7 @@ This protocol SHOULD only be used if [33/WAKU2-DISCV5](https://rfc.vac.dev/spec/
 
 The peer exchange protocol specified in this document is a simple request-response protocol.
 As Figure 1 illustrates, the requesting node sends a request to a peer, which acts as the responder.
-The responder replies with a list of ENRs as specified in [WAKU2-ENR](../enr.md).
+The responder replies with a list of ENRs as specified in [WAKU2-ENR](./enr.md).
 The [multiaddresses](https://docs.libp2p.io/concepts/addressing/) used to connect to the respective peers can be extracted from the ENRs.
 
 ![Figure 1: The responder provides a list of ENRs to the requester. These ENRs contain the information necessary for connecting to the respective peers.](../../images/protocol.svg)
@@ -81,7 +81,7 @@ message PeerExchangeRPC {
 
 ```
 
-The `enr` field contains a Waku ENR as specified in [WAKU2-ENR](../enr.md).
+The `enr` field contains a Waku ENR as specified in [WAKU2-ENR](./enr.md).
 
 Requesters send a `PeerExchangeQuery` to a peer.
 Responders SHOULD include a maximum of `num_peers` `PeerInfo` instances into a response.
@@ -146,7 +146,7 @@ Still, frequent queries can tigger the refresh cycle more often. The `seen cache
 
 ### Further Considerations
 
-The response field contains ENRs as specified in [WAKU2-ENR](../enr.md).
+The response field contains ENRs as specified in [WAKU2-ENR](./enr.md).
 While ENRs contain signatures, they do not violate the [Waku relay no-sign policy](https://rfc.vac.dev/spec/11/#signature-policy)),
 because they are part of the discovery domain and are not propagated in the relay domain.
 However, there might still be some form of leakage:
@@ -160,7 +160,7 @@ Copyright and related rights waived via [CC0](https://creativecommons.org/public
 ## References
 
 - [33/WAKU2-DISCV5](https://rfc.vac.dev/spec/33/)
-- [WAKU2-ENR](../enr.md)
+- [WAKU2-ENR](./enr.md)
 - [multiaddress](https://docs.libp2p.io/concepts/addressing/)
 - [libp2p discovery interface](https://github.com/status-im/nim-libp2p/issues/140)
 - [libp2p gossipsub](https://github.com/libp2p/specs/blob/master/pubsub/gossipsub/gossipsub-v1.1.md)

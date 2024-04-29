@@ -2,7 +2,7 @@
 title: DANDELION
 name: Waku v2 Dandelion
 category: Standards Track
-tags: [anonymity]
+tags: [waku/anonymity]
 editor: Daniel Kaiser <danielkaiser@status.im>
 contributors:
 ---
