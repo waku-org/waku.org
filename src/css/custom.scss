@@ -6,6 +6,10 @@ html {
   overflow-x: hidden;
 }
 
+#__docusaurus {
+  overflow-x: clip;
+}
+
 // TODO: breadcrumbs: false in docusaurus.config.js does not work
 .theme-doc-breadcrumbs {
   display: none;

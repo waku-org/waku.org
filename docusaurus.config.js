@@ -90,7 +90,7 @@ const config = {
             type: 'search',
           },
           {
-            label: 'About Waku',
+            label: 'About',
             to: '/about',
           },
           {
@@ -98,22 +98,24 @@ const config = {
             to: '/community',
           },
           {
+            label: 'Join Us',
+            to: '/join-us',
+          },
+          {
+            label: 'Events',
+            to: '/events',
+          },
+          {
+            label: 'News',
+            to: '/news',
+          },
+          {
             label: 'Blog',
             href: 'https://blog.waku.org/',
           },
           {
-            label: 'Docs',
-            href: 'https://docs.waku.org',
-          },
-          {
-            label: 'Join Us',
-            href: '/join-us',
-          },
-          {
+            label: 'Github',
             href: 'https://github.com/waku-org',
-            position: 'right',
-            className: 'header-github-link',
-            title: 'Waku GitHub repository',
           },
         ],
       },
@@ -129,14 +131,6 @@ const config = {
               {
                 href: 'https://discord.waku.org/',
                 label: 'Discord',
-              },
-              {
-                href: 'https://docs.waku.org',
-                label: 'Docs',
-              },
-              {
-                href: 'https://github.com/waku-org',
-                label: 'GitHub',
               },
               {
                 href: 'https://www.youtube.com/@waku-org',
@@ -159,17 +153,21 @@ const config = {
           {
             items: [
               {
+                href: 'https://docs.waku.org',
+                label: 'Docs',
+              },
+              {
+                href: 'https://github.com/waku-org',
+                label: 'GitHub',
+              },
+              {
                 href: '/about/specs',
                 label: 'Specifications',
               },
-              {
-                href: 'https://blog.waku.org/',
-                label: 'Blog',
-              },
-              {
-                href: '/events',
-                label: 'Events',
-              },
+            ],
+          },
+          {
+            items: [
               {
                 to: '/join-us',
                 label: 'Work with Us',
