@@ -2,31 +2,41 @@
 
 The repository for [waku.org](https://waku.org/) website.
 
-
 ## How to Run Locally
 
 1. Clone this repository
+
 ```bash
-$ git clone https://github.com/waku-org/waku.org.git
+git clone https://github.com/waku-org/waku.org.git
 ```
 
 2. Install the dependencies:
+
 ```bash
-$ yarn install
+yarn install
 ```
 
 3. Start the website:
+
 ```bash
-$ yarn start
+yarn start # Run 'node fetch-content.js' in the root directory to fetch remote files
 ```
 
 4. Visit `http://localhost:3000` in your browser
 
+5. Create a production build locally to check for errors:
+
+```shell
+yarn build # Runs 'node fetch-content.js' and then 'docusaurus build'
+# The 'fetch-content.js' script fetches documents from the nwaku and research repositories.
+
+# test the build
+yarn serve
+```
 
 ## Landing Page
 
 The code for a landing page is located in `src/pages/index.mdx`. This file employs the `mdx` format and utilizes React components from the [Logos Docusaurus Plugins](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/src/client/components/mdx) package.
-
 
 ## Adding Subpages
 
@@ -34,11 +44,9 @@ To include subpages, create a `.md` or `mdx` file within the `about` directory. 
 
 The content in `about/index.md` will be utilized as the index page for the `/about` section.
 
-
 ## Root Pages
 
 Subpages that do not belong to the `About` page (e.g., [Terms of Use](/root-pages/terms.md)) can be situated in the `root-pages` directory.
-
 
 ## Docusaurus Config
 
@@ -46,18 +54,16 @@ You can find instructions for adding additional documentation sections, implemen
 
 > Please note that theme customization is somewhat restricted; for more detailed instructions on customizing your theme, visit the [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/) repository.
 
-
 ## Custom CSS
 
 By default, this template utilizes the CSS styles defined in the [logos-docusaurus-plugins](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/src/client/css) package. You have the option to define custom CSS in `src/css/custom.scss`.
-
 
 ## How to Run a Static Build (Production Build)
 
 1. Generate static files for production:
 
 ```bash
-$ yarn build
+yarn build
 ```
 
 The static files will be created in the `build` directory.
@@ -65,9 +71,8 @@ The static files will be created in the `build` directory.
 2. Serve the static build:
 
 ```bash
-$ yarn serve
+yarn serve
 ```
-
 
 ## CI/CD
 

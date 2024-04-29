@@ -159,6 +159,10 @@ const config = {
           {
             items: [
               {
+                href: '/about/specs',
+                label: 'Specifications',
+              },
+              {
                 href: 'https://blog.waku.org/',
                 label: 'Blog',
               },
