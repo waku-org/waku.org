@@ -1,0 +1,168 @@
+---
+title: Web3PrivacyNow Meetup Berlin
+description: Uncompromising Web3 Communication at Scale
+hide_table_of_contents: true
+hide_title: true
+og:image_subtitle: Events
+---
+
+import {
+  Box,
+  EventBanner,
+  EventInfo,
+  EventAbout,
+  EventProfileList,
+  EventCTA,
+  InputCTASection,
+  EventHeader,
+  Grid,
+} from '@site/src/components/mdx'
+
+<head>
+  <body className="events  full-width event-details" />
+</head>
+
+<Box top={{ xs: 8 }}>
+  <EventBanner src="/events/w3pn-berlin.jpeg" />
+  <EventHeader 
+    title="Waku at Web3PrivacyNow Meetup Berlin"
+    description="We are a family of robust, censorship-resistant communication protocols designed to enable privacy-focused messaging for web3 apps."
+  />
+
+  <Box top={{ xs: 32 }}>
+  <Grid xs={{ cols: 2, gap: '1rem' }} md={{ cols: 2 }}>
+    <Grid.Item xs={1}>
+      <EventInfo 
+        label="Date"
+        content={"May 24 – May 26\n2024"}
+      /> 
+      </Grid.Item>
+      <Grid.Item xs={1}>
+        <EventInfo 
+          label="Location"
+          content={"Rungestraße 20, 10179 Berlin,\nGermany"}
+        /> 
+      </Grid.Item>
+    </Grid>
+  </Box>
+</Box>
+
+<Box top={{ xs: 120 }}>
+  <EventAbout>
+Waku is a suite of generalised messaging protocols aiming to be the communication standard for the decentralised web. It enables private and secure human-to-human, machine-to-machine, and human-to-machine communication without reliance on centralised intermediaries. Messaging through Waku is possible from one-to-one to many-to-many.
+
+<br />
+
+Waku serves as the communications layer of the Logos tech stack. Alongside the trustless agreement layer, Nomos, and the storage layer, Codex, it is one of the Logos Collective's foundational projects.
+
+<br />
+
+Motive:
+Today's internet is increasingly controlled by a small number of tech giants. Google, Amazon, Meta, and a few others dictate what we see and with whom we can communicate. Their influence is almost limitless, and their actions shape global public opinion and even geopolitics.
+
+<br />
+
+To anyone that understands the internet's present architecture, this outcome should be expected. The centralised entities through which we communicate have privileged access to reams of data that we, as internet users, produce daily, presenting an opportunity for the kind of surveillance that was once confined to the pages of science-fiction literature. Thinking that the most powerful commercial and political institutions would not leverage this would be naive.
+
+<br />
+
+Yet, it doesn't have to be this way. Advances in cryptography, peer-to-peer networking, and decentralised technologies provide an alternate path forward.
+
+  </EventAbout>
+</Box>
+
+<Box top={{ xs: 120 }}>
+  <EventProfileList
+    title="Our Delegation"
+    description="Reach out for an appointment."
+    data={[
+      {
+        image: '/events/marina.png',
+        name: 'Marina Petrichenko',
+        role: 'Eco Dev Team Lead ',
+        email: 'marina@status.im',
+        linkedin: 'https://www.linkedin.com/in/marina-petrichenko/',
+      },
+    {
+        image: '/events/pedro.png',
+        name: 'Pedro Lains',
+        role: 'BD Lead',
+        email: 'pedrolains@status.im',
+        linkedin: 'https://www.linkedin.com/in/pedro-la%C3%ADns-14526183/',
+      },
+          {
+        image: '/events/sergei.png',
+        name: 'Sergei Tikhomirov',
+        role: 'Protocol Researcher',
+        email: 'sergei@status.im ',
+        linkedin: 'https://www.linkedin.com/in/sergeitikhomirov/',
+      },
+    ]}
+  />
+</Box>
+
+<Box top={{ xs: 32 }}>
+  <h3>Want to see how Waku works?</h3>
+  <Box top={{ xs: 16 }}>
+    <Grid xs={{ cols: 2, gap: '1rem' }} md={{ cols: 2 }}>
+      <Grid.Item xs={1}>
+        <EventInfo 
+          label="Workshop"
+          content={
+            <>
+Come over to say “Hi” to Waku team!
+<br/><br/>
+Our Protocol Researcher Sergei Tikhomirov will be speaking there at the discussion panel as well! Stay tuned for the exact time. 
+<br/><br/>
+Have any questions about the event our tech? Reach out to us on Discord - https://discord.com/invite/gMPAzmcDER  or Telegram - https://t.me/waku_org  - we are always happy to help!
+<br/><br/>
+See you in Berlin! 
+            </>
+          }
+        /> 
+        </Grid.Item>
+      </Grid>
+  </Box>
+</Box>
+
+<Box top={{ xs: 120 }}>
+  <Grid
+    xs={{ cols: 1, gap: '1rem' }}
+    md={{ cols: 2 }}
+    className="bottom-cta-sections"
+  >
+    <Grid.Item xs={1}>
+      <InputCTASection
+        title="Logos Network State"
+        description={
+          'Want to get involved with Waku?\nJoin the Discord community.'
+        }
+        link="https://discord.waku.org/"
+        label="Get Involved"
+      />
+    </Grid.Item>
+    <Grid.Item xs={1}>
+      <InputCTASection
+        title="Newsletter"
+        description={'Subscribe\nto our newsletter'}
+        label="Subscribe"
+        formInput={[
+          {
+            label: 'Name',
+            placeholder: 'Name',
+            type: 'text',
+            name: 'name',
+            required: true,
+          },
+          {
+            label: 'Email',
+            placeholder: 'Enter your email',
+            type: 'email',
+            name: 'email',
+            required: true,
+          },
+        ]}
+      />
+    </Grid.Item>
+  </Grid>
+</Box>
