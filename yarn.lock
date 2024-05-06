@@ -36,7 +36,7 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.142":
+"@acid-info/logos-docusaurus-preset@1.0.0-alpha.142":
   version "1.0.0-alpha.142"
   resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.142.tgz#a2558021531be6db58188e39a0ff0008844d3d38"
   integrity sha512-9fTYZCaYNSU9gLdG+h2fgfGYS+mRgTWJDa+cc8/YVa8yJ+lQCzHM4VgQknoGPQ+7m01uWgdKNQ3CI0A6/cSNvQ==
