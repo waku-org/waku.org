@@ -44,7 +44,7 @@ const config = {
         },
         docs: {
           id: 'root-pages',
-          routeBasePath: '/events',
+          routeBasePath: '/',
           path: 'root-pages',
         },
         generated: {
