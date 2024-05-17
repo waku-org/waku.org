@@ -22,6 +22,8 @@ yarn-error.log*
 .yalc
 yalc.lock
 .idea
+yarn.lock
+.yarn
 
 static/search-index.json
 
