@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-05-17T11:06:03Z",
+    "timestamp": "2024-05-23T11:10:36Z",
     "git": {
-        "commit": "bfd3a5cca1ab6c1c2effe40e00d3185c056fe877",
+        "commit": "5c29a5787dd4e7b8d3b1bf8ea70f0221ba3bb20b",
         "branch": "origin/master",
         "url": "git@github.com:waku-org/waku.org.git"
     },
     "build": {
-        "id": "5054",
-        "number": "5054",
+        "id": "5055",
+        "number": "5055",
         "name": "website/waku.org",
         "slave": "linux-02",
-        "url": "https://ci.infra.status.im/job/website/job/waku.org/5054/"
+        "url": "https://ci.infra.status.im/job/website/job/waku.org/5055/"
     }
 }
