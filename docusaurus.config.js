@@ -161,8 +161,8 @@ const config = {
                 label: 'GitHub',
               },
               {
-                href: '/about/specs',
-                label: 'Specifications',
+                href: 'https://rfc.vac.dev/waku/',
+                label: 'Waku RFCs',
               },
             ],
           },
