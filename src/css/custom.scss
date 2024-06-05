@@ -79,7 +79,12 @@ div:has(.community-container) > .container {
 }
 
 .navbar-lsd-button {
+  display: flex !important;
   height: 28px !important;
+
+  .lsd-typography {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -118,6 +123,10 @@ div:has(.community-container) > .container {
   .navbar-lsd-button {
     height: 32px !important;
     padding: 6px 24px !important;
+
+    .lsd-typography {
+      font-size: 14px;
+    }
   }
 }
 
