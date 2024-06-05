@@ -78,6 +78,20 @@ div:has(.community-container) > .container {
   margin-top: -40%;
 }
 
+.navbar-lsd-button {
+  height: 28px !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-lsd-button {
+    margin-right: 16px;
+  }
+}
+
+.navbar-lsd-button > div > div {
+  display: none;
+}
+
 @media screen and (min-width: 996px) {
   .mdx-hero > .mdx-hero-asset video {
     position: absolute;
@@ -99,6 +113,11 @@ div:has(.community-container) > .container {
 
   .mdx-hero {
     margin-bottom: 200px;
+  }
+
+  .navbar-lsd-button {
+    height: 32px !important;
+    padding: 6px 24px !important;
   }
 }
 

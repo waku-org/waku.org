@@ -117,6 +117,13 @@ const config = {
             label: 'Github',
             href: 'https://github.com/waku-org',
           },
+          {
+            href: 'mailto:team@waku.org',
+            label: 'Contact',
+            position: 'right',
+            className:
+              'lsd-button lsd-button--small lsd-button--outlined navbar-lsd-button',
+          },
         ],
       },
       footer: {
