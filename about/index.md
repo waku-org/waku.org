@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Waku is a suite of generalised messaging protocols aiming to be the communication standard for the decentralised web. It enables private and secure human-to-human, machine-to-machine, and human-to-machine communication without reliance on centralised intermediaries. Messaging through Waku is possible from one-to-one to many-to-many.
 
-Waku serves as the communications layer of the [Logos](https://logos.co/) tech stack. Alongside the trustless agreement layer, [Nomos](http://www.nomos.tech), and the storage layer, [Codex](http://www.codex.storage), it is one of the Logos Collective's foundational projects. 
+Waku serves as the communications layer of the [Logos](https://logos.co/) tech stack. Alongside the trustless agreement layer, [Nomos](http://nomos.tech), and the storage layer, [Codex](http://www.codex.storage), it is one of the Logos Collective's foundational projects. 
 
 <br/>
 
