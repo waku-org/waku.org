@@ -36,14 +36,14 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@v1.0.0-alpha.182":
-  version "1.0.0-alpha.182"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.182.tgz#d1a7e3d0a07334d5ee4351a25af9c113387d15c4"
-  integrity sha512-5BM9hUq7rHOyO77CVUhUcnfRsTIHeZxqurGW48UFUEJWzsZv6UUBfUhbGRfNz5jzZkdb12U1cqzK0kYQhvNtFA==
+"@acid-info/logos-docusaurus-preset@v1.0.0-alpha.183":
+  version "1.0.0-alpha.183"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.183.tgz#080681a685423a0db164fc7aa773a3764c3b22f9"
+  integrity sha512-PKxM0igDTi8PgjmipnM2SHy2cqhadbzYMoP3kuI3vtxYtODHnKg1WZ2SYpPjLzR5ErCNoO2ZneF3iJu9rEhcIA==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.0-alpha.131"
     "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.111"
-    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.182"
+    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.183"
     "@docusaurus/core" "^2.4.1"
     "@docusaurus/module-type-aliases" "^2.4.1"
     "@docusaurus/preset-classic" "^2.4.1"
@@ -71,10 +71,10 @@
     "@easyops-cn/docusaurus-search-local" "^0.33.6"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.182":
-  version "1.0.0-alpha.182"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.182.tgz#92fc9f0ee4e10c9c0626c4b3863f4d6d9975a5cf"
-  integrity sha512-xLJxqYWiZp4R+wG+HD6bvaqPxdnHR0OzKvhrsYPHChA9KLO32yN08rPXt4knydfT2k0CX2NlPl21+U34Jl0J7Q==
+"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.183":
+  version "1.0.0-alpha.183"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.183.tgz#62f888b0f5c51d2dc792d3aa3a15aebd6ca76749"
+  integrity sha512-J0F3rpsoQ3RqlN0iJJe7Iin1ybUjdXXj3M508bm+Q8Dd3AzNmhKCxgFWbgxROzxIUeU8LwOqJ+HZ0MV0i6ZM5g==
   dependencies:
     "@acid-info/docusaurus-og" "^1.0.0-alpha.131"
     "@acid-info/lsd-react" "^0.1.0-beta.3"
