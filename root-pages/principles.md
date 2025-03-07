@@ -1,4 +1,5 @@
 ---
+title: Principles
 displayed_sidebar: null
 sidebar_class_name: hidden
 pagination_prev: null
@@ -6,9 +7,6 @@ pagination_next: null
 ---
 
 *These principles have been inherited from https://our.status.im/our-principles/. Only minor stylistic changes have been made to them.*
-
-# Principles
-<br/>
 
 The goal of Waku is widespread adoption of the decentralised web.
 Our challenge is achieving mass adoption while staying true to the principles outlined below.

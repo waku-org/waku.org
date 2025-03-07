@@ -184,6 +184,10 @@ const config = {
           {
             items: [
               {
+                href: '/principles',
+                label: 'Principles',
+              },
+              {
                 href: '/terms',
                 label: 'Terms of Use',
               },
