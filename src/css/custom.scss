@@ -87,6 +87,19 @@ div:has(.community-container) > .container {
   }
 }
 
+.principles {
+  margin-top: -16px;
+
+  h3.anchor {
+    margin-top: 40px !important;
+    margin-bottom: 24px !important;
+  }
+
+  h3:first-of-type {
+    margin-top: 64px !important;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .navbar-lsd-button {
     margin-right: 16px;

@@ -1,3 +1,8 @@
+---
+title: The Waku Network
+sidebar_position: 5
+---
+
 # The Waku Network
 
 The Waku Network Gen 0 is the first iteration of a public network for peer-to-peer messaging built on the Waku protocol stack. Its goal is to offer a permissionless, auto-scalable, DoS protected shared messaging layer for the decentralized web.
