@@ -106,6 +106,10 @@ const config = {
             to: '/events',
           },
           {
+            label: 'Specs',
+            to: '/specs',
+          },
+          {
             label: 'News',
             to: '/news',
           },
