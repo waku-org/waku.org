@@ -15,8 +15,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@acid-info/docusaurus-fathom": "^1.0.0-topic-v3-upgrade.13",
-    "@acid-info/logos-docusaurus-preset": "^1.0.0-topic-v3-upgrade.15",
+    "@acid-info/docusaurus-fathom": "^1.0.0-alpha.203",
+    "@acid-info/logos-docusaurus-preset": "^1.0.0-alpha.205",
     "@docusaurus/theme-mermaid": "^3.7.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
