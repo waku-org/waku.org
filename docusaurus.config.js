@@ -67,11 +67,10 @@ const config = {
       },
     ],
     [
-      '@acid-info/docusaurus-fathom',
+      '@acid-info/docusaurus-umami',
       {
-        siteId: 'CWPDQ',
-        scriptUrl: 'https://fathom.bi.status.im/tracker.js',
-        hostnames: ['waku.org'],
+        websiteId: '0102a512-0a4c-4b65-a149-e47b9a8c235d',
+        scriptSrc: 'https://umami.bi.status.im/script.js',
       },
     ],
   ],

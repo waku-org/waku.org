@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@acid-info/docusaurus-fathom@^1.0.0-alpha.203":
-  version "1.0.0-alpha.203"
-  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-fathom/-/docusaurus-fathom-1.0.0-alpha.203.tgz#337cf286fd4c47174f192b05b2c9a3b3308f8335"
-  integrity sha512-d+bjuZlCtNyhq/Dn0XyOsRI20uSYtRrIpMiA1fq+rS7eOWCnMRwuD1IW43CKEy9PLkPvMElOzoiWH95TYXQpFw==
+"@acid-info/docusaurus-og@^1.0.2-alpha.releasetest.0":
+  version "1.0.2-alpha.releasetest.0"
+  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-og/-/docusaurus-og-1.0.2-alpha.releasetest.0.tgz#5392c27beddb74763cd590e53afbc43b204980de"
+  integrity sha512-taRRgraaRUIBfxyuRjJuftZJpm2FX45fKpG0VtmH58ACz+bgvgSL3OXCcRIw3ZZbHqS8vLTf0YcECllFwhtrAQ==
   dependencies:
     "@docusaurus/core" "^3.7.0"
     "@docusaurus/module-type-aliases" "^3.7.0"
@@ -19,10 +19,10 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/docusaurus-og@^1.0.0-alpha.203":
-  version "1.0.0-alpha.203"
-  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-og/-/docusaurus-og-1.0.0-alpha.203.tgz#6e780930b6bbada632dfa02a526629ccc148f38b"
-  integrity sha512-75JLyvLaMruKwhYF1+WA9Pjazs74tA5InLGnWEFa8o19w7TMdf3hl5UeE/rXC2f7wo7f2aJ0r8lZolX+SI95hw==
+"@acid-info/docusaurus-og@^v1.0.0-alpha.208":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-og/-/docusaurus-og-1.0.1.tgz#1532fedf64469398149b3ef6a7bbd022d65eca73"
+  integrity sha512-D02hDruDvJf17hewNdosMg40XYmwvFA/zETqNi2dK697lPHQ261x2iJkqQdO7ufUkpywGuBqmgqonBRXj7fUgQ==
   dependencies:
     "@docusaurus/core" "^3.7.0"
     "@docusaurus/module-type-aliases" "^3.7.0"
@@ -36,14 +36,19 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/logos-docusaurus-preset@^1.0.0-alpha.205":
-  version "1.0.0-alpha.205"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.0-alpha.205.tgz#9f28c7cae247ce646e1334d7e3fcb579e5a20624"
-  integrity sha512-CkdYzK+dfQJLyFv/YyAYunzRYANow8Wh3F+r46Vtr4uCZ5aMHb31wej+5UU4OnvbeB8M9/EeTFoy9ohVPnAzJw==
+"@acid-info/docusaurus-umami@^1.0.2-alpha.1":
+  version "1.0.2-alpha.1"
+  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-umami/-/docusaurus-umami-1.0.2-alpha.1.tgz#c51ca6b754ae93c2e6011c4312aaccf714d01214"
+  integrity sha512-4oUMTvln/RTr1prOUyKE7KmheLSDhKxmZoRfS+uCzVkmxxAdVuPoTzDml9FCFhwLIyK+E2jZ22NyWJA1nkD5fA==
+
+"@acid-info/logos-docusaurus-preset@^1.0.2-alpha.1":
+  version "1.0.2-alpha.1"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-preset/-/logos-docusaurus-preset-1.0.2-alpha.1.tgz#ca85c759f0a4c54853bc7f0403d022c5fb3ce5b8"
+  integrity sha512-IiASKjr9z7h4emyUL99ypNd4bo88XswxDkrs1dxe1/vlvcNHKBWVMk3llWayZVAYiPiz03V+YdnDrWLXmJZkFw==
   dependencies:
-    "@acid-info/docusaurus-og" "^1.0.0-alpha.203"
-    "@acid-info/logos-docusaurus-search-local" "^1.0.0-alpha.203"
-    "@acid-info/logos-docusaurus-theme" "^1.0.0-alpha.205"
+    "@acid-info/docusaurus-og" "^1.0.2-alpha.releasetest.0"
+    "@acid-info/logos-docusaurus-search-local" "^1.0.2-alpha.1"
+    "@acid-info/logos-docusaurus-theme" "^1.0.2-alpha.1"
     "@docusaurus/core" "^3.7.0"
     "@docusaurus/module-type-aliases" "^3.7.0"
     "@docusaurus/preset-classic" "^3.7.0"
@@ -57,10 +62,10 @@
     lodash "^4.17.21"
     node-fetch "2"
 
-"@acid-info/logos-docusaurus-search-local@^1.0.0-alpha.203":
-  version "1.0.0-alpha.203"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-search-local/-/logos-docusaurus-search-local-1.0.0-alpha.203.tgz#b03d50cafa04a60385f0a8a166db95e6bfb68591"
-  integrity sha512-IFIPKYwl/BnH6gfdjYlgT3nBPfzjoJliF2kxoa+9NSrKQ0T4h1UxyLOqTeyalf/tsVJeOrc5fzvkcKJEmg4U9g==
+"@acid-info/logos-docusaurus-search-local@^1.0.2-alpha.1":
+  version "1.0.2-alpha.1"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-search-local/-/logos-docusaurus-search-local-1.0.2-alpha.1.tgz#bd0452de168c800defbca9f05402edeb6eb64876"
+  integrity sha512-HKaYor9K6tf0SifuGfGjGOmESxM9rT2Uk98cUf2otzqYM6GG/nYVHWjWoqLCjnHZhJ6r4A1Aju0G83kZzNK9kg==
   dependencies:
     "@docusaurus/core" "^3.7.0"
     "@docusaurus/module-type-aliases" "^3.7.0"
@@ -71,12 +76,12 @@
     "@easyops-cn/docusaurus-search-local" "^0.49.2"
     lodash "^4.17.21"
 
-"@acid-info/logos-docusaurus-theme@^1.0.0-alpha.205":
-  version "1.0.0-alpha.205"
-  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.0-alpha.205.tgz#67a697c9afed8485f14b71d7d9ebd4a5aee29245"
-  integrity sha512-5OSK2SESao6pQntzn+OHGyXt1k5hmypj353jALhh8vZrNRq6OkToKapn28ZpldPQUy9p5ZiG6pjxtsDwDV/9Hw==
+"@acid-info/logos-docusaurus-theme@^1.0.2-alpha.1":
+  version "1.0.2-alpha.1"
+  resolved "https://registry.yarnpkg.com/@acid-info/logos-docusaurus-theme/-/logos-docusaurus-theme-1.0.2-alpha.1.tgz#a4d66db047362e6381d0209736d906bca81a0c1d"
+  integrity sha512-O9VYqiV76dir+Wxrl7A/hsubmMook9v8qSl6QBvzvA90tYtfkH0xu9oykYUdD+4qq0FWyW3JkQna7iJ/KQ4IKA==
   dependencies:
-    "@acid-info/docusaurus-og" "^1.0.0-alpha.203"
+    "@acid-info/docusaurus-og" "^v1.0.0-alpha.208"
     "@acid-info/lsd-react" "^v0.2.0-beta.2"
     "@docusaurus/core" "^3.7.0"
     "@docusaurus/mdx-loader" "^3.7.0"
