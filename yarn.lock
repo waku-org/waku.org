@@ -36,10 +36,10 @@
     satori "^0.10.1"
     sharp "^0.32.1"
 
-"@acid-info/docusaurus-umami@^1.0.2-alpha.1":
-  version "1.0.2-alpha.1"
-  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-umami/-/docusaurus-umami-1.0.2-alpha.1.tgz#c51ca6b754ae93c2e6011c4312aaccf714d01214"
-  integrity sha512-4oUMTvln/RTr1prOUyKE7KmheLSDhKxmZoRfS+uCzVkmxxAdVuPoTzDml9FCFhwLIyK+E2jZ22NyWJA1nkD5fA==
+"@acid-info/docusaurus-umami@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@acid-info/docusaurus-umami/-/docusaurus-umami-1.0.2.tgz#0bbfce9e159e351d19ae19292303add35a7ee1b9"
+  integrity sha512-irSTnx1drVlcerzU5xsDpJPuzKDRowIJGqPFeZP1edTqiu6R5RIWN09AqG3XxuRfsj6UY7/orR0Ug6ntML7Liw==
 
 "@acid-info/logos-docusaurus-preset@^1.0.2-alpha.1":
   version "1.0.2-alpha.1"
