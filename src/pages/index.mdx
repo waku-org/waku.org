@@ -36,7 +36,11 @@ import Link from '@docusaurus/Link'
       A family of robust, censorship-resistant communication protocols designed to enable securely scalable, privacy-focused messaging for breakthrough applications in Web3 and beyond.
     </HeroDescription>
     <HeroActions>
-      <HeroAction href="https://docs.waku.org/" target="_blank">
+      <HeroAction
+        href="https://docs.waku.org/"
+        target="_blank"
+        onClick={() => umami.track('Get Involved', { source: 'hero' })}
+      >
         Get Involved
       </HeroAction>
     </HeroActions>
