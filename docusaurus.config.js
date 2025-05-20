@@ -117,15 +117,17 @@ const config = {
             href: 'https://blog.waku.org/',
           },
           {
-            label: 'Github',
-            href: 'https://github.com/waku-org',
-          },
-          {
             href: 'mailto:team@waku.org',
             label: 'Contact',
             position: 'right',
             className:
               'lsd-button lsd-button--small lsd-button--outlined navbar-lsd-button',
+          },
+          {
+            href: 'https://github.com/waku-org',
+            position: 'right',
+            className: 'header-github-link',
+            title: 'Waku GitHub repository',
           },
         ],
       },
