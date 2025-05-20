@@ -39,8 +39,7 @@ import Link from '@docusaurus/Link'
       <HeroAction
         href="https://docs.waku.org/"
         target="_blank"
-        data-umami-event="Get Involved"
-        data-umami-event-source="hero"
+        onClick={() => umami.track('Get Involved', { source: 'hero' })}
       >
         Get Involved
       </HeroAction>
