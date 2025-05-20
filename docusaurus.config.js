@@ -129,6 +129,8 @@ const config = {
             position: 'right',
             className: 'header-github-link',
             title: 'Waku GitHub repository',
+            'data-umami-event': 'Github redirection',
+            'data-umami-event-source': 'navbar',
           },
         ],
       },
