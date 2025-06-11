@@ -173,7 +173,19 @@ div:has(.community-container) > .container {
 
 @media screen and (max-width: 767px) {
   .mdx-hero {
-    margin-bottom: 100px;
+    height: auto !important;
+    margin-bottom: 0;
+
+    .mdx-hero-asset {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      video {
+        position: relative;
+        margin: 0;
+      }
+    }
   }
 }
 
