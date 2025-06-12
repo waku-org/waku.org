@@ -159,7 +159,7 @@ div:has(.community-container) > .container {
 
 @media screen and (max-width: 930px) {
   .mdx-hero {
-    margin-bottom: 280px;
+    margin-bottom: 500px;
   }
 
   .mdx-hero > .mdx-hero-asset video {
@@ -171,18 +171,30 @@ div:has(.community-container) > .container {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .mdx-hero {
-    margin-bottom: 100px;
+    height: auto !important;
+    margin-bottom: 0;
+
+    .mdx-hero-asset {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      video {
+        position: relative;
+        margin: 0;
+      }
+    }
   }
 }
 
 @media screen and (max-width: 500px) {
   .mdx-hero {
-    margin-bottom: -20px;
+    margin-bottom: 20px;
   }
 
   .mdx-hero > .mdx-hero-asset video {
-    margin-top: -5%;
+    margin-bottom: 0;
   }
 }
