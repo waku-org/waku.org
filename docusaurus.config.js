@@ -98,6 +98,10 @@ const config = {
             to: '/community',
           },
           {
+            label: 'Docs',
+            href: 'https://docs.waku.org',
+          },
+          {
             label: 'Join Us',
             to: '/join-us',
           },
