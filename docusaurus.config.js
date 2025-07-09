@@ -136,6 +136,14 @@ const config = {
             'data-umami-event': 'Github redirection',
             'data-umami-event-source': 'navbar',
           },
+          {
+            href: 'https://discord.waku.org',
+            position: 'right',
+            className: 'header-discord-link',
+            title: 'Waku Discord server',
+            'data-umami-event': 'Discord redirection',
+            'data-umami-event-source': 'navbar',
+          },
         ],
       },
       footer: {
