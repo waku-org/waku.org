@@ -102,8 +102,8 @@ const config = {
             href: 'https://docs.waku.org',
           },
           {
-            label: 'Join Us',
-            to: '/join-us',
+            label: 'Job Openings',
+            to: '/jobs',
           },
           {
             label: 'Events',
@@ -196,7 +196,7 @@ const config = {
           {
             items: [
               {
-                to: '/join-us',
+                to: '/jobs',
                 label: 'Work with Us',
               },
               {
