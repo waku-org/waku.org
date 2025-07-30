@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-library 'status-jenkins-lib@v1.8.8'
+library 'status-jenkins-lib@v1.9.24'
 
 pipeline {
   agent { label 'linux' }
@@ -46,13 +46,14 @@ pipeline {
     stage('Publish') {
       steps {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          nix.develop("""
-            ghp-import \
-              -b ${deployBranch()} \
-              -c ${deployDomain()} \
-              -p build
-          """,
-          pure: false)
+          script {
+              nix.develop("""
+                ghp-import \
+                  -b ${deployBranch()} \
+                  -c ${deployDomain()} \
+                  -p build
+              """, pure: false)
+          }
         }
       }
     }
