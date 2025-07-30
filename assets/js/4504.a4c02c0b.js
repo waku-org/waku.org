@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwaku_docusaurus_template=self.webpackChunkwaku_docusaurus_template||[]).push([[4504],{34504:(e,u,a)=>{a.d(u,{createTreemapServices:()=>s.d});var s=a(43758);a(58198)}}]);
