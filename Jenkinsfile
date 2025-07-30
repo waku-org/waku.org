@@ -22,7 +22,9 @@ pipeline {
   stages {
     stage('Install') {
       steps {
-        sh 'yarn install'
+        script {
+          nix.develop('yarn install')
+        }
       }
     }
 
@@ -35,7 +37,7 @@ pipeline {
             variable: 'GITHUB_ACCESS_TOKEN'
           ),
         ]) {
-          sh 'yarn build'
+          nix.develop('yarn build')
         }
         jenkins.genBuildMetaJSON('build/build.json')
       } }
@@ -44,12 +46,13 @@ pipeline {
     stage('Publish') {
       steps {
         sshagent(credentials: ['status-im-auto-ssh']) {
-          sh """
+          nix.develop("""
             ghp-import \
               -b ${deployBranch()} \
               -c ${deployDomain()} \
               -p build
-          """
+          """,
+          pure: false)
         }
       }
     }
