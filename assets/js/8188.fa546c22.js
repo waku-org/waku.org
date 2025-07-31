@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwaku_docusaurus_template=self.webpackChunkwaku_docusaurus_template||[]).push([[8188],{38188:(e,u,a)=>{a.d(u,{createPieServices:()=>s.f});var s=a(19786);a(58198)}}]);

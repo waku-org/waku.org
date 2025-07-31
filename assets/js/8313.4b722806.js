@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwaku_docusaurus_template=self.webpackChunkwaku_docusaurus_template||[]).push([[8313],{58313:(e,u,a)=>{a.d(u,{createPacketServices:()=>s.$});var s=a(59923);a(73579)}}]);
