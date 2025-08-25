@@ -175,10 +175,6 @@ const config = {
                 href: 'https://t.me/waku_org',
                 label: 'Telegram',
               },
-              {
-                href: 'https://www.reddit.com/r/waku/',
-                label: 'Reddit',
-              },
             ],
           },
           {
