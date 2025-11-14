@@ -21,8 +21,8 @@ const TopToast = ({ setShowTopToast }: TopToastProps) => {
         <span className={styles.message}>
           <span>
             Waku is now Logos Messaging - this site will redirect to
-            https://logos.co by the end of 2025. Join us there for more info on
-            our node program and testnet.
+            https://logos.co by the end of 2025. Join us there to take part in
+            our testnet node programme.
           </span>
         </span>
         <div>
